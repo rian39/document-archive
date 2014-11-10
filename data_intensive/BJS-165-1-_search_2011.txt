@@ -1,0 +1,900 @@
+Searching and Selecting. If Google Is the Answer, What Was the
+Question?
+
+1
+
+Searching and Selecting. If Google Is the Answer, What Was the
+Question?
+
+“Search is the watchword of the information age.” (Stark 2009: 1)
+
+Introduction 
+Recently, a flood of literature on Google and search machines has been published, highlighting
+their importance for the contemporary world (for a good start, see Becker 2010). One tenor of
+this literature is that Google has become one of the biggest firms with one of the most intriguing
+business models today (Auletta 2009; Battelle 2005; Lowe 2009; Vise 2005). But why is this of
+interest, apart from the economic fact that Google is a big firm with a near monopoly? Several
+authors claim that Google changes the way we conceive of information (Battelle 2005; Halavais
+2009; Specter 2000; Stross 2008; Vaidhyanathan 2011), and, in a more pessimistic formulation,
+poses even a danger for our knowledge and will make us collectively “stupid” (Carr 2008; Ichbiah
+2007; Jeanneney 2007). The underlying assumption is that Google and the Internet completely
+redefine how we search. However, in none of these books we find an analysis of what searching
+was before Google. The authors simply assume that Google represents a revolution compared to
+an undefined and now superfluous earlier form of searching.
+The historian of technology David Gugerli has made a remarkable first step to identify some
+non-Internet based search machines that led to Google (Gugerli 2009a). Seen from this
+viewpoint Google is foremost a search technology. This implies a history of search machines,
+implying that search before Google was also machine-based and an object, if only a Butler
+(Krajewski 2010). But this unnecessarily restricts the view to a particular type of machine, and to
+a particular set of searches that people do.1 This discourse understands information as academic,
+explicit and written knowledge. But people and organisations search for many other things:
+2
+
+products to buy, partners to mate, politicians to elect, know-how for everyday tasks, and new
+knowledge or objects that do not yet exist.
+In social theory, the rise of search machines has triggered little interest. Sociological theorizations
+of the Internet and of information society tend to focus on the changes induced by the internet
+to the form and mostly the stratification of societies, on the relationship of hierarchies and
+networks and of the various uses that people make of the Internet and computers (Golumbia
+2009; Dijk 2000; Mansell 2009; Tredinnick 2008; Castells 2009; Cavanagh 2007). The existing
+literature on general search is written from the viewpoint of information and library sciences and
+focuses on best ways to search, rather than showing an interest in searching as a general social
+process (for an overview: Baeza-Yates 2011; Case 2008).
+David Stark is probably the only social theorist, who has attempted to theorize searching in more
+general terms. For him, searching is a key concept for organizational theory, because it is “the
+watchword of the information age” that “best exemplifies the challenges of contemporary
+organizations” (Stark 2009: 1). Stark has also pointed out that the focus on search machines is
+too narrow, because their search results “are of precisely the wrong kind to answer the more
+fundamental problems confronting organizations today” (Stark 2009: 1). However, Stark
+concentrates on a theory of contemporary organizations and the problem of innovation. His
+focus is on the distinction between what Guha et al. call navigational searches, where people
+know what they are looking for, and research searches, where they are looking for the unknown
+(Guha, McCool and Miller 2003; Stark 2009: 166-183). This is an important distinction, and I
+return to it later, but it is only a first step, if we want to explore more seriously Stark’s contention
+that “search is a fundamental human activity” (Stark 2009: 169). To do so, we need a more finegrained and more general theory that transcends the specific problems of contemporary
+organizations.
+
+3
+
+This article is thus an attempt to develop a general socio-theoretical vocabulary to describe search
+procedures and their historical changes. This theory must be general enough not only to describe
+search machines, but also other search procedures. It must also be specific enough, most notably
+with respect to a theory of technology, to understand the difference between different search
+machines, and between search machines and other search procedures.
+We can then start to ask: How do people and organisations search? What do they search for?
+When do they search? Why do they search? What are the instruments and technologies for
+searching? How and why do search practices differ and change in history and in different places?
+How are search practices learned and adapted across fields, times and contexts?
+The theory of searching and selecting is a first attempt to develop a general theoretical language
+that can describe such varying search and selection procedures in different contexts and to
+therefore allow thick descriptions of search procedures among different times and places and
+different technical environments.
+I start by elaborating a general framework to analyze searching and selecting procedures. This
+framework allows then to analyze both the technization but also the de-technization of search
+procedures. Second, I show that historically, unlike what the discourse on search machines
+stipulates, we do not only witness a permanent technization of search and selection procedures,
+but also its opposite, which I describe as a turn to indeterminate search and selection procedures.
+I demonstrate this turn with cases from four cases central to sociological analyses, such as the
+arts (aleatoric compositions), organizational decision-making, epistemology (Feyerabend’s
+philosophy of science), and love (speed dating).
+
+Towards a Theory of Searching 
+To develop a theory of searching and selecting requires first to understand what these procedures
+are, and what a search machine is. In “Search Machines. The World as Database” David Gugerli
+4
+
+has undertaken an important step towards such a theorization (Gugerli 2009a).2 His important
+contribution consists in defining search machines in broader terms than mere Internet search
+machines. In his book, he discusses four case studies from the 1950ies-1970ies as examples of
+precursors of search machines: First, dragnet investigation by the German police in the 1970ies;
+second, a TV-show called “Was bin ich?” (“What am I?”), where celebrity participants have to
+guess occupations of strangers; third, another TV-show with the name “Aktenzeichen XY” (“file
+number XY”), where the audience helps to find suspected criminals; and fourth, relational
+databases as invented by Edgar F. Codd. Based on these examples, Gugerli defines a search
+machine as a machine with the following qualities (Gugerli 2009a: 15):
+1. It searches for goals that can be named (i.e.: “search for a man with a hat”, rather than: “search
+for this guy who knocked me down, but I can’t really explain how he looked like”).
+2. It looks in a defined space of addresses (i.e.: “search among all persons with a French
+passport”, rather than: “Search among those who could have been nearby, when I was knocked
+down”).
+3. It follows a strict routine („program“), which renders search machines inherently „openended“ (i.e.: Search for the first match in a database, start with the beginning of the alphabet and
+then go letter by letter until you end at Z”. Rather than: “Take the first database entry that you
+encounter”).3
+The definition is already helpful, because it steers away from the narrow focus on Internet search.
+Importantly, it allows making a distinction between searches with search machines and those
+without search machines. It allows to define search ex-negativo and to define analogue searches.
+Furthermore it allows writing a history of the technization of search procedures and the changes
+in search procedures because of different search technologies.
+
+5
+
+A search then is simply an interaction between a search body and the world, in which the search
+body screens the world (or parts thereof), to obtain an object the search body does not yet
+possess or know about. The search body can be a human, but also an animal, a robot or an
+organisation. The world consists of anything, both material objects as well as data or information
+(i.e., one can search for a lemon, but also the information where lemons grow).
+What Gugerli omits is the fact that searching alone is only half the cake. A search usually
+immediately leads to a selecting operation, because it most often returns more than one item.
+This is true in all his examples, and we need to theorize this further. But we now have a
+framework for defining search/selection patterns (thereafter abbreviated as s/s patterns). We can
+attempt to outline a general theory of s/s. To do so, we have to go a little bit more into the
+details of the above three categories, search object, search space, search procedure and selection
+procedure.
+
+The Search Situation 
+Each search is constituted by a search situation. A search situation is a kind of interaction and
+not an intention of an actor. A search situation is any situation in which an actor (which can be a
+non-human such as an animal, a robot or an organisation) switches to a register in which the
+interaction is directed towards obtaining a search object. A search situation is thus defined by the
+relationship between a search body and a search object, mediated by an s/s procedure, that often
+contains a search machine (and a selection machine). The coupling of search body and object
+starts a search situation and it is ended by selecting an object. The selected object then gets
+attributed the state that it was searched and selected for – a politician is assigned mayor, a fact is
+declared a truth, a person is declared lover or spouse – and the s/s situation ends. A search
+situation can obviously comprise single individuals and a single object, but it can also be a vast
+actor-network of persons and objects, as for example in Gugerli's example of “Aktenzeichen
+
+6
+
+XY”, or elections, where hundreds of experts, politicians, spin doctors and very complex
+technologies are involved (Carson 2001).
+
+1. Object 
+Once a search has been instantiated, a search goal or a search object is selected. We can
+differentiate three kinds of search. I build here on Gugerli’s assumption that search machines
+always have defined search objects, which I would like to dispute. Guha et. al. have introduced
+for the context of Internet search machines the distinction between “navigational search” and
+“research search” (Guha, McCool and Miller 2003). In navigational search, the existence and the
+address of the object is known ahead and the search only consists in finding this object. In
+contrast, in research search the object is not known.
+An example for a navigational search is when one searches for Dan Browns “Da Vinci Code” on
+the Amazon site. This search is navigational because the search body already knows that this
+book should be on the Amazon site and the search basically consists in a more or less speedy way
+to get there. Other examples for navigational searches are searches for lost keys or all the
+examples in Gugerli’s book. For example in “Aktenzeichen XY” the police must be able to
+describe the criminals that they are searching, otherwise the TV-audience cannot help finding
+them.
+However, if Gugerli defines search machines as relying on a defined search object, he excludes
+current and future internet “search machines” by definition. For, Guha et al. proposed the notion
+of research search in the context of developing semantic search machines for the Internet.
+Semantic search machines are search machines that can “understand” a natural language input.
+Research searches are search procedures where a user “intended to denote an object about which
+the user is trying to gather/research in- formation. There is no particular document which the
+user knows about that s/he is trying to get to” (Guha, McCool and Miller 2003: 702). Here, only
+a vague description of an object is known, but no address. This is for example the case, when I
+7
+
+try to find a “beautiful sofa” or a “thrilling movie” or if a firm tries to find a new employee. In
+this case, the search body only has a vague idea what it is looking for, and the search is likely to
+produce surprises. I might find out that the kind of sofa I am imagining does not exist, that other
+people judge movies thrilling that I find boring or that all the possibly good employees do not
+want to work for the wage the firm is offering. Current Internet search machines are still not very
+good at doing research searches, but they do not completely fail.
+Both of these kinds of search can be conducted with an Internet search machine. If a theory of
+searching should be sufficiently general to accommodate all search procedures in society, then we
+need to add a third type of search, namely what I would like to call productive searches. Here, the
+existence of the search object itself is unknown and the search object is made to exist only with
+the help of the search procedure. This is typically the case in scientific research or the arts, and it
+is the kind of search that David Stark focuses on (Stark 2009: 163 ff.). The term “productive”
+implies that without a given search procedure, the search object would never be found or not
+even exist. The search object depends on the search procedure and is a result of it. In contrast,
+both in navigational and in research search, the search object pre-exists independently of the
+search procedure and has probably been found by other search bodies with similar or different
+search procedures.
+Typically, navigational and research search is proscriptive in the sense that the search procedures
+for both of them can be (but must not be) pre-defined. For an Internet search machine, the
+search procedure needs to be predefined to work. Otherwise the search machine cannot search.
+Productive searches on the other hand are usually descriptive. One cannot precisely describe how a
+new planet is to be found. Rather, one can only describe it after one has found a new star. The
+correct search procedure how to find a star emerges along with the search object. As long as a
+scientist has not found a new star, she does not know whether her search procedures are the
+right ones. Only once a star has been found, the search procedure for having found this star can
+8
+
+be described.4 Google cannot find a new planet, because it can only find what it already knows
+of, it is proscriptive.
+Obviously it is not always possible to neatly define a search situation as navigational or research
+search. For example, somebody looking for a partner might have a very precise idea – as can be
+witnessed by reading partner ads: size, ethnicity, hobbies, profession, income etc. – for whom she
+is looking, but she may also have no idea at all. Changing search procedures often have
+repercussions for the status of search objects. For example, the invention of said partner ads
+forces people who are looking for a partner to define their search objects and in predefined ways
+at that.
+
+2. Search Space 
+Each s/s-procedure operates in a search space. A search space is not necessarily a physical space,
+but the aggregation of addresses in which a search takes place. An address is an identifier for an
+item that can be searched for. An address does not need to be well defined. For example a name
+such as “Peter” can be an address.5 “Peter” is in many contexts a badly defined address, since
+there are many people and other objects (such as pets) called “Peter” in the world, and the
+address “Peter” contains no further help to select among the many Peters. A search space for a
+“Peter“ can for example entail all first names in the world, or all males in Singapore, or all my
+friends and their friends. We can distinguish the following search spaces:
+a) A conceptual search space is defined by a descriptive concept that aggregates addresses, including
+physical territories and language. A conceptual search space can be “France”, “all French
+citizens”, “all member of McDonalds” or “everybody with red hair”.
+b) A capability-based search space is defined by the capabilities of the search body, rather than her
+rendering of the world. The most usual case is a language-based search space, since the capability
+to search is often bound to language use, including sociolects. Most obviously this matters when
+9
+
+searching with Internet search machines. I receive quite different results when entering the Italian
+word “pranzo” or the English word “lunch” even if they refer to the same thing.
+Both conceptual and capability search spaces are foremost a product of the search body, and not
+necessarily an implementation of search aids into the world. They limit the search procedure,
+because the search body either voluntarily or involuntarily narrows down the items to be
+searched. The other two search spaces are much more results of rendering the world according to
+search needs and of previous search procedures.
+c) A search space can be tagged, as is the case with the World Wide Web. In this case the
+addresses have stable tags, which order them according to predefined criteria. In the World Wide
+Web, words are tags themselves, because the Internet is searchable for words, whereas for
+example images are not tags and need to be tagged separately. Very often, tagging builds on
+conceptual search spaces. For example states routinely operate on their territory as conceptual search
+spaces and spend a lot of energy to tag the items on their territory, both citizens (Scott 1998: 6471) and things such as roads, buildings (see: Tantner 2003). States enforce that people have first
+and last names and that each building has a street name and a house number. Tagging is an
+inherently political activity, since tagging has tremendous importance for search procedures. For
+example in state performed conceptual searches, some people are tagged, namely those who live
+legally in a given territory, whereas illegal migrants remain untagged, which omits them from
+official statistics, but also denies them access to social services.
+d) A search space can be defined by a trajectory: In this case search space is defined or restricted by
+previous selecting operations, i.e. path-like selection procedures (see below). This is for example the
+case in scientific research, when one is working with data sets and methodological procedures
+established in previous s/s procedures. A search space based on a trajectory is also always
+organised. That is, the search body knows already some of the properties of the search space and
+
+10
+
+the addresses it contains, a feature that is usually absent from capability-based or conceptual search
+spaces.
+e) Last, a search space can be addressed. Here the search space itself remains unknown, but it is
+defined by the description of the search object. An example for this is “Aktenzeichen XY”,
+where the wanted criminals are described and everybody who watches the show is assumed to
+search for them, assuming they could be anywhere. The addressing of the search space in
+“Aktenzeichen XY” is a direct reaction to the imperfect tagging of the search space. If every
+person in the world would need to carry a machine that would permanently indicate his or her
+whereabouts – as through the possibility to locate cell phones – then “Aktenzeichen XY” would
+be unnecessary. Similarly, when issuing a call for papers for a scientific conference, the search
+space is defined by the description of the papers sought, and not by knowing the universe of
+those who might respond to the call for papers. In an addressed search space, it is not necessary
+to have tagged search objects, since the search itself describes the space.
+Obviously, several of these search space definitions can apply to a given search. For example, a
+search for a lover can be both conceptual (territorial), capability (language) and trajectory based, if I
+search for example with a word of mouth campaign within my closest friends, who all happen to
+live in Palermo and only speak Italian.
+
+3. Search Procedure 
+A search procedure is any procedure that produces options to select from. We can distinguish the
+following search procedures.
+a) Immediate search procedures work by reducing the procedure to something outside the powers
+of search bodies. For example, this can be the case when asking an oracle or a divine entity, but
+also when using randomisation procedures. Immediate search procedures produce the most
+unexpected results, because they are (supposedly) free from societal influences and interests,
+11
+
+which make them preferred in some situations, but also prone to critique in others. In the second
+part of the article, I will look at a various immediate search procedures.
+b) An authoritarian search procedure is a search procedure where the search body produces a
+finite number of options without further recourse to due process except that the search body
+ascribes or is ascribed the power to propose. This is for example the case when a firm searches a
+new CEO and the board of directors simply gives a choice of two that were selected from their
+own employees.
+c) A call is a search procedure where the search body relies on the search object to answer to the
+search. In a call the search body issues a statement of search to a public. A call is therefore
+dependent on other actors to assist in a search. Typical examples are calls for papers for scientific
+conferences or calls for job candidates.
+These search procedures share that they are not influenced by previous events. Neither for a call,
+an authoritarian or an immediate procedure does it matter what results previous search
+procedures produced. I can issue a call for papers, and the result of the call is in no way limited
+by who has previously attended a conference that I organised. The fourth search procedure is
+different in this respect.
+d) A path is a search procedure where the search object results from following a previous s/s
+procedure already accomplished. A path procedure contains elements to create and limit options
+at the same time and both, the limits and the newly created options are part of a track of previous
+s/s patterns. This is most often the case in productive searches such as in scientific research or art.
+“Thought styles” (Fleck 1935) or “paradigms” in Thomas Kuhns later parlance, accepted
+methods and theories and artistic styles all depend on previous s/s patterns. New research builds
+on these thought styles, methods and theories and varies them to produce new results.
+
+12
+
+4. Selection Procedure 
+A selection procedure is a procedure that selects one or many objects from the results of the
+search. The first three selection procedures are the same as the respective search procedures:
+a) Immediate selection procedures produce results independently of the selection body. As in
+immediate search procedures, this can be either the case with randomisation or divine
+intervention.
+b) In Authoritarian selection procedures a selection body simply decides without further
+legitimation or discussion. Obviously, in many everyday s/s procedures this is the case, for
+example when somebody selects a Yogurt from a shelf in a supermarket.
+c) Path-dependent selection procedures select based on historical previous selections. However,
+path selection procedures do not occur so much in science and the arts, but much more in other
+contexts. For example many authoritarian decisions are in fact path decisions, since they are
+taken according to previous decisions. Most people select the same Yogurt from the shelf,
+because they have always selected this Yogurt. Similarly, many voters vote for the same party as
+in the last elections, simply because they or even their family have always voted for this party.
+While in science and the arts path-dependent search leads to new forms and insights, the
+selection procedures are almost always authoritarian. Scientists simply know which result to work
+with and artists simply know which sketch to use for elaboration and which one to destroy. The
+idea to select data according to a path is inimical in science and the arts and is rather seen as an
+obstacle in theories of both.
+There are two more selection procedures, which do not exist for searching. While individual
+persons can – but need not – perform the first three selection procedures, the last two are group
+dependent by definition. They both reflect the problem that selection procedures, since they
+narrow down given choice, need to deal with divergences in taste, knowledge and status between
+13
+
+selecting persons – much more so than search procedures that open up these selections in the
+first place.
+d) In vote a defined group of selectors vote between different search results. The obvious example
+is political elections, but vote happens in many other contexts too.6 For example, a group of
+friends may vote where to go for a day out, a club may vote on whether to take on new members,
+a family may held a vote on which car to buy etc. In its purest form, a vote discards arguments in
+favour of proportional power in the decision making process of the members. As immediate and
+authoritarian procedures and unlike path procedures a vote procedure is in principle independent of
+a previous s/s procedures.
+e) The last selection procedure is discussion. Here a selection is made after a group of persons
+weighs the options against each other. Clearly, often discussion simply precedes votes, but
+sometimes discussions simply converge on a selection. In many everyday cases it seems it is in an
+ad-hoc fashion decided whether discussion suffice or a vote is needed.
+The theoretical disaggregation of s/s into two different procedures allows a very fine-grained
+discussion and comparison of s/s procedures. It allows comparing many at first sight unrelated
+s/s procedures and it allows analysing them in great detail. In theory, but also in reality, s/s
+procedures can be combined in any way. It should also be apparent that for a given search object
+different search procedures could be selected with different effects. For example, to search for a
+partner any of these s/s procedures can be employed. In an immediate search one can ask an
+oracle (She loves me, she loves me not) for whom to marry. Arranged marriages are examples for
+authoritarian search, while putting up an ad in the New York Review of Books is an example for
+a call. To decide to marry a friend of my deceased spouse for example would be a case of path.
+Similarly, the selection procedure (If someone can’t decide) for a partner can be immediate (tossing
+a coin), authoritarian (just taking a decision), path-dependent (selecting as ones parents already had
+selected, for example according to religion or ethnicity), a vote (among ones friends), or discussion
+14
+
+(again among ones friends). In fact, the categorization proposed herewith allows many insightful
+historical and cross-cultural studies of such variations in search procedures.
+
+Historical Shifts of Search Procedures 
+We can now derive a framework for comparative and historical analysis. The search machine
+literature amounts to the thesis that search practices have historically become ever more
+technologized. Accordingly, on all levels, from search object, search space to search procedure
+(and even selection procedure, although this is rarely addressed) a shift occurred from the less
+well defined to the better defined. More precisely, search procedures shift from authoritarian to
+path and call procedures and search space shifts from conceptual (mostly territorial) to tagged and
+addressed.
+The examples in Gugerli’s book are proof of such a shift towards defining search spaces, search
+objects and search procedures. For example “wer bin ich” attempted to identify persons with
+occupations – rather than with political views or kinship, thereby narrowing the search space. For
+Gugerli, this is proof of the modernisation of the German state after the war. Similarly, relational
+databases, Aktenzeichen XY and Horst Herold's dragnet investigations were complex attempts to
+define addresses, restrict search spaces and test varying search procedures. In this sense the
+apotheosis of these precursors are today’s Internet search machines.
+Historically, the enormous change that Google represents is not that its algorithm is better than
+the one of its competitors. This is the source of the relative success of the business and the
+wealth of its founders (Auletta 2009; Battelle 2005). Far more important is that the Internet is an
+incredible apparatus to attach defined addresses to objects and thus completely uncouple searching
+from a conceptual (territorial) search space and to invent a search technology that allows path
+procedures to operate almost instantaneously in this enormous space of tags. The first important
+inventions were not search machines, but the invention of the Internet address protocols TCP
+and IP, because they allowed giving computers a defined address (Post 2009). The second and
+15
+
+most central invention is not a single invention, but the process of the ever-increasing attachment
+of offline things and persons to internet addresses. This allows for understanding Internet
+addresses as substitutes for things in the non-Internet world and to render “everything
+searchable” (Brewer 2001). The central invention of Internet-shopping is basically to attribute
+each product its own address, so that a search body can directly find and buy a lemon rather than
+finding a store that might stock lemons. The next step, already used for example by mailing and
+logistics firms is to attach each physical lemon an address and make it traceable, all the way from
+field into the supermarket, to the dinner table and finally to the rubbish bin.
+What Google has brought to the world is primarily that each object gets an address and is tagged
+and that the search space has widened for most searches to be either global or merely language
+restricted. This has gone so far that many searches that would have been naturally territorial or
+trajectory based – such as those for a partner, an employee or shopping goods – are now merely
+tagged. Because this is so, they need to be artificially reterritorialized (Kellerman 2002). Territory
+becomes itself a tag. For example when searching for a flat on the Internet, or when looking for a
+partner, a reterritorialization of the search is needed, because it is equally easy to find a new flat
+or a new partner on the other half of the globe as next door. Thus the respective websites allow
+restricting search by address.
+
+Indeterminacy: On Widening Search Procedures 
+The literature on search machines is misleading, because it only looks at Internet search machines
+and what appear to be their precursors. This is a teleological history, with history converging in
+an endpoint called Google. But the narrowing of search procedures is not simply a unidirectional
+process. The goal of all the search machines that Gugerli describes is to enhance the precision of
+search goals, narrow down search space and rationalize search procedures. What this perspective
+omits, is that between the 1950ies and -70ies, at the same time as these early search machines
+
+16
+
+were invented, a variety of s/s procedures were tried out with the goal to overcome the
+narrowing of s/s procedures through search machines.
+Let me thus look at the invention and rise of some s/s procedures at that time. The discussion of
+the following examples serves to prove the usefulness and the descriptive power of a general
+theory of searching and to correct the narrow assumption of a general technisation of search
+procedures. These are only brief examples to show the range of the theory and cannot replace
+more detailed empirical studies. The examples also show that a variety of practices in seemingly
+unconnected fields can be shown to relate to similar developments based in a cultural history of
+s/s procedures. The examples I discuss represent a variety of social fields and different kinds of
+s/s procedures: aleatoric art as represented by John Cage’s compositions, group decision making
+with the I-Ching, the philosophy of science of Paul Feyerabend and key parties and speed dating.
+The term “indeterminacy” is a key to understand these examples (Savage 1989).
+The indeterminist reaction against search machines is a reaction to the perceived teleology of
+existing s/s procedures. From the viewpoint of indeterminist s/s regimes, the existing s/s
+procedures became more and more restricted, by narrowing search types down to navigational and
+thus proscriptive searches, by relying on paths and calls for s/s procedures, and by increasingly tagging
+search space. This resulted in a higher precision of search procedures at the expense of defining
+the world in ever more depth. The proponents of indeterminist search procedures however can
+be described as trying to find ways to un-define the world and thus to create surprises. They
+attempted to turn searches into productive and thus descriptive rather than proscriptive searches.
+However, contrary to expectations, in many ways this was not an anti-technological stance in the
+sense that they wanted to search without they aid of objects. Rather, they tried to invent objects
+and procedures that render searching more indeterminate.
+
+17
+
+Aleatoric Compositions 
+After a first period in classical modernism (Gertrude Stein, André Breton, Kurt Schwitters),
+aleatorics became widespread in the arts since the 1950ies, for example in the compositional
+techniques of John Cage, various Fluxus artists who followed him, in the cut-up poetry of
+William Burroughs and others, and in the works of the Oulipo group around Raymond
+Quesneau. Let me discuss John Cage as one representative example:
+John Cage became famous in the early 1950ies when he started to use randomisation tools,
+mostly the Chinese I-Ching, to select the notes. Therewith he departed from the notion of a
+composer as an inspired person that would compose by selecting notes according to some
+composition theory or some stylistic rules. John Cage used the I-Ching for the first time in 1951
+for the composition “Music for Changes” (Savage 1989: 113-128; Schulze 2000: 153-178; Cage
+2007). The I-Ching consists of 64 sets of six lines. The lines contradict each other so that each
+new throw of the lines results in new predictions. As applied to composition, the I-Ching worked
+as a randomisation instrument. Cage threw the I-Ching and then selected notes according to the
+results. Further than just defining the notes with the I-Ching, Cage also left all the other usual
+determinants in compositions, such as duration, speed, loudness and mood at the whim of the
+performer. The result was unlike anything that has ever been composed, exactly because it was
+not a composition in the traditional sense, but the result of a randomisation instrument. Savage
+sums the technique up as: "The emergence of indeterminate processes per se is fundamental to
+Cage's programme; in the transition away from the use of indeterminate techniques as a means of
+overturning such [rational structural] schemata, his methods seem to progress beyond the original
+opposition (Savage 1989: 129).”
+In the language of s/s previous compositional techniques mostly relied on path as a search
+procedure and authoritarian selection procedures. A composer would select notes based on
+historical rules of composition and a sequential logic of ordering the notes. John Cage shifted
+18
+
+“composition” into a realm where the notes were searched (and even selected) with immediate
+procedures from a narrowly defined search space. Furthermore, some of the selection procedures
+were even moved away from the composer to the performer, who needed to decide on them in
+an authoritative way.7 Both steps not only radically redefined how “music” can sound, they also
+completely redefined who “composed” the music. Cage shifted it first into the hands of a
+randomisation instrument and second, equally unusual in classical music, into the hands of the
+performer. Only by shifting the power away from the composer, indeterminacy could guarantee
+“compositions” as unexpected as they could be.
+
+Decision Making with the I‐Ching 
+If the arts seem to be a minor field of society, the very same techniques were used in a field much
+closer to the heart of sociology, namely organizational decision-making. As Boltanski and
+Chiapello have observed, in the 1970ies a new, artistic critique of capitalism emerged (Boltanski
+2005). Other than the previous critique of capitalism that challenged capitalism on grounds of
+inequality, the artistic critique of capitalism posited that capitalism suppressed creativity and
+spontaneity. As Boltanski and Chiapello observe, this critique was absorbed by capitalism itself,
+by championing networks and creative ideas over hierarchy in management discourses. The
+artistic model not only reflects a shift away from hierarchical styles of management to networks,
+but also represents a shift in techniques for searching and selecting decisions. This shift can be
+traced again with the I-Ching. The I-Ching was employed in the 1960ies as a decision making
+tool by small groups of freaks, only to then become a staple of business literature two decades
+later.
+As Fred Turner points out in “From Counterculture to Cyberculture” (Turner 2006), a direct line
+links the 1960s west-coast counterculture through the network of Stewart Brands “Whole Earth
+Catalog” to the liberal ideology of the cyberculture-scene of the 1990ies. One key figure in that
+group was Ken Kesey, the author of “One Flew Over the Cuckoo’s Nest”, who founded in 1964
+19
+
+a loose counter-cultural group called “the merry pranksters”. As Turner details, one of the
+innovations of the pranksters consisted in trying to find ways of dealing with the problem of
+authority in groups. They tried to move away from what they considered “excessive party politics
+practised by the American government” and make group decisions less dependent on strong
+individuals (Turner 2006: 65). Rather than turning to voting, the group turned to objects to
+produce indeterminist decisions.
+“One of the devices was a simple spinner. The Pranksters regularly played a game in which a
+number of them would sit in a circle. Someone would spin the spinner, and whoever it pointed to
+would then have full power over the group for the next thirty minutes. Another tool they used
+was the I-Ching. When important decisions loomed, Kesey and others–like hippies everywhere in
+the coming years–would throw a set of coins, find a correlated bit of text in the book, and use it
+as the basis for taking action. The spinner and the I-Ching did serve to take power out of the
+hands of designated leaders. If the former turned group members into followers, it did so only
+temporarily, and only with the members' consent. “ (Turner 2006: 65).
+The I-Ching became thus a tool to search for new forms of decision-making. Again, as in
+aleatoric composition, previous ways of s/s were considered to be inadequate, leading to the
+same predictable results. Ironically, these previous forms of s/s were the established democratic
+forms. As Turner observes, the use of the I-Ching served to “reassign [power] to devices” and in
+fact masked the “the very real and centralized leadership Kesey was exerting” (Turner 2006: 65).
+But the story does not end here. Already in the “Last Whole Earth Catalogue”, the I-Ching, as
+coda and last entry in the book, was celebrated as the generalized tool “that profoundly served the
+generation that emitted the original whole earth catalog”: “Everyone from then has I Ching
+stories” (Brand 1980: 593). This was but a first step of a tool that was invented as a means to
+distribute power in small groups of freaks to become two decades later, along with a general
+surge in interest in Eastern forms of spirituality, a tool for decision-making in business. Books
+20
+
+such as Michael Colmers “Executive I Ching : The Business Oracle” from 1987 (Colmer 1987) or
+Cleary and Cheng’s “I Ching, the Tao of Organization” (Cheng 1988) or more recently William
+Sadlers “The I Ching of Management : An Age Old Study for New Age Managers” (Sadler 1996)
+all use the I-Ching for business decision advice.
+For a theory of s/s, their central feature is that they render decision making indeterminate and
+thus allow to react to quickly changing, unpredictable environments, problems that could not be
+solved by the classical techniques of business knowledge, such as rational decision making. The
+shift from Kesey to the business literature obviously changed the object at stake: The merry
+pranksters tried to take away decisions from specific decision-makers, while the business advice
+authors tried to improve the decisions by managers, without redistributing power. The search
+body did not change, but what the I-Ching accomplished was to change searching for decisions
+by adding an element of chance, that was not available with previous decision-making techniques.
+
+Philosophy of Science as Description 
+A third indeterminist search strategy is the philosophy of science developed by Paul Feyerabend
+in his book “Against Method” (Feyerabend 1975). Originally devised as a controversy between
+Feyerabend and his friend Imre Lakatos (Lakatos 1999),“Against Method” appeared as a
+monograph after Lakatos’ unexpected death in 1974. The debate between Lakatos and
+Feyerabend was a crucial moment in the history of philosophy of science and one of the births of
+the new sociology and history of science.8 The central thesis of Feyerabend was an attack on
+Lakatos and other Popperians’ attempt to write a proscriptive philosophy of science. Lakatos held
+that philosophy of science should posit criteria of rationality as arbiters for which research
+programmes should be pursued. Lakatos, as many other philosophers of science, firmly believed
+that philosophy of science can create standards or rules of method by which to judge science. In
+my terminology, Lakatos held that science is a type of navigational search and this implies, a
+prescriptive kind of search, where, given the correct, rational search procedures, the truth about the
+21
+
+world would eventually be found. Since science is navigational and prescriptive, the rationality of
+search procedures could be judged – by philosophers – before research is undertaken.
+Feyerabend’s contribution to this debate consisted in a sceptical deconstruction of the
+proscriptive claims of philosophy of science. He wondered whether in history scientists had ever
+followed the rational rules of methods that the philosophers of science claimed as the hallmarks
+of science. He came to the conclusion that scientists actually operated mostly by trial and error,
+that many important inventions were based on luck and accidents and that the rules of method
+were only applied afterwards to celebrate the scientists achievements.
+Read from a s/s perspective his contribution consisted in a radical step to deny that science is
+navigational and thus to deny any proscriptive possibilities of the philosophy of science. He insisted
+that the s/s procedures of science can only be described after the fact. Science, in his view, is a
+form of productive search and can thus only be described after the fact. “Anything goes”, the famous
+slogan of his book, then was not so much another, although “anarchistic” proscription, but the
+admission that science is based on path search procedures and authoritarian selection procedures
+that are developed on the spot by scientists themselves without following whatever proscriptive
+theories philosophy of science might hold. Other than the inventions based on the I-Ching, the
+goal for Feyerabend did not consist of inventing a new method based on chance for science. For
+Feyerabend, science empirically already operated along chance procedures. What he was after,
+was freeing the sciences from the rationalizing descriptions other philosophers had invented.
+With the computerization of research the question whether science operates on prescriptive rules
+has resurfaced. The philosopher Peter Slezak started a debate about whether computers based on
+artificial intelligence are able to make scientific discoveries (Slezak 1989). For Slezak, discoveries
+by computers would refute the strong programme and the historicist post-Feyerabend consensus
+of contemporary Science and Technology Studies. If computer programmes can discover natural
+laws upon running an algorithm on a dataset, then either science would not be descriptive but
+22
+
+proscriptive – or computers would be able to mimic social behaviour that is only descriptive, not
+proscriptive. For the defenders of a sociology of science the former would destroy the claims of
+STS and the latter would destroy “any idea of a social science which takes social collectivities as
+the primary unit of analysis (Collins 1989: 617).” While Feyerabend openend up a new form of
+description for the search operations of science, Slezak raises the question, to which search body
+these descriptions apply.
+
+Key Parties and Speed Dating 
+While the history and anthropology of partner search would require a whole separate book to be
+written as a central locus of changing s/s procedures, I would like to close with pointing out that
+recent inventions for searching a partner again are based on indeterminacy. Partner search is
+different from the other search procedures described so far, because it is symmetrical. Partner
+search consists of two s/s bodies that have to agree in their s/s procedures to be successful. This
+is why partner search has historically produced such an amazing variety of complex s/s
+technologies.
+Partner search is usually based on a conceptual and most often territorial search space. In various
+cultures, the institution of matchmakers has helped to expand search space, and introduced an
+element of tagging (“I am looking for a handsome and wealthy man from a good Indian family
+for my daughter”). Classifieds in newspapers, marriage bureaux and later classifieds in the
+Internet have expanded search space further and resulted in further tagging (for an overview see:
+Mullan 1984). The effect of classifieds however is a highly generic description of persons
+(Coupland 1996; Hardey 2004). While classifieds extend the search space in territorial terms, they
+narrow it down in conceptual terms. Tagging means that only those persons, who have given,
+describable features are ever met. This has the disadvantage that central features of a person are
+difficult to tag and are only accessible through face-to-face interaction. Classifieds are perfect
+early search machines in Gugerli’s terms. They are both logically and conceptually a mixture of
+23
+
+“Wer bin ich?”, namely a self-categorization according to a small set of descriptive variables (age,
+size, ethnicity, hobbies, profession) and dragnet search, namely a database-backed selection
+according to these tags.
+But again, a variety of s/s inventions has since attempted to both restrict search space, while at
+the same time adding an indeterminist element to increase “success”. First, partner search itself
+was reconfigured as the indeterminist practice per se (though along historical precursors that
+stressed the unpredictability and transcendence of sex, such as for example Arthur Schnitzler’s
+“Reigen”/”La Ronde”). Charles Jencks in his important book “Ad-hocism” pointed to “ad hoc
+games” with “exploratory purposes” among which he prominently mentioned “the get-together
+dance” and the “computer dating system” (Jencks 1973: 193) and he called “sex [as] the mode of
+social adhocism” (Jencks 1973: 197).
+More specifically, in the 1970ies, key parties were held as a form of exchanging sex partners (Bell
+1971: 74). As shown in a famous scene of the Ang Lee movie “the Ice Storm”, in a key party, the
+males of arriving couples would place their car keys into a bowl on arrival. At the end of the
+evening, the females would randomly select a car key from the bowl and leave (and potentially
+have sex) with the owner of the key. Key parties operate on three levels: they first radically
+restrict the search space to those who agree on specific sex practices. Second, by having the
+males place the car keys into a bowl, the heterosexual symmetry is achieved. Only these two steps
+that guarantee symmetry allow to introduce indeterminacy: Taking out keys from the bowl
+assigns randomly who leaves with whom.
+Speed dating, a recent invention, introduces indeterminacy for different effects: Rabbi Yaacov
+Deyo invented it in 1998 (Porter Brown 2003; SpeedDating 2010b). The idea behind speed
+dating was to allow (Jewish) individuals who are looking for a partner to meet many others in the
+same situation. Speed Dating is based on seven short meetings with seven different individuals
+each seven minutes long in one room. After each meeting, the participants write down on a note
+24
+
+if they are interested to meet the person again. The organisers of the speed-dating event then
+check for matches and hand out contact addresses for those where both signalled further interest.
+Speed dating is the indeterminist answer to the widening of search space cum tagging. It narrows
+down the territorial search space, but opens up the conceptual search space and combines it with the
+central resource for dating, namely face-to-face meetings. Similarly to I-Ching, it introduces a
+very simple device, namely a room with tables and a subscription service to solve the problem
+generated by tagging. Speed Dating gains its attraction from the fact that the other in dating is
+randomly selected from a defined search space (a given area) and one tag (being Jewish, in the
+original version). It selects only two search criteria, a territorial and a religious one, which are
+central for the participants, but it denies any further tagging. The “rules & recommendations” of
+Speed dating even mentions that participants should not talk about each other’s profession, and
+instead recommends: “Have a fresh conversation. How about your favourite book or movie?
+Where you last went on vacation or how your life would change if you won the lottery”
+(SpeedDating 2010a). The rules thus explicitly encourage the participants to use speed dating to
+explore non-taggable parts of their life, by assuming that love or a partnership does not so much
+depend on them. A more recent and more radical form are the random interactions with videochat called ‘Chatroulette’ (Chatroulette 2010). Again, the goal of Chatroulette is to widen the
+interaction space ad infinitum, by randomly selecting a person to chat with, except that here, the
+internet itself operates as indeterminist search machine.
+
+Indeterminist Searches 
+These four small vignettes point out a larger phenomenon: while search machinisation has clearly
+been an important cultural trend of the last forty years or so, with the world becoming more and
+more a tagged space in which search machines of all kinds operate, we can also observe a parallel,
+indeterminist trend: in science and the arts, but also in organizational decision making and
+partner search, proscriptive search machines based on tagging appear too restrictive. Aleatoric
+25
+
+Music, the I-Ching in business, Feyerabend’s philosophy of science and speed dating each in its
+own way are important inventions to widen search practices with other means than search
+machines. For the moment, they represent a first step at a more general picture of a history of s/s
+procedures.
+The search space in many of these tools is now more restricted than before: In the model of the
+artistic genius, the search space was principally infinite. A painter can paint any form, and a
+composer can compose any sound. But in reality it was restricted through traditions and
+embodied routines. The tools to create the new forms, the I-Ching (Cage and decision making)
+or a room with chairs and rules for a game (speed-dating) restricted search space to a given
+number of notes or duration of tones or a number of participants on a speed dating evening. But
+doing so allowed to widen the search goals: Instead of falling back into the always same routines,
+new, never before existing experiences, decisions and sounds were created.
+The changes implied not only a shift from an infinite search space defined by artistic genius to a
+restricted search space defined by tools. It also came with a change in the role of the search
+subject. Whereas the artist in the previous model was considered to follow his own thoughts, his
+inner feelings or a tradition, the new indeterminist model deleted all these emotions and the role
+of the artist’s body and replaced it with a tool. While the role of the scientist in the earlier
+philosophy of science made him into a tool for objectivity, a machine that executed the rules of
+science, already knowing what he was looking for, with Feyerabend, the scientist became an
+anarchist, freed from any rules. While the role of the organizational leader in rational decisionmaking was restricted by Fordist rules of rationalizing the factory, the I-Ching shifted her role
+towards “innovation.” The subject searching for a partner was either a passive subject, who was
+handed a partner by relatives or a match-maker. Or she advertised herself using pre-defined tags
+and thus turned herself and her search objects into pre-defined sets of categories. With speeddating she became a quickly reacting, interactionally savvy individual.
+26
+
+In this regard, the new indeterminist forms mirror the new computerised search of dragnet
+investigation. In dragnet investigation, the skills of the individual police officers were replaced by
+sifting through piles of data with the help of computers. Similarly the search space was now
+clearly defined and persons were replaced by algorithms as search agents. What differentiates the
+indeterminist model is that it looks like a parody of dragnet investigation. The replacement of
+persons, the exclusion of emotions, the invention of new procedures to get where no one has
+been before is not legitimated with more “rational” search results, but the opposite.
+Indeterminate s/s procedures do not advertise themselves with that you get what you were
+looking for, but that you get what you were not looking for. Indeterminate search procedures do
+not derive their strength from a legitimating force such as reason or beauty, but unexpectedness.
+Previous methods produced too predictive results; the new indeterminate tools produce new
+ones, because they could never have been foreseen.
+
+Conclusion: Towards a Comparative Analysis of Search Procedures 
+In this article I have outlined first steps towards a history of search procedures. I started with the
+observation that Google has been an object of scholarly investigation, but scholars rarely asked
+what Google actually replaced. The important exception is Gugerli's generalized definition of
+search machines as having a search goal, a search space and a search routine. From there I
+developed a first generalized theory of search procedures by specifying different types of search
+objects, search spaces, and search and selection procedures. I then used this framework to show
+that technologization of search procedures, as seems to happen through Google and the
+examples given by Gugerli is but one historic trend that is counteracted by what I call
+indeterminate search procedures.
+This is nothing but a first step and I would like to point at some further avenues opened up for
+research. First, we need detailed historical studies of how and why search procedures change in
+different fields or functional systems. Science and Technology Studies has, under very different
+27
+
+theoretical language done this for science over the past twenty years or so.9 But we do not have
+such histories for many other fields. Second, one could study how different search procedures
+travel from one field and one activity to another. I described the indeterminate search procedures
+above as unrelated to each other. However, if the historical diagnosis is correct, then
+indeterminate search procedures were probably learnt and taken up between these different
+fields.
+
+Bibliography 
+Auletta, K. 2009 Googled: The End of the World as We Know It, New York: Penguin Press.
+Baeza-Yates, R. 2011 Modern Information Retrieval: The Concepts and Technology Behind Search 2nd ed.,
+Harlow: Addison Wesley.
+Battelle, J. 2005 The Search. How Google and Its Rivals Rewrote the Rules of Business and Transformed
+Our Culture, New York: Portfolio.
+Becker, K. (ed) 2010 Deep Search: The Politics of Search Beyond Google, Piscataway N.J.: Studien
+Verlag/Transaction Publishers.
+Bell, R. 1971 Social Deviance. A Substantive Analysis, Homewood Ill.: Dorsey Press.
+Boltanski, L. 2005 The New Spirit of Capitalism, London: Verso.
+Brand, S. 1980 The Next Whole Earth Catalogue. Access to Tools, New York: Rand McNally.
+Brewer, E.A. 2001 'When Everything Is Searchable', Communications of the ACM 44(3): p.53-54.
+Cage, J. 2007 'Composition as Process: Indeterminacy' in C. Cox and D. Warner (eds) Audio
+Culture: Readings in Modern Music, New York: Continuum.
+Campbell, D.T. 1988 'A General “Selection Theory”, as Implemented in Biological Evolution
+and in Social Belief-Transmission-with-Modification in Science', Biology and Philosophy 3(2): p.171–
+177.
+Carr, N. 2008 'Is Google Making Us Stupid?', The Atlantic 302(1): p.56–63.
+28
+
+Carson, J. 2001 'Opening the Democracy Box', Social Studies of Science 31(3): p.425–428.
+Case, D. 2008 Looking for Information: A Survey of Research on Information Seeking, Needs, and Behavior
+2nd ed., Bingley U.K.: Emerald.
+Castells, M. 2009 The Rise of the Network Society, With a New Preface The Information Age: Economy,
+Society, and Culture., New York: John Wiley & Sons Inc.
+Cavanagh, A. 2007 Sociology in the Age of the Internet, McGraw-Hill International.
+Chatroulette 2010 'Chatroulette!', Available at: http://chatroulette.com/ [Accessed April 19,
+2010].
+Cheng, Y. 1988 I Ching, the Tao of Organization, Boston: Shambhala.
+Collins, H.M. 1989 'Computers and the Sociology of Scientific Knowledge', Social Studies of
+Science 19(4): p.613-624.
+Colmer, M. 1987 Executive I Ching: The Business Oracle, Poole; New York: Blandford Press.
+Coupland, J. 1996 'Dating Advertisements: Discourses of the Commodified Self', Discourse &
+Society 7(2): p.187-206.
+Deicke, D. 2009 'A New View On Old Search Engines. Review of Gugerli: Suchmaschinen.',
+Society of the Query. Available at: http://networkcultures.org/wpmu/re-search/2009/06/16/anew-view-on-old-search-engines/ [Accessed July 27, 2011].
+Dijk, J. 2000 The Network Society: Social Aspects of New Media, London: Sage Publications.
+Feyerabend, P. 1975 Against Method: Outline of an Anarchistic Theory of Knowledge 2nd ed., London:
+NLB.
+Fleck, L. 1935 Entstehung und Entwicklung einer wissenschaftlichen Tatsache: Einfu!hrung in d. Lehre vom
+Denkstil u. Denkkollektiv, Basel: Schwabe.
+Fuchs, P. 1997 'Adressabilität als Grundbegriff der soziologischen Systemtheorie', Soziale Systeme
+3(1): p.57-79.
+Golumbia, D. 2009 The Cultural Logic of Computation, Cambridge: Harvard University Press.
+Gugerli, D. 2009a Suchmaschinen. Die Welt als Datenbank, Frankfurt a. M.: Suhrkamp.
+29
+
+Gugerli, D. 2009b 'The Culture of the Search Society. Data Management as Signifying Practice',
+Institute of Network Cultures. Available at:
+http://networkcultures.org/wpmu/query/2009/11/30/lecture-david-gugerli-the-culture-of-thesearch-society/ [Accessed July 27, 2011].
+Guha, R., McCool, R. and Miller, E. 2003 'Semantic Search' in Proceedings of the 12th International
+Conference on World Wide Web, Budapest, Hungary: ACM. Available at:
+http://portal.acm.org/citation.cfm?id=775250 [Accessed April 5, 2010].
+Halavais, A. 2009 Search Engine Society, Cambridge: Polity.
+Hardey, M. 2004 'Mediated Relationships.', Information, Communication & Society 7(2): p.207-222.
+Ichbiah, D. 2007 Comment Google Mangera Le Monde. Essai, Paris: L’Archipel.
+Jeanneney, J.-N. 2007 Google and the Myth of Universal Knowledge. A View from Europe 4th ed.,
+Chicago: University of Chicago Press.
+Jencks, C. 1973 Adhocism: The Case for Improvisation 1st ed., Garden City, New York: Anchor
+Books.
+Kellerman, A. 2002 The Internet on earth : a geography of information, New York: J. Wiley.
+Krajewski, M. 2010 'Ask Jeeves: Servants as Search Engines', Grey Room -: p.6-19.
+Lakatos, I. 1999 For and Against Method: Including Lakatos’s Lectures on Scientific Method and the
+Lakatos-Feyerabend Correspondence, Chicago: University of Chicago Press.
+Lowe, J. 2009 Google Speaks. Secrets of the World’s Greatest Billionaire Entrepreneurs, Sergey Brin and
+Larry Page, Hoboken, N.J: Wiley.
+Mansell, R. (ed) 2009 The Information Society: Critical Concepts in Sociology, Milton Park: Routledge.
+Merton, Robert K. 1936 'The Unanticipated Consequences of Purposive Social Action',
+American Sociological Review 1(6): p.894-904.
+Merton, Robert King 2004 The Travels and Adventures of Serendipity. A Study in Sociological Semantics
+and the Sociology of Science, Princeton: Princeton University Press.
+Mullan, B. 1984 The Mating Trade, London: Routledge.
+30
+
+Porter Brown, N. 2003 'The Road to Romance', Harvard Magazine. Available at:
+http://harvardmagazine.com/2003/03/the-road-to-romance.html [Accessed April 8, 2010].
+Post, D. 2009 In Search of Jefferson’s Moose: Notes on the State of Cyberspace., Oxford: Oxford
+University Press.
+Sadler, W. 1996 The I Ching of Management: An Age Old Study for New Age Managers 1st ed., Atlanta
+GA: Humanics Limited.
+Savage, R.W.H. 1989 Structure and Sorcery. The Aesthetics of Post-War Serial Composition and
+Indeterminacy, New York: Garland Pub.
+Schulze, H. 2000 Das Aleatorische Spiel. Erkundung und Anwendung der nichtintentionalen Werkgenese im
+20. Jahrhundert, München: Fink.
+Scott, J. 1998 Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed,
+New Haven: Yale University Press.
+Slezak, P. 1989 'Scientific Discovery by Computer as Empirical Refutation of the Strong
+Programme', Social Studies of Science 19(4): p.563-600.
+Specter, M. 2000 'Postcard from Silicon Valley. Search and Deploy. How to Find What You
+Need on the Net', The New Yorker: p.88–101.
+SpeedDating 2010a 'SpeedDating FAQs', Speeddating. 7 Minute Round-Robin Dating. Available at:
+http://www.speeddating.com/faqs.php [Accessed April 19, 2010].
+SpeedDating 2010b 'SpeedDating History', Speeddating. 7 Minute Round-Robin Dating. Available at:
+http://www.speeddating.com/history.php [Accessed April 8, 2010].
+Stark, D. 2009 The Sense of Dissonance: Accounts of Worth in Economic Life, Princeton: Princeton
+University Press.
+Stichweh, R. 2000 'Adresse und Lokalisierung in einem globalen Kommunikationssystem' in R.
+Stichweh (ed) Die Weltgesellschaft. Soziologische Analysen, Frankfurt: Suhrkamp.
+Stross, R.E. 2008 Planet Google. One Company’s Audacious Plan to Organize Everything We Know, New
+York: Free Press.
+31
+
+Tantner, A. 2003 'Adressierungs-Fragmente. Konskriptionsnummern in Wien', Dérive 11(März).
+Available at: http://www.derive.at/index.php?p_case=2&id_cont=361&issue_No=11.
+Tantner, A. 2009 'Vor Google – Suchmaschinen im analogen Zeitalter', Available at:
+http://www.h-net.org/reviews/showrev.php?id=26979 [Accessed March 2, 2010].
+Tredinnick, L. 2008 Digital Information Culture: The Individual and Society in the Digital Age, Oxford
+England: Chandos.
+Turner, F. 2006 From Counterculture to Cyberculture. Stewart Brand, the Whole Earth Network, and the
+Rise of Digital Utopianism, University of Chicago Press.
+Vaidhyanathan, S. 2011 The Googlization of Everything (and Why We Should Worry, University of
+California Press. Available at: http://www.googlizationofeverything.com/ [Accessed August 5,
+2009].
+Vise, D.A. 2005 The Google Story, London: Macmillan.
+Vree, W. van 1999 Meetings, Manners, and Civilization, Leicester: Leicester University Press.
+Zorn, J. 2007 'The Game Pieces' in C. Cox and D. Warner (eds) Audio Culture: Readings in Modern
+Music, New York: Continuum.
+
+1
+
+Similarly to Gugerli’s history, a symposium in Vienna under the title “”Before Google”
+
+discussed older search technologies for (academic) resources, texts and papers (Tantner 2009).
+Also see the articles of Robert Darnton, Paul Duguid and Katja Mayer in Becker (2010).
+2
+
+An English excerpt of the book is Gugerli (2009b) and Deicke (2009) has written an insightful
+
+review in English.
+3
+
+He adds a fourth point – closeness to game and simulation – but it is not necessary to the
+
+definition.
+4
+
+See below the chapter on Feyerabend for an elaboration.
+
+32
+
+5
+
+In the context of social systems theory, addresses and addressability have become prominent
+
+theoretical concepts that allow to theorize how things and persons are attached to each other and
+made communicable, see for example Fuchs (1997). Stichweh points out that in pre-modern
+societies person names were the only addresses and these also locate a person in a social structure
+– attach them to a family and put them in a social place. In modernity, a number of often
+incongruent addresses, such as car numbers, telephone numbers, street numbers, social security
+numbers, IP-adresses relate to persons, things and organisations and mostly do not indicate the
+social place of the person (Stichweh 2000; also see Scott 1998: 64-71).
+6
+
+As far as I am aware of, there is very little empirical literature on everyday voting practices
+
+outside of the political realm. This is astonishing given the central place voting has in political
+theory. We largely do not know, when, how and why people take decisions by voting in small
+groups, in families, in schools and clubs. For a rare exception see Vree (1999).
+7
+
+A few years later free improvisors abolished the function of the composer completely and s/s in
+
+music was left to performers. However, it soon turned out that this freedom in itself resulted in a
+style with its restrictions and repetitions. In the early 1980s John Zorn devised “game pieces”
+such as “Archery” or “Cobra” as a search machine that would overcome the restrictions of free
+improvisation without resorting to a composer (Zorn 2007). In these pieces the musicians
+themselves play according to “rules” that define speed, pitch, style etc. and as in sports, a referee
+controls that the rules are kept.
+8
+
+An important precursor to Feyerabend, at least seen from the viewpoint of s/s is Robert King
+
+Merton with his concepts of “unintended consequences” (Robert K. Merton 1936) and
+“serendipity” (Robert King Merton 2004). But the former concept was not developed with regard
+to science and the second, although written in the 1950ies, was only published after Merton’s
+death in 2004. In serendipity Merton makes the general claim that most scientific discoveries are
+not planned, but happen accidentally (2004 chapter 9). Serendipity is an intellectual history and
+sociology of one specific anti-technological search procedure.
+9
+
+Campbell has already developed a theory of science based on a theoretical vocabulary of
+
+selection (and searching) (Campbell 1988).
+
+33
+
+

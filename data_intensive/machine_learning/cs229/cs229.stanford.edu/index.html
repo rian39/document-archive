@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>CS 229: Machine Learning</title>
+</head>
+<body bgcolor="white" lang="EN-US" link="blue" vlink="blue" style="">
+
+<!-- PAGE HEADER -->
+
+<div class="Section1">
+<table border="0" cellpadding="0" width="100%" style="width: 100%;">
+      <tbody>
+        <tr>
+       <td style="padding: 0.75pt;" width="80" align="center">
+
+      <p class="MsoNormal">&nbsp;<img width="64" height="64"
+ id="_x0000_i1025"
+ src="stanford.seal64.gif" alt="STANFORD">
+          </p>
+       </td>
+       <td style="padding: 0.75pt;">
+      <p>
+<span style="font-size: 18pt;">
+<b><big>&nbsp;CS229<br>
+   &nbsp;Machine Learning<br>
+   &nbsp;Autumn 2012</big></b>
+<br>
+</p>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<div class="MsoNormal" align="center" style="text-align: center;">
+<hr size="2" width="100%" align="center">  </div>
+
+<ul type="disc">
+
+</ul>
+
+<!-- ANNOUNCEMENTS BANNER -->
+
+<table border="0" cellpadding="0" width="100%" bgcolor="#990000"
+ style="background: rgb(153,0,0) none repeat scroll 50% 0%; width: 100%;">
+      <tbody>
+        <tr>
+       <td style="padding: 2.25pt;">
+      <p class="MsoNormal"><b><span style="font-size: 13.5pt; color: white;">Announcements</span></b></p>
+       </td>
+      <td align="right">
+<p class="MsoNormal"><span style="font-size: 13.5pt; color: white;">
+<!-- (Last updated 10/16/07) !-->
+</span></p>
+      </td>
+      </tr>
+  </tbody>
+</table>
+<br>
+<li><img src="new2.gif" alt="new"></img>
+Check out this year's awesome projects at <a href="projects2012.html">Fall 2012 Projects</a>.
+</li><br>
+<li>
+Come check out the cool new projects during the CS229 Poster Session this Thursday December 13th, 8.30-11.30am.  More information can be found <a href = "http://cs229.stanford.edu/invitation.html">here</a>
+</li><br>
+<li>
+The last problem set, Problem Set 4, has been released! Good luck and have a great Thanksgiving break!
+</li><br>
+<li>
+Please complete and return to us the anonymous midterm survey to help improve the class. The midterm survey is 
+<a href = "http://cs229.stanford.edu/materials/anonSurvey_2012.pdf">here</a>.
+</li><br>
+<li>
+Problem Set 3 has been released!
+</li><br>
+<li>
+Practice midterm from 2010 has been released under Handouts and Materials to help you study for the midterm. Solutions won't be posted for another week or so to give you time to attempt it on your own.
+</li><br>
+<li>
+Problem Set 2 has been released!
+</li><br>
+<li>
+We compiled a list of <a href = "http://cs229.stanford.edu/projectIdeas_2012.html">course project suggestions</a>. If there is a project that interests you, contact the project suggestor to learn more. 
+</li><br>
+<li>
+The first problem set has been released and can be found under the Handouts and Materials link.  The discussion section on Friday 10/5 will review probability theory that may help out on the homework.
+</li><br>
+<li>
+The first discussion section will be held on Friday 9/28, in Gates B01, from 2:15-3:05. It will cover some of the Linear Algebra knowledge useful for this course.
+</li><br>
+<li>
+The first class will be held at 9:00am on Monday 9/24, in the NVIDIA auditorium.  We look forward to seeing you there! 
+</li><br>
+
+<!--
+<li>
+01/24/12: Autumn 2011 projects have been posted</li><br>
+
+<li>12/18/11: PS4 solution has been posted.
+</li><br>
+
+<li>12/6/11: There will be one more extra office hour on Wednesday 12/7 5-8pm at Gates 104
+</li><br>
+
+<li>12/2/11: PS3 Solutions posted
+</li><br>
+
+<li>11/30/11: We've posted some additional notes on Gaussian distributions, which might be helpful for PS4.</li><br>
+
+<li>11/30/11: Midterm solution has been posted.
+</li><br>
+
+<li>11/17/11: Problem Set 4 has been posted.
+</li><br>
+
+<li>11/16/11: In view of the feedback we got from the midterm survey, we are getting larger rooms for future office hours. Please check the updated office hours page for the most updated information. Today's office hours will be in Gates 463.
+</li><br>
+<li>11/15/11: Today's office hours will be at Gates 415. SCPD students can call in using Skype cs229.stanford</li><br>
+<li>11/9/11: If you missed the midterm for some valid reason, an alternative midterm will be held at 6-9pm on Friday, Nov 11 in Gates Room 415
+</li><br>
+<li>11/8/11: The midterm exam will be held 6-9pm on Wednesday Nov 9, 2011. If your student ID number ends in the digit 2, 3, or 5, please go to room 320-105. If your student ID number ends in the digit 0, 1, 4, 6, 7, 8 or 9, please go to Cemex Auditorium.
+If you have a very strong preference to go to a different room than you were assigned, drop us a note at cs229-qa@cs.stanford.edu to let us know in advance, and we should be able to accomodate your preference; but otherwise please go to the default room since that'll help prevent overcrowding in both rooms.
+The midterm will begin promptly at 6pm.  So, you should come by 5.45pm or so to give yourself enough time to pick up a copy of the exam and find a seat before it starts.
+</li>
+<br>
+<li>
+The solution to the practice midterm has been posted.
+</li><br>
+<li>11/3/11: A practice midterm has been posted. Its solution will be posted later.
+</li><br>
+<li>11/3/11: Problem Set 3 has been posted.
+</li><br>
+
+<li>11/1/11: Please refer to the Homeworks and Grading section in the Course Information page for resubmission and regrade policies.
+</li><br>
+<li>10/26/11: PS1 has been graded. If you did not collect yours after today's lecture, you can find it in a big cardboard box near the submission box.
+</li><br>
+<li>10/25/11: PS1 solution has been posted.</li><br>
+<li>10/19/11: Problem Set 2 has been posted.
+</li>
+<br>
+<li>
+10/19/11: This week's Friday discussion session will be held at the Skilling Aud.
+</li>
+<br>
+<li>10/17/11: Please remember that PS1 is due this Wed at 9:30am in class. If you cannot come to class, you can find the submission box following the instructions <a href = "http://cs229.stanford.edu/submissionbox/tour.html">here</a>.</li><br>
+<li>10/05/11: Project Guidelines has been updated in the "Handouts and Materials" section. Please do read the newest version as it contains important due dates</li><br>
+<li>10/05/11: Problem Set 1 has been posted in the "Handouts and Materials" section.
+</li><br>
+<li>
+09/30/11: All future Friday discussion sessions will be held at Huang auditorium, with the exception of the session on 10/21 which will be moved to the Skilling Aud.</li><br>
+
+<li>09/26/11: Project advice office hours will start next Thursday (Oct 6th).</li><br>
+<li>09/26/11: The first class will be held at 9.30am on Monday 9/26, in the Nvidia auditorium (also called the Huang auditorium).
+We look forward to seeing you there!
+</li>
+!-->
+
+
+</ul>
+
+<!--  OLD ANNOUNCEMENTS  -->
+<!--
+<li>
+Project proposals should be emailed by Saturday 10/23 to
+<a href="mailto:cs229-project@cs.stanford.edu">cs229-project@cs.stanford.edu</a>.
+</li>
+
+<li>Midterm solutions have been posted
+See <a href="materials.html">course materials</a>.
+Uncollected graded midterms are available in late homework submission
+box in <a href="http://www.stanford.edu/class/cs229/submissionbox/tour.html">Gates basement</a>.
+
+
+<li>The midterm will be held at 6pm on Thursday, November 10th, in
+room 420-040.  We'll start promptly at 6pm, so please come a few
+minutes before then.
+</li>
+
+<li>Midterm review form to give anonymous feedback about the class
+has been posted. See <a href="materials.html">course materials</a>.
+
+<li>The practice midterm solutions have been posted.
+See the <a href="materials.html">course materials</a> page for more info.
+
+<li>
+The practice midterm and third problem set have been posted.
+See the <a href="materials.html">course materials</a> page for more info.
+</li>
+
+<li>
+To meet with students about class project ideas, this week
+Prof. Ng will hold extra office hours at 3.30-4.30pm on
+Wednesday 10/19, and at 1.15-2.15pm on Thursday 10/20.  Office
+hours on Friday 10/21 are cancelled.
+</li>
+
+<li>A list of the final projects of the class has been posted.  See the
+  <a href="projects2006.html">projects</a> page for more info.</li>
+
+<li> The poster presentation is scheduled:
+  <ul>
+   <li> Date: <b>December 11, 2006 (Mon)</b>
+   <li> Time: <b>8:30 - 11:30 AM</b>
+   <li> Venue: <b>1st and 2nd floor lobbies of Gates building</b>
+  </ul>
+</li>
+
+
+<li> A list of AI classes at Stanford related to Machine Learning has been
+posted.  See the <a href="materials.html">course materials</a> page for
+more info.
+
+<li> The solutions to the midterm have been posted.  See the <a
+href="materials.html">course materials</a> page for more info.
+
+<li> The fourth and final problem set has been posted.  Note that this is
+due on <b>Monday, December 4</b>.  See the <a href="materials.html">course
+materials</a> page for more info.  </li>
+
+<li> The midterm of the class is scheduled.
+  <ul>
+   <li> Date: <b>November 9, 2006 (Thu)</b>
+   <li> Time: <b>6:30</b>
+   <li> Venue: <b>Gates B01, B03</b>
+  </ul>
+</li>
+
+<li> A practice midterm and its solutions have been posted.  See the <a
+href="materials.html">course materials</a> page for more info.
+
+<li>
+The third problem set has been posted.
+See the <a href="materials.html">course materials</a> page for more info.
+</li>
+
+<li>
+Graded problem set 1 is in the box outside Gates
+  128. <a href="solutions/ps1-stat-errorCode.pdf"> The statistics and
+  error codes</a> are available here.
+</li>
+
+<li>
+The solutions to the first problem set have been posted.
+See the <a href="materials.html">course materials</a> page for more info.
+</li>
+
+<li>
+The second problem set has been posted.
+See the <a href="materials.html">course materials</a> page for more info.
+</li>
+
+<li>
+The first problem set has been posted.  See the <a href="materials.html">course materials</a> page for more info.
+</li>
+
+
+<!--
+
+<li>
+The class has ended---congratulations on completing CS229!  Most of
+this year's final project writeups have been <a href="projects.html">posted here.</a>
+</li>
+<li>
+We hope you will continue exploring machine learning and
+AI.
+<a href="ML-classes.pdf">Here</a> is a list of some classes in which you
+can learn more about CS229-related topics.
+<a href="ML-classes.ps">
+(ps)</a> <a href="ML-classes.pdf">(pdf)</a>
+</li>
+
+!-->
+
+<br>
+
+<!-- COURSE INFORMATION BANNER -->
+
+<table border="0" cellpadding="0" width="100%" bgcolor="#990000"
+ style="background: rgb(153,0,0) none repeat scroll 0% 50%; width: 100%;">
+      <tbody>
+        <tr>
+       <td style="padding: 2.25pt;">
+      <p class="MsoNormal"><b><span
+ style="font-size: 13.5pt; color: white;">Course   Information</span></b></p>
+       </td>
+      </tr>
+
+  </tbody>
+</table>
+
+<!-- COURSE INFORMATION -->
+
+<h4>Instructor: </h4>
+
+<p class="MsoNormal" style="margin-left: 0.5in;"><big>Andrew Ng.
+
+<!--
+(<A HREF="mailto:&#97;&#110;&#103;&#64;&#99;&#115;&#46;&#115;&#116;&#97;&#110;&#102;&#111;&#114;&#100;&#46;&#101;&#100;&#117;">&#97;&#110;&#103;&#64;&#99;&#115;&#46;&#115;&#116;&#97;&#110;&#102;&#111;&#114;&#100;&#46;&#101;&#100;&#117;</A>)
+!-->
+
+</big></p>
+
+<h4>Lectures:</h4>
+
+<p style="margin-left: 0.5in;">
+<big><em>3-4 units. MW 9:00AM-10:15AM. </em>
+&nbsp
+<em><a href="http://campus-map.stanford.edu/?id=&lat=37.42794346326562&lng=-122.17423695919263&zoom=18&srch=Jen-Hsun Huang Engineering Center">NVIDIA Auditorium</a> (in the Huang Engineering Center)</em>
+</big></p>
+
+<p style="margin-left: 0.5in;">
+<big><em>Discussion sections: Fridays, 2:15-3:05 </em>
+&nbsp
+<em>Location: Gates B01 (optional attendance) </em>
+</big></p>
+
+<h4>Email address:</h4>
+
+<p style="margin-left: 0.5in;">
+If you are taking the free online class, you should enroll at <a href="http://www.ml-class.org">www.ml-class.org</a>.</br><br>
+
+If you are enrolled in 229 at Stanford (i.e. you're a Stanford student or SCPD
+student) and have a question, for you to get a response quickly 
+we strongly encourage you to post it on our <a
+href="https://piazza.com/class#fall2012/cs229">Piazza forum</a>.  If you
+want to contact the teaching staff directly, you can also email us at <a
+href="mailto:cs229-qa@cs.stanford.edu">cs229-qa@cs.stanford.edu</a>.
+
+
+
+<p>
+
+<h3>Information and Handouts:</h3>
+
+<big>
+<ul>
+     <li><a href="info.html">Course Information</a></li>
+     <li><a href="schedule.html">Syllabus and Course Schedule</a></li>
+     <li><a href="invitation.html">Poster Session Invitation</a></li>
+     <li><a href="materials.html">Handouts and Materials</a></li>
+     <li><a href="officehours.html">Office Hours, Telephone Numbers and Office locations</a></li>
+     <li>Video Lectures:
+     <a href="https://myvideosu.stanford.edu/oce/currentquarter.aspx">Full Time</a>,
+     <a href="http://scpd.stanford.edu/tilesPublic/currentStudent.jsp"> SCPD</a>
+     <li>Recent years' projects:
+     <a href="projects2012.html">2012</a>
+     <a href="projects2011.html">2011<a>,
+     <a href="projects2010.html">2010<a>,
+     <a href="projects2009.html">2009<a>,
+     <a href="projects2008.html">2008<a>,
+     <a href="projects2007.html">2007<a>,
+     <a href="projects2006.html">2006<a>,
+     <a href="projects2005.html">2005<a>,
+     <a href="projects2004.html">2004<a>.
+     <li><a href="faq.html">Frequently Asked Questions</a><br>
+     </li>
+
+</ul>
+</big>
+   <br>
+
+<div class="MsoNormal" align="center" style="text-align: center;">
+<hr size="2" width="100%" align="center">  </div>
+      </div>
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="width: 100%;">
+     <tbody>
+       <tr>
+      <td style="padding: 0in;">
+  <p class=MsoNormal>Comments to <a href="mailto:cs229-qa@cs.stanford.edu">cs229-qa@cs.stanford.edu</a>.   </p>
+      </td>
+      <td style="padding: 0in;">
+      <p align="right" style="text-align: right;"><a
+ href="http://www.stanford.edu/class/cs229/">Home Page</a> </p>
+      </td>
+     </tr>
+
+  </tbody>
+</table>
+
+
+</body>
+</html>
