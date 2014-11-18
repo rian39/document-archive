@@ -1,0 +1,1525 @@
+#fancybox-loading{position:fixed;top:50%;left:50%;height:40px;width:40px;margin-top:-20px;margin-left:-20px;cursor:pointer;overflow:hidden;z-index:1104;display:none}
+* html #fancybox-loading{position:absolute;margin-top:0}
+#fancybox-loading div{position:absolute;top:0;left:0;width:40px;height:480px;background-image:url('../images/fancybox/fancybox.png')}
+#fancybox-overlay{position:fixed;top:0;left:0;bottom:0;right:0;background:#000;z-index:1100;display:none}
+* html #fancybox-overlay{position:absolute;width:100%}
+#fancybox-tmp{padding:0;margin:0;border:0;overflow:auto;display:none}
+#fancybox-wrap{position:absolute;top:0;left:0;margin:0;padding:20px;z-index:1101;display:none}
+#fancybox-outer{position:relative;width:100%;height:100%;background:#FFF}
+#fancybox-inner{position:absolute;top:0;left:0;width:1px;height:1px;padding:0;margin:0;outline:0;overflow:hidden}
+#fancybox-hide-sel-frame{position:absolute;top:0;left:0;width:100%;height:100%;background:transparent}
+#fancybox-close{position:absolute;top:-15px;right:-15px;width:30px;height:30px;background-image:url('../images/fancybox/fancybox.png');background-position:-40px 0;cursor:pointer;z-index:1103;display:none}
+#fancybox_error{color:#444;font:normal 12px/20px Arial;padding:7px;margin:0}
+#fancybox-content{height:auto;width:auto;padding:0;margin:0}
+#fancybox-img{width:100%;height:100%;padding:0;margin:0;border:0;outline:0;line-height:0;vertical-align:top;-ms-interpolation-mode:bicubic}
+#fancybox-frame{position:relative;width:100%;height:100%;border:0;display:block}
+#fancybox-title{position:absolute;bottom:0;left:0;font-family:Arial;font-size:12px;z-index:1102}
+.fancybox-title-inside{padding:10px 0;text-align:center;color:#333}
+.fancybox-title-outside{padding-top:5px;color:#FFF;text-align:center;font-weight:bold}
+.fancybox-title-over{color:#FFF;text-align:left}
+#fancybox-title-over{padding:10px;background-image:url('../images/fancybox/fancy_title_over.png');display:block}
+#fancybox-title-wrap{display:inline-block}
+#fancybox-title-wrap span{height:32px;float:left}
+#fancybox-title-left{padding-left:15px;background-image:url('../images/fancybox/fancybox.png');background-position:-40px -90px;background-repeat:no-repeat}
+#fancybox-title-main{font-weight:bold;line-height:29px;background-image:url('../images/fancybox/fancybox-x.png');background-position:0 -40px;color:#FFF}
+#fancybox-title-right{padding-left:15px;background-image:url('../images/fancybox/fancybox.png');background-position:-55px -90px;background-repeat:no-repeat}
+#fancybox-left,#fancybox-right{position:absolute;bottom:0;height:100%;width:35%;cursor:pointer;outline:0;background-image:url('../images/fancybox/blank.gif');z-index:1102;display:none}
+#fancybox-left{left:0}
+#fancybox-right{right:0}
+#fancybox-left-ico,#fancybox-right-ico{position:absolute;top:50%;left:-9999px;width:30px;height:30px;margin-top:-15px;cursor:pointer;z-index:1102;display:block}
+#fancybox-left-ico{background-image:url('../images/fancybox/fancybox.png');background-position:-40px -30px}
+#fancybox-right-ico{background-image:url('../images/fancybox/fancybox.png');background-position:-40px -60px}
+#fancybox-left:hover,#fancybox-right:hover{visibility:visible}
+#fancybox-left:hover span{left:20px}
+#fancybox-right:hover span{left:auto;right:20px}
+.fancy-bg{position:absolute;padding:0;margin:0;border:0;width:20px;height:20px;z-index:1001}
+#fancy-bg-n{top:-20px;left:0;width:100%;background-image:url('../images/fancybox/fancybox-x.png')}
+#fancy-bg-ne{top:-20px;right:-20px;background-image:url('../images/fancybox/fancybox.png');background-position:-40px -162px}
+#fancy-bg-e{top:0;right:-20px;height:100%;background-image:url('../images/fancybox/fancybox-y.png');background-position:-20px 0}
+#fancy-bg-se{bottom:-20px;right:-20px;background-image:url('../images/fancybox/fancybox.png');background-position:-40px -182px}
+#fancy-bg-s{bottom:-20px;left:0;width:100%;background-image:url('../images/fancybox/fancybox-x.png');background-position:0 -20px}
+#fancy-bg-sw{bottom:-20px;left:-20px;background-image:url('../images/fancybox/fancybox.png');background-position:-40px -142px}
+#fancy-bg-w{top:0;left:-20px;height:100%;background-image:url('../images/fancybox/fancybox-y.png')}
+#fancy-bg-nw{top:-20px;left:-20px;background-image:url('../images/fancybox/fancybox.png');background-position:-40px -122px}
+.fancybox-ie .fancy-bg{background:transparent!important}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline}
+input,textarea{margin:0;padding:0}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+caption,th{text-align:left}
+select:focus,input:focus{outline:0}
+body h1 *,body h2 *,body h3 *,body h4 *,body h5 *,body h6 *,body b *{font-weight:bold}
+body em *{font-style:italic}#issuesByYear .issues:after{content:".";visibility:hidden;display:block;height:0;clear:both}
+#issuesByYear .issues{display:block}
+body{font-size:62.5%;background-color:#fff;font-family:Arial,"Lucida Grande",Geneva,Verdana,Helvetica,Lucida Sans Unicode,sans-serif;color:#000}
+.page-wrap{background-color:#fbfbfb}
+a img{vertical-align:bottom}
+.tocArticle a img{vertical-align:inherit}
+a{text-decoration:none;outline:0;color:#007e8a}
+a:hover{text-decoration:underline}
+a:focus{outline:.1em dotted gray}
+a.selected{color:#b27900;font-weight:bold}
+p{margin:0 0 1em 0}
+sub{vertical-align:sub;font-size:.8em;white-space:nowrap}
+sup{line-height:.7em;vertical-align:super;white-space:nowrap;font-size:.8em}
+em{font-style:italic}
+legend,table th,strong,.subSectionHeading p a{font-weight:bold}
+abbr{border-bottom:1px dashed #e7e7e7;cursor:help}
+legend,dl,label,p,input,textarea,select,table,li{font-size:1.2em}
+li li,li p,table li,li h2,li h3,li h4,li h5,li h6,li label,td p,th p,table table,li input,li select,li dl,li table,table label,table input,dl dl{font-size:1em}
+dl,p,dt{line-height:1.3em}
+dt{clear:left}
+cite{display:block}
+label{cursor:pointer}
+hr{background-color:#d8d8d6;border:0;color:#d8d8d6;height:.1em;margin:.5em 0 1em 0;width:100%}
+h1{margin:0;font-size:2em;color:#5d5d5d}
+h2{margin:0 0 1em 0}
+h2,h3,h4,h5,h6{color:#5d5d5d;font-size:1.2em}
+#leaderBoard{text-align:center;background-color:#d5d5d4}
+#leaderBoard img{border:1px solid #cacaca;margin:.4em}
+#leaderBoard img[alt=""]{display:none}
+.ribbon{overflow:hidden;width:100%}
+.ribbon__quarter{display:block;float:left;height:4px;width:25%;clear:right}
+.ribbon__first{background-color:#2e97de}
+.ribbon__second{background-color:#00a186}
+.ribbon__third{background-color:#ddbe00}
+.ribbon__fourth{background-color:#eb7100}
+#leftBorder{width:97.9em;margin:0 auto;position:relative}
+#rightBorder{width:97.9em;background:#fff;padding:0 1em 0 1em}
+#rightBorder.bordered{border:1px solid #dadada;border-top:0;padding:0;margin-bottom:1em;overflow:hidden}
+#banner{width:100%;height:64px;margin:0 0 2em 0;text-align:center;overflow:hidden;position:relative}
+#banner img.left{position:absolute;left:0}
+#banner img.right{position:absolute;right:0}
+#content{width:77.4em;float:right;margin:0}
+#mainContent{width:54.3em;float:left}
+#fullWidthContent{margin:0 0 1em .8em;overflow:hidden}
+#skip{position:absolute;left:0;top:-50.0em}
+#skip a:active,#skip a:focus{position:static}
+.l-header-container,.l-cookiebanner-container{width:97.9em;margin:0 auto}
+#mrwFrame .l-header-container,#mrwFrame .l-cookiebanner-container{width:auto}
+.l-header{padding:3.5em 0 .7em;position:relative}
+.js_en .l-header{padding:3.5em 0 4.5em}
+#header{background:#fff;border-bottom:1px solid #dadada;z-index:101;position:relative;min-height:80px;height:auto!important;height:80px}
+.header-logo{color:#000;display:block;float:left;margin:0;font-size:1em;font-weight:bold;padding-left:26px;background:#fff;margin:0 0 0 3px}
+.header-user-access{display:none;visibility:hidden}
+.js_en .header-user-access{display:block;visibility:visible;float:right;width:140px;margin-top:.2em;padding-right:1.3em}
+.header-user-access a{color:#231f20;text-decoration:none;font-weight:bold;font-size:1.2em;float:left;width:116px}
+.header-user-access__arrow{display:block;float:right;height:14px;margin:-0.2em 0 0 .7em;width:14px}
+.header-user-access__user{display:block;height:20px;float:left;margin:-6px .4em 0 0;width:20px}
+.icons-sprite,.icons-article-nav-arrow,.icons-article-support-info,.icons-article-support-pdf,.icons-article-support-references,.icons-article-tools-email,.icons-article-tools-favourite,.icons-article-tools-print,.icons-article-tools-share,.icons-article-tools-text-size,.icons-user-access-arrow,.icons-user-access-user{background:url(../images/icons-seecf0dbd82.png) no-repeat}
+.icons-user-access-arrow{background-position:0 -222px}
+.icons-user-access-user{background-position:0 -150px}
+.icons-user-access-arrow_close{background:url(../images/icons-seecf0dbd82.png) no-repeat -14px -222px}
+.icons-user-access-arrow_open{background:url(../images/icons-seecf0dbd82.png) no-repeat 0 -222px}
+#globalMessaging{width:100%}
+#globalMessaging ul{border-bottom:2px solid silver;padding:1em 1em .5em 3em;background-color:#e1e9eb;color:#000}
+.js_en #globalMessaging ul{padding-left:1em}
+#globalMessaging li{margin-bottom:.5em;padding-left:2em;line-height:1.4em}
+#globalMessaging .globalError{background:url(../images/error.png) no-repeat 0 0}
+#globalMessaging .globalWarning{background:url(../images/warning.png) no-repeat 0 0}
+#globalMessaging .globalInformation,#globalMessaging .maintenanceMessage,#globalMenu p a#help{background:url(../images/questionMark.png) no-repeat 0 0}
+#globalMenu{height:auto;margin:1.9em 0 2.2em 0;width:auto;text-align:left}
+.js_en #globalMenu{height:4.3em}
+#globalMenu div{background:#00a4b6;min-width:36em}
+#globalMenu ul{font-size:1.05em;overflow:hidden}
+#globalMenu ul li{font-size:1em;float:left;margin-left:11px;margin-right:16px;padding:1.4em 0}
+#globalMenu ul li a{text-decoration:none;padding:0 .6em;font-weight:normal;font-size:14px;color:#fff}
+#globalMenu ul li a:hover{text-decoration:underline}
+#globalMenu p{position:absolute;bottom:0;margin:0}
+#globalMenu p a{float:left;width:1.6em;height:1.6em;margin:.5em .8em 0 0;text-indent:-999em}
+#globalMenu p a#home{background:url(../images/wolIconsNew.gif) no-repeat 100% -254px}
+#globalMenu #resourcesMenu{display:none}
+#header #coBranding{text-align:center;float:right}
+#header #coBranding img{margin:-1.9em 0 0 0;max-height:56px;height:expression(this.scrollHeight>56 ? "56px":"auto")}
+ul#langOptions{text-transform:uppercase;overflow:hidden;text-align:right;font-size:.8em;position:absolute;right:.5em;top:0}
+ul#langOptions li{float:right;padding:.7em .5em 0 0}
+ul#langOptions a{font-weight:bold}
+ul#langOptions a.eng{border-left:1px solid #323232;padding-left:.5em}
+ul#langOptions a.cn{border-right:1px solid #323232;padding-right:.5em}
+ul#langOptions,ul#langOptions a{color:#323232}
+ul#langOptions+#pdfMetaData span.openAccess,ul#langOptions+#pdfMetaData span.freeAccess,ul#langOptions+#pdfMetaData span.licensedContent{float:right;margin-top:1em}
+ul#langOptions+#pdfMetaData h1{width:60%}
+ul#langOptions+#pdfMetaData{margin-top:-0.8em}
+#productTitleAndVolume #productTitle{display:block}
+#login{border:0;background-color:#fff;position:relative;width:32em;float:none;margin-top:-2.8em;min-height:7.4em;margin-bottom:0;margin-left:66.7em;overflow:hidden}
+.js_en #login{border:1px solid #555;position:absolute;top:5.5em;left:auto;right:1.3em;width:26.9em;display:none;min-height:8.6em;margin-top:0;margin-bottom:0;margin-left:70.9em}
+#login.loggedIn{display:block;position:static;border:0;min-height:0;margin:-3.2em 0 0 0;width:28em;float:right;overflow:hidden;background-color:transparent}
+#login form{float:left;position:relative;padding-bottom:0}
+.js_en #login form{padding-bottom:.6em}
+.js_en #login form{padding-bottom:1.6em}
+#login form fieldset{padding:.1em 0 0}
+#login legend{font-size:1.7em;color:#555;padding:.3em 0 0 .5em;font-weight:normal;display:none}
+.js_en #login legend{padding-top:.9em;padding-left:.8em;display:block}
+#login form #loginPassword,#login form #loginEmail{border:1px solid #010101;width:9.6em;height:16px;margin:0 .5em .2em 0;line-height:1.4em;vertical-align:top;padding:0 0 0 .5em;color:#323232;font-size:1.1em}
+.js_en #login form #loginPassword,.js_en #login form #loginEmail{width:19.7em;height:24px;font-size:1.2em}
+#login form #loginInFormInner{margin:.2em 0 0 0;padding:.3em 0 .1em .9em}
+.js_en #login form #loginInFormInner{margin:1.5em 0 0 0;padding-left:1.2em}
+#login form #loginInFormInner div{margin:.5em 0}
+.js_en #login form #loginInFormInner div{margin:1.5em 0}
+#login form #loginSubmit{position:relative;z-index:99;font-size:1.2em;padding:0 .6em;color:#fff;font-weight:normal;background-color:#3498db;float:left;margin-top:2.4px;margin-left:120px;height:18px;border:0;cursor:pointer}
+.js_en #login form #loginSubmit{margin-top:-7.9px;margin-right:19.8px;margin-left:auto;padding:.3em 1.3em;font-size:1.5em;height:auto}
+#login form label{vertical-align:top;padding:0 0 0 .6em;color:#323232;font-size:1em}
+#login form label#emailLabel,#login form label#passwordLabel{display:none}
+#loginRememberMe{margin-top:-3px;margin-left:-6px;position:relative;top:1px;width:13px;height:13px;padding:0;vertical-align:top}
+#login ul#loginOptions{clear:none;margin:0;padding:.2em 0 0 0;width:auto;background-color:transparent;overflow:hidden;position:absolute;top:1.9em;left:18.9em}
+.js_en #login ul#loginOptions{padding:.6em 1.4em .4em;background-color:#555;clear:left;position:static}
+#login ul#loginOptions li{margin:0 0 .5em 0;font-size:1em;float:none}
+.js_en #login ul#loginOptions li{float:left}
+#login #lastOpt{float:none!important}
+.js_en #login #lastOpt{float:right!important}
+#login ul#loginOptions #athensIndicator{color:#999;font-size:1.2em}
+#login ul#loginOptions a{color:#3498db;font-weight:normal;font-size:1.1em;text-decoration:underline}
+.js_en #login ul#loginOptions a{color:#fff;font-size:1.2em}
+#login ul#loginOptions a:hover{text-decoration:none}
+#login .message{clear:both;padding:.6em .6em 0 1.2em;color:#323232}
+.forgotpass{padding-top:0;padding-left:15em;margin-top:-4.1em}
+.js_en .forgotpass{padding-top:4px;padding-left:11.6em;margin-top:0}
+.forgot_password{clear:both;float:left;padding-left:17.3em}
+.login .forgotpass{float:left;padding-left:0}
+#rememberMeBox{margin-top:2.7em!important;padding-left:0;padding-top:2px;position:relative;line-height:11px}
+.mailbox__auth__remember{white-space:nowrap}
+.js_en #rememberMeBox{margin-top:-3px!important;padding-left:0}
+.forgotpass a{color:#3498db;font-size:.9em;font-weight:normal;text-decoration:underline}
+.forgotpass a:hover{text-decoration:none}
+#login h2{color:#2e2d2d;padding:.25em .5em 0 .8em;margin:0}
+#login #loggedIn{padding:2em 0 0 0;float:right;text-align:right;font-size:1.1em}
+#login #loggedIn span{color:#767575}
+#login #loggedIn #userName{color:#231f20;font-weight:bold;font-size:1em;display:inline;margin:0}
+#login #loggedIn #athensIndicator{font-size:.9em;color:#999;padding-top:.2em}
+#login #loggedIn .options{float:right;text-align:left;display:block;padding:.4em 0 1em 0}
+#login #loggedIn .options li{margin:0 0 .5em 1.5em;padding-bottom:.5em;font-size:1.1em;display:inline}
+#login #loggedIn .options li.logout{background:url(../images/logOut.png) no-repeat left top;padding-left:21px}
+#login #loggedIn .profile li{font-size:.9em}
+#login #loggedIn .profile .subMenu li a:hover{background-color:#006976;text-decoration:none;color:#fff}
+#login #loggedIn .options a{color:#231f20;text-decoration:underline}
+#login #loggedIn .options a:hover{text-decoration:none}
+#breadcrumb{margin-bottom:1em;margin-top:1.5em}
+#breadcrumb ul{padding:.5em 0 0 .8em}
+#breadcrumb li{display:inline;padding:0 .5em 0 0;font-weight:bold;color:#3e3e3e;line-height:1.5}
+#breadcrumb li a{color:#3e3e3e}
+#footer{clear:both;position:relative;padding:.7em 0 1.5em 0;padding-top:0;zoom:1}
+#footer li{display:inline;font-size:.9em}
+#footer p{font-size:1.1em;color:#105461;position:relative;z-index:100;margin:0 0 0 .7em}
+#footer p a{color:#105461}
+.l-footer-container{overflow:hidden;width:100%}
+.footer-wol{background:#e1e9eb;margin-top:1.5em 1.8% 0 0;border-left:8px solid #00a4b4;overflow:hidden}
+.footer-wol__logo{float:left;padding:1.2em 2.4em .8em .6em}
+.footer-wol__primary-nav{line-height:1em;margin-left:190px;padding-top:.9em}
+.footer-wol__primary-nav a{font-size:1.2em;color:#0f515e;font-weight:bold;margin-right:2.3em;text-decoration:none}
+.footer-wol__primary-nav a:hover,.footer-wol__primary-nav a:focus{text-decoration:underline}
+.footer-wol__secondary-nav{line-height:.8em;margin-left:190px;padding-top:.5em;padding-bottom:.7em}
+.footer-wol__secondary-nav a{font-size:1.2em;color:#0f515e;font-weight:normal;margin-right:2.5em;text-decoration:none}
+.footer-wol__secondary-nav a:hover,.footer-wol__secondary-nav a:focus{text-decoration:underline}
+.footer-global{clear:left;padding:1em 0 2em;margin:1.2em 0 1em 0}
+.footer-global__copyright{font-size:1.1em;color:#252525;float:left;font-weight:bold}
+.footer-global__nav{float:right;margin-top:-5px}
+.footer-global__nav a{font-size:1.2em;color:#525252;font-weight:bold;margin-right:1.2em;text-decoration:none}
+.footer-global__nav .last a{margin-right:0;margin-left:6px}
+.footer-global__nav a:hover,.footer-global__nav a:focus{text-decoration:underline}
+.footer-global__logo{margin-right:-1em}
+#pageNavAndTools{width:17.4em;float:left;margin:0 0 1em .8em}
+#pageNavAndTools .menuGroup p a{font-weight:bold;color:#3d3d3d;padding:0;font-size:.9em}
+#pageNavAndTools .topRightRoundCorner{background:url(../images/topRightRoundCorner.gif) top right no-repeat;margin-left:-0.8em;padding:1em 1em 0 1em}
+#pageNavAndTools .topRightRoundCorner .bottomRightRoundCorner{background:url(../images/bottomRightRoundCorner.gif) bottom right no-repeat;margin:0 -1em 1em -0.9em;padding:0 .5em 1em 1em}
+#pageNavAndTools .advert p a.stText6-a{font-size:.9em}
+#promosAndTools{width:21.1em;float:right}
+#promosAndTools .menuGroup{margin-top:2em}
+#promosAndTools .resources{margin-bottom:2em}
+#promosAndTools .advert,#promosAndTools .logo{margin-top:2em;overflow:hidden}
+#promosAndTools .advert h3{color:#007e8b;font-size:1.1em}
+#promosAndTools .advert .adDiv p{margin:0 .5em 0 0}
+#promosAndTools h3.menuGroupSubHeading{background:#fff;margin:0;padding:.3em 0 0 .5em}
+#promosAndTools div object{padding-left:0}
+#promosAndTools .logo p{font-size:1.1em;color:#5d5d5d;margin-right:.5em}
+#pageNavAndTools a img,#promosAndTools a img{display:block;margin:1em auto}
+#pageNavAndTools ul li a img{display:inline;margin:0}
+.menuGroup li a.openAccesscolumn{margin-left:0;text-indent:0}
+.menuGroup{margin:0 0 .8em 0}
+.menuGroup h2{border-top-left-radius:.6em;-moz-border-radius-topleft:.6em;-webkit-border-top-left-radius:.6em;background-color:#e1e9eb;color:#007e8b;margin:0;padding:.3em 0 .3em .6em;text-transform:uppercase}
+#pageNavAndTools .menuGroup h2{border-top-right-radius:.6em;-moz-border-radius-topright:.6em;-webkit-border-top-right-radius:.6em}
+.menuGroup h3{border-left:2px solid #EEE;border-top:2px solid #EEE;border-top-left-radius:.6em;-moz-border-radius-topleft:.6em;-webkit-border-top-left-radius:.6em;font-size:1.1em;color:#007e8b;margin:0;padding:.35em 0 0 .5em}
+.menuGroup h2 ~ h3{border-top-left-radius:0;-moz-border-radius-topleft:0;-webkit-border-top-left-radius:0;border-top-width:0;padding-top:.6em}
+.menuGroup ul,.menuGroup ol{border-left:2px solid #EEE;padding:0 .2em .2em .5em}
+.menuGroup li{color:#757373;font-size:1.1em;padding:.3em 0 0 0;line-height:1.5em}
+.menuGroup ul ul,.menuGroup ul ol,.menuGroup ol ul,.menuGroup ol ol{background-color:#fff;left:17.4em;top:-1em;width:15em;z-index:10;border:0}
+.menuGroup li h3{border:0;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;font-size:1.1em;color:#007e8b;padding:0}
+.menuGroup .subGroup{margin-bottom:.6em}
+.menuGroup .subGroup ul li{font-size:1em}
+.menuGroup li ul{margin:.3em 0 0 0}
+.menuGroup li ul li{font-size:1em;text-indent:0;padding:0 0 0 1em;margin-left:-1em;background:#fff url(../images/wolIconsNew.gif) no-repeat -379px -205px;line-height:1.3em}
+.menuGroup li a{color:#3d3d3d;display:block;line-height:1.2em;margin-left:1.2em;text-indent:-1.2em}
+.menuGroup li.selected{color:#b27900;font-weight:bold}
+.menuGroup li a.allOption{font-weight:bold;color:#3d3d3d}
+.menuGroup .noWrapIndent li{text-indent:0;padding-left:.6em;margin-left:-0.7em}
+.menuGroup .moreMenu li{text-indent:0;padding-left:.6em;margin-left:-0.7em;margin-bottom:.5em}
+.menuGroup .removeFilter{color:#007e8b;margin:1em 0 .5em 0;display:block;font-size:1.1em}
+#filterLists li{color:#ccc}
+#filterLists li.selected{color:#b27900}
+.menuGroup .titleTools li a{margin-left:0;text-indent:0}
+.menuGroup .titleTools li a{padding:.1em 0 .3em 2em;background:url(../images/wolIconsNew.gif) no-repeat}
+.menuGroup .titleTools a.rss{background-position:0 -30px}
+.menuGroup .titleTools .saveToProfile{background-position:0 -326px}
+.menuGroup .titleTools .getEmailAlerts{background-position:0 -130px}
+.menuGroup .titleTools .getSampleCopy{background-position:0 -389px}
+.menuGroup .titleTools .recommendToLibrarian{background-position:0 -194px}
+.viewFullArticleAndPdfOptions .pdfLink,.menuGroup .titleTools .pdf a,.menuGroup .titleTools .readcubePdfLink{background-position:0 1px}
+.menuGroup .titleTools .save a{background-position:0 -328px}
+.menuGroup .titleTools .email a{background-position:0 -98px}
+.menuGroup .titleTools .citation,.menuGroup .titleTools .citation a{background-position:0 -65px}
+.menuGroup .titleTools .purchasePrintCopy a{background-position:0 -226px}
+.menuGroup .titleTools .requestPermissions a{background-position:0 -359px}
+.menuGroup .titleTools .purchasePrintCopy{background-position:0 -227px}
+.menuGroup .titleTools .getCitationAlert a{background-position:0 -456px}
+.menuGroup .titleTools .purchasePrintCopy a{background-position:0 -228px}
+.menuGroup .titleTools .savedToProfile2 a,.menuGroup .titleTools .savedToProfile{background-position:0 -300px}
+.menuGroup .titleTools .emailAlertsAdded{background-position:0 -163px}
+.menuGroup .titleTools .citationAlertAdded{background-position:0 -556px}
+.menuGroup .titleTools .printCopyPurchased{background-position:0 -264px}
+#searchSite.searchForm{background:url(../images/wolSpriteBackgrounds.gif) no-repeat -601px 0;padding-left:2px}
+#searchSite.searchForm p.error{padding:.5em .8em 0 .8em;margin:0 0 -0.5em 0}
+#searchSite.searchForm fieldset{padding:.1em 0 0;display:block}
+.searchForm{overflow:hidden}
+.searchForm h2{white-space:nowrap;color:#dfe9ea;margin:0}
+.searchForm select,.searchForm input[type="text"]{border:1px solid #839db6;font-size:1.1em;color:#000}
+#searchSite.searchForm h2{padding:.3em 0 0 .8em}
+.searchForm .searchCriteria{margin:1em 0 0 0;padding:0 0 0 .8em;overflow:hidden}
+.searchForm label{position:absolute;left:-1000em}
+.searchForm p{font-size:1.1em}
+.searchForm #scope{width:15.4em;margin:0 0 .5em 0}
+.searchForm .extraSearchOptions{padding:0 0 .5em .9em;margin:0}
+.extraSearchOptions li{float:left;padding-bottom:.3em}
+.extraSearchOptions .forceBlock{float:none}
+.extraSearchOptions a{padding:0 1em 0 0;color:#5c5c5c}
+#searchByCitation,#searchDatabase{background:#e1e9eb;border-left:2px solid #105461}
+#searchByCitation h2,#searchDatabase h2{background:#105461;padding:.3em 0 .25em .6em}
+#searchByCitation .searchCriteria,#searchDatabase.searchForm .searchCriteria{padding-bottom:.5em;margin:.5em 0 0 0}
+#searchDatabase.searchForm .searchCriteria p{margin-bottom:.3em;color:#5c5c5c}
+#searchDatabase.searchForm #astroDatabaseSearchText,#searchDatabase #qsearch,.searchForm #searchText{float:left;margin:0 .3em 0 0;width:15.2em}
+#searchByCitation .searchCriteria div{width:auto;margin:0 .8em .5em 0;float:left}
+#searchByCitation .searchCriteria div input{margin:.3em 0 0 0;width:4.4em;min-height:1.5em}
+#searchByCitation .searchCriteria label{display:block;position:static;font-size:1.1em;color:#5c5c5c}
+#searchByCitation #citationSearchSubmit{float:left;margin:1.3em 0 0 -0.2em;border:0}
+#searchByCitation p.error{padding:.5em .5em 0 .8em;margin-bottom:0}
+#usageData table{clear:left;margin-bottom:1em}
+#usageData table thead .topborder{padding:0;border:0;height:2px;background:#000;border-right:2px solid #fff}
+#usageData table tr.month th.ytd{background:#93e3c6;color:#000;text-align:center;padding:0 .3em}
+#usageData table tr.month th{background:#52a9a0;text-align:center;border-right:2px solid #fff;border-bottom:2px solid #fff;color:#fff;padding:.6em}
+#usageData table tr.month th.lastupdated{font-style:italic;font-weight:normal;text-align:left;color:#000;background:#fff}
+#usageData table td{background:#cef2e4;border-bottom:1px solid #ccc;border-right:2px solid #FFF;vertical-align:middle;text-align:right;padding:.2em .5em}
+#usageData table td:first-child{line-height:1.4em;text-align:left;background:#fff}
+#usageData h2{float:left;margin-top:-12px}
+#usageReports .copyTable{display:none;clear:both;margin:0}
+#usageReports .copyTable label{width:50%;float:right;text-align:right;padding-top:2px}
+#usageReports .copyTable input#tableCopyButton{float:right;position:relative;margin:0 0 0 1em}
+#currentHoldings div.error,#currentHoldings div.success,#payPerViewPaymentDetails div.error{font-size:1.2em;dispay:block;padding:10px;margin:2em .8em 0 0;background-color:#f2dede;border:1px solid #eed3d7;position:relative;padding-right:2em}
+#currentHoldings div.success{color:#468847;background-color:#dff0d8;border-color:#d6e9c6}
+#currentHoldings a.proceed,#payPerViewPaymentDetails a.proceed{position:absolute;text-indent:-999px;overflow:hidden;top:8px;right:8px;width:18px;height:18px;display:block;background:#FFF url(../images/wolIcons2.gif) -383px -98px no-repeat;border:1px solid #fcfcfc}
+#payPerViewPaymentDetails div.error{margin-bottom:1em!important}
+#currentHoldings div.success{color:#468847;background-color:#dff0d8;border-color:#d6e9c6}
+#currentHoldings a.proceed{position:absolute;text-indent:-999px;overflow:hidden;top:8px;right:8px;width:18px;height:18px;display:block;background:#FFF url(../images/wolIcons2.gif) -383px -98px no-repeat;border:1px solid #fcfcfc}
+#payPerViewPaymentDetails .simple .error{width:35%;float:left}
+#payPerViewPaymentDetails .simple input.submit[disabled]{background:#CCC;color:#666}
+.processing{width:100%;height:100%;position:absolute;left:0;top:0;z-index:102}
+.processing p{display:block;width:180px;height:50px;color:#FFF;font-size:1.2em;margin:auto;top:0;left:0;right:0;bottom:0;position:absolute;text-align:center;padding:1em;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#333 url(../images/ajax-loader.gif) 80px 40px no-repeat}.hide{display:none}
+object{padding-left:1em}
+.left,dd,dt,#leftColumn,.access,.access input,.sectionHeading h1,.sectionHeading h2,.sectionHeading h3,.selectAll{float:left}
+.right,#rightColumn{float:right}
+.clear{clear:both}
+div.noTopPadding{padding-top:0}
+.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.topLeftRoundCorner,.topLeftRoundCornerNew{background:url(../images/topLeftRoundCorner.gif) top left no-repeat;padding:1em 0 0 1em;clear:both;zoom:1}
+.topLeftRoundCornerNew{background:#fff url(../images/topLeftRoundCornerNew.gif) top left no-repeat;padding:2.7em 0 0 2.5em}
+.bottomLeftRoundCorner{background:url(../images/bottomLeftRoundCorner.gif) bottom left no-repeat;padding:0 0 1em 1em;zoom:1}
+#siteLogo{margin:1em 0 1em 0}
+#siteLogo.cochrane-logo{margin:0}
+.imgShadow{float:left;background:url(../images/shadowAlpha.png) no-repeat bottom right!important;background:url(../images/shadow.gif) no-repeat bottom right;margin:5px 0 0 5px;position:relative}
+.imgShadow img{display:block;position:relative;background:#fff;margin:-5px 6px 6px -5px}
+.formError,.error{color:#bc361a;font-style:normal;clear:both}
+.error *{color:#bc361a}
+.sectionHeading{padding:0 0 .5em 0;position:relative;clear:both;overflow:hidden;line-height:1.6em;vertical-align:top}
+.sectionHeading .heading{float:left;margin-top:.6em}
+.sectionHeading h1{padding-bottom:.1em}
+.sectionHeading h2{margin-bottom:0}
+.sectionHeading p{display:inline;border-left:2px solid #757373;margin:0 0 0 .75em;padding:0 0 0 1em;vertical-align:middle;line-height:1em;color:#5d5d5d}
+.sectionHeading p strong{color:#007e8b}
+.sectionHeading p a{font-weight:bold;font-size:.9em}
+.sortBy{float:right;padding-right:.5em}
+.sortBy label{display:block;float:left;margin:.3em .5em 0 0}
+.sortBy select{border:1px solid #829db8;height:1.9em;margin:0 .4em 0 .3em;width:12em;font-size:1.2em;padding:0;height:auto;float:left}
+.freeAccess,.licensedContent,.openAccess{float:right;text-indent:-999em;width:17px;height:25px;margin-top:.3em;background:url(../images/wolIconsNew.gif) no-repeat -383px 0}
+.openAccess{background-position:-383px -43px}
+.licensedContent{background-position:-383px -92px}
+.access .licensedContent,.access .freeAccess,.access .openAccess{margin-top:0}
+#titleMeta .freeAccess,#titleMeta .licensedContent,#titleMeta .openAccess{margin-top:-3px;background-position:-383px 0}
+#titleMeta .licensedContent{background-position:-383px -94px}
+#titleMeta .openAccess{background-position:-383px -43px}
+.unpublished{float:right;text-indent:-999em;width:16px;height:23px;margin-top:0}
+span.unpublished,#titleMeta span.unpublished,.access span.unpublished{background:transparent url(../images/unpublished.gif) no-repeat 0 0}
+.articles .access span.unpublished{background:transparent url(../images/unpublished.gif) no-repeat 0 7px}
+#publications .access span.unpublished{background:transparent url(../images/unpublished.gif) no-repeat 0 1px}
+.subSectionHeading{margin:0 0 1em 0}
+.subSectionHeading h3{line-height:1.1em}
+#bookHome .books .subSectionHeading h3,#relatedArticles .subSectionHeading h3,.subSectionHeading h2{display:inline;margin-right:0}
+.subSectionHeading p{display:inline;border-left:2px solid #757373;margin:0 0 0 .75em;padding:0 0 0 1em;font-size:1.1em;line-height:1em}
+.articles .citation p.chapter,.subSectionHeading p a{font-weight:bold}
+.subSectionHeading select{margin-bottom:.5em;border:1px solid #c7d5d9;font-size:1em;width:17.3em;float:right;margin-top:-0.1em}
+.subSectionHeading label{position:absolute;left:-999em}
+.tabbedContent{border-bottom:2px solid #007e8b;clear:both;overflow:hidden}
+.tabbedContent li{color:#757373;float:left;font-size:1.1em;font-weight:bold;margin-right:.5em;background:#e4e9eb url(../images/wolIconsNew.gif) no-repeat 0 -714px}
+.tabbedContent li a,.tabbedContent li span{display:block;background:url(../images/wolIconsNew.gif) no-repeat 100% -714px;padding:.6em .9em .4em .9em}
+.tabbedContent li.active{background:#007e8b url(../images/wolIconsNew.gif) no-repeat 0 -775px}
+.tabbedContent li.active a,.tabbedContent li.active span{background:url(../images/wolIconsNew.gif) no-repeat 100% -775px;color:#fff}
+.yearFilter{padding:0 0 .8em 0;overflow:hidden;margin:0 0 0 -1em}
+.yearFilter li{display:inline;padding:0 1em;border-left:2px solid #757373;margin-left:-0.2em;font-size:1.1em;color:#2d2d2d;font-weight:bold}
+.yearFilter li.selected{color:#b27900}
+.paginationFilter{padding:0 0 1em 0;margin-left:1em;clear:left;overflow:hidden}
+.paginationFilter p,.paginationFilter ol{float:left;line-height:1.1em;font-weight:bold;color:#2e2d2d;margin-bottom:0}
+.paginationFilter p{font-size:1.1em}
+.paginationFilter ol{overflow:hidden;width:auto}
+.paginationFilter li{font-size:1.1em;display:inline;border-left:2px solid #757373;margin-left:-0.2em;padding:0 1em .3em 1em}
+.paginationFilter li.selected{color:#b27900}
+.alphabeticalFilter{font-weight:bold;padding:0 0 1em 1.2em;clear:left}
+.alphabeticalFilter li{padding:0 .55em 0 0;color:#2d2d2d;display:inline}
+.alphabeticalFilter li.selected{color:#b27900}
+.productMenu{clear:both;overflow:hidden;padding:.2em 0 .4em 0;margin-left:-0.3em;line-height:1.3em}
+.productMenu li,.articles li .productMenu li{border-left:2px solid #757373;margin-left:-0.2em;display:inline-block;padding:0 .6em 0 .4em;font-weight:bold}
+.productMenu li a{display:inline-block;color:#000}
+.productMenu.openUrl{padding-top:0;margin-left:-0.3em;margin-top:-0.3em}
+.productMenu.openUrl li{line-height:inherit}
+.openUrl li a{color:#757373}
+.articles{padding:0;clear:both;line-height:1.5em;overflow:hidden}
+.articles li{padding:0 0 1em 0;overflow:hidden}
+.articles li h4{margin-bottom:.5em;color:#007e8b}
+.articles li h5{color:#007e8b;font-weight:normal;font-style:italic}
+.articles li h4 span{font-weight:normal}
+.articles li p,#articleInformation .citation p{color:#757373}
+.articles li .citation{float:right;margin-left:2em;width:41.5em}
+.articles li .citation span.smallCaps{font-variant:small-caps}
+.articles li .citation a,.articles li .citation a em,.articles li .citation a sup,.articles li .citation a sub{color:#000;font-weight:bold}
+.articles li .citation .openUrl li a{color:#757373}
+.articles .citation p{margin:0}
+.articles li .articleAbstract p,.articles .citation p.chapterTitle{color:#000}
+.articles .citation .errata .erratum a,.articles .citation .errata .retraction a{font-size:1em}
+.articles li .articleAbstract{margin:.5em 0 .5em 0;overflow:hidden}
+.articles li .articleAbstract a{font-weight:normal;font-size:inherit;text-decoration:underline}
+.articles li .articleAbstract a:hover{text-decoration:none}
+.articles li .articleAbstract img{float:left;margin:0 1.5em 0 0}
+.articles li .articleAbstract div.para p img{float:none;margin:0}
+.articles li .citation h3,.articles li .articleAbstract h5{color:#757373;font-weight:normal;margin:0;text-transform:uppercase}
+.articles li .number{float:left;font-weight:bold;text-align:center;width:1.6em}
+.articles li .accessInfo{width:19em;float:left;text-align:right;padding:0 1em 0 0}
+.articles li .accessInfo p{margin:0 0 .2em 0}
+.articles li .cca{float:right;font-size:.8em;font-weight:bold;width:8em;text-align:right;padding-right:20px;min-height:16px;text-transform:uppercase;background:url(../images/wol-cca-sprite.gif) 0 0 no-repeat;cursor:default}
+.articles li .cca-new{color:#7c3bb9;background-position:100% 0}
+.articles li .cca-archived{color:#b93936;background-position:100% -48px}
+.articles li .cca-updated{color:#d79a0b;background-position:100% -96px}
+.articles li .cca-under-assessment{color:#3a97b8;background-position:100% -142px;line-height:1}
+#referenceLinking .articles li .citation{float:none;margin-left:0;width:100%}
+#referenceLinking ul.externalReferences li{display:inline;margin-right:.5em;padding:0}
+#referenceLinking .internalReferences a,#referenceLinking .externalReferences a,#referenceLinking .openUrl a{font-weight:normal;color:#007e8a}
+.selectAll fieldset{padding-top:.1em;display:none}
+.selectAll input{margin-right:.3em}
+.selectAll label{vertical-align:top}
+#pdf{position:relative;padding:0;margin:0;width:auto;margin-left:2em}
+#pdf object{clear:left}
+#pdfHeader{overflow:hidden;width:97.9em;margin:0 auto;position:relative}
+#pdfHeader #siteLogo{position:absolute;bottom:0;right:0;width:180px}
+#pdfHeader #coBranding{float:right;margin:1em 185px 1em 0}
+#coBranding img{max-width:160px}
+#pdfMetaData{float:left}
+#productTitleAndVolume{margin-top:.5em;overflow:hidden;width:500px;position:relative}
+#productTitleAndVolume h1{width:478px;font-size:1.5em;margin:0 0 .2em 0;float:left;margin-left:22px}
+#productTitleAndVolume .openAccess,#productTitleAndVolume .freeAccess,#productTitleAndVolume .licensedContent{top:0;left:0;position:absolute;float:none}
+#productTitleAndVolume #productTitle{margin-right:1em;display:block}
+#productTitleAndVolume #publicationDate,#productTitleAndVolume #earlyView,#productTitleAndVolume #acceptedArticle,#productTitleAndVolume #volumeAndIssue{color:#757373;font-weight:normal;font-size:.8em;padding-top:.2em}
+#pdfHeader .productMenu{margin-bottom:.5em;margin-left:18px;max-width:490px;clear:left}
+#pdfHeader .enhancedPdf{float:left;margin:1.5em 0 0}
+#pdfHeader .enhancedPdf .pdfLink{display:inline-block;height:33px;width:120px;text-indent:100%;overflow:hidden;white-space:nowrap;background:url(../images/enhancedPdf.png) 0 0 no-repeat}
+.resources h3{margin:0 0 .3em 0}
+.resources li,.resources p{margin:0 .8em .7em 0}
+.resources li{margin-bottom:.2em;padding:.35em 0 0 1em;background:url(../images/wolIconsNew.gif) no-repeat -395px -503px}
+#pdf .errata{clear:left;width:800px}
+.errata{clear:both}
+.errata span.label{color:#5d5d5d;font-weight:bold;margin-bottom:.2em;display:block}
+.errata .erratum,.errata .retraction{clear:left;color:#5d5d5d;margin-bottom:.3em}
+.errata .erratum p a,.errata .erratum p a em,.errata .retraction p a,.errata .retraction p a em{color:#007e8b;font-weight:normal}
+#titleMeta .errata .erratum p,.errata .erratum p,#titleMeta .errata .retraction p,.errata .retraction p{margin:0}
+ul.previousAndNext{overflow:hidden;padding:.5em 0;margin-left:-1em}
+ul.previousAndNext li{border-left:2px solid #757373;float:left;margin-left:-2px;display:block;text-indent:0;padding-top:0;padding-left:1em}
+ul.previousAndNext li a{padding-right:1em}
+.noItemsReturned{margin:1em;font-weight:bold}
+table{width:100%}
+table th,table td{padding:.5em 1em .5em 0;white-space:normal;word-wrap:break-word}
+ul.inlineBorder{overflow:hidden;margin-left:.5em}
+ul.inlineBorder li{float:left;padding-right:.7em;border-left:2px solid #757373;padding-left:.5em;margin-left:-2px}
+ul.inlineBorder li a{line-height:1.2em}
+.bulleted li{margin:0 0 .5em 0;background:url(../images/wolIconsNew.gif) no-repeat -395px -514px;margin-bottom:.2em;padding:.2em 0 0 1em}
+#stackTrace{height:10em;overflow-y:auto}
+ol#sendEmailCitation{padding:.3em .3em .3em 1.5em;list-style-type:decimal}
+#sendEmailCitation li{margin:0 0 .75em 0;color:#5d5d5d}
+.informationList{position:relative;overflow:hidden;width:100%}
+.informationList dt{position:absolute;left:-999em;top:-50em}
+.informationList dd{margin:0 1em 0 0;display:inline;float:none}
+.buttonGroup{padding:1em 0 1em 0;overflow:hidden}
+.buttonGroup li{margin:0 .5em .2em 0;float:left}
+input.action,input.submit,.buttonGroup input,a.submit,a.action{background:#006976;background:-moz-linear-gradient(90deg 8px,#095b65,#006976) repeat scroll 0 0 transparent;color:#fff;border:0;font-weight:bold;display:inline-block;zoom:1;*display:inline;vertical-align:baseline;outline:0;cursor:pointer;text-align:center;text-decoration:none;-webkit-border-radius:.5em;-moz-border-radius:.5em;border-radius:.5em;-webkit-box-shadow:0 1px 2px rgba(0,0,0,.5);-moz-box-shadow:0 1px 2px rgba(0,0,0,.5);box-shadow:0 1px 2px rgba(0,0,0,.2);padding:0 .2em .1em .2em;margin-bottom:.2em}
+a.submit,a.action{padding:0 .5em .1em}
+input.action:hover,input.submit:hover,.buttonGroup li input:hover,a.submit:hover,a.action :hover{text-decoration:none}
+input.action:active,input.submit:active,.buttonGroup li input:active,a.submit:active,a.action :active{position:relative;top:1px}
+.buttonGroup input,li input.action,li a.action{font-size:.9em}
+#saveEditGroup a.action,#savedSearchesList a.action,.action a,input.action,.buttonGroup input,#searchAlerts a.action{background:#e2eaed;color:#333132}
+#saveEditGroup .action a{height:1.45em;padding:0 .2em;line-height:1.45em}
+#saveEditGroup .action a:hover{text-decoration:none}
+#saveEditGroup{float:right;margin-right:3em}
+#fulltext,#relatedArticles{border-bottom:2px solid #e1e9eb;border-left:2px solid #e1e9eb;padding:1em 1em 0 1em;zoom:1}
+#relatedArticles,#fulltext .section{overflow:hidden}
+#relatedArticles .sectionHeading h3{color:#000;margin-bottom:.5em}
+.viewFullArticleAndPdf{border-bottom:2px solid #e1e9eb;border-left:2px solid #e1e9eb;padding:1em 0 1em 1em;width:98%;overflow:hidden;text-align:right}
+.viewFullArticleAndPdf .viewFullArticleAndPdfOptions{display:inline}
+.viewFullArticleAndPdf .viewFullArticleAndPdfOptions a{border-right:2px solid #757373;font-size:1.2em;font-weight:bold;padding:.2em .8em .1em}
+.viewFullArticleAndPdf .viewFullArticleAndPdfOptions a.viewFullTextLink{border-right:2px solid #757373;margin-right:-0.2em}
+.viewFullArticleAndPdfOptions a.pdfLink,.viewFullArticleAndPdfOptions a.readcubePdfLink{padding-right:.5em;padding-left:2.7em;border-right:2px solid #757373;background:url(../images/wolIconsNew.gif) 10px 0 no-repeat;margin-right:-0.2em}
+.viewFullArticleAndPdf .viewOpenUrl{display:inline-block;margin-right:-0.2em}
+.viewFullArticleAndPdf .viewOpenUrl li{font-size:1em;text-align:right;display:inline-block;margin-top:1em}
+#relatedArticles ul{overflow:hidden;margin:0 0 .5em 0}
+#relatedArticles ul li{margin:0 .5em .5em 0;border-left:1px solid #000;display:inline;margin-left:-1px;border-right:0;padding:0 0 0 .5em;white-space:nowrap;float:left}
+#seeAlsoHeading,#findTopicsHeading,#findArticlesHeading,#articlesWrittenByHeading,#articlesIndexTerms,#articlesSpecialSections{float:left;font-size:1.2em;color:#5d5d5d;font-weight:bold;padding:0 .5em 0 0}
+#relatedArticles ul li a{font-weight:bold;text-decoration:none}
+#relatedArticles ul li a:hover{text-decoration:underline}
+.decisionTree,.decisionTree ul{clear:both;list-style-type:disc;padding:.5em 2em}
+.tree{line-height:140%}
+.tree li a{font-weight:bold}
+.tree li{clear:both;padding-top:.2em;padding-bottom:.2em}
+.tree li a.branchLabel span{margin-left:1.9em}
+.tree li span.leaf{float:left;width:80%}
+.tree .closed{background:url(../images/plus.gif) no-repeat scroll 0 3px}
+.tree .open{background:url(../images/minus.gif) no-repeat scroll 0 3px}
+.tree .fetching{background:url(../images/arrows.gif) no-repeat 0 0}
+.tree ol{margin:0 0 0 1.9em}
+.internalReferences{margin:0;clear:both;width:100%;overflow:hidden}
+.internalReferences .directLinkLabel{text-indent:-999em;width:1.5em;background:url(../images/wolIconsNew.gif) no-repeat scroll 0 -587px;float:left;margin-right:.7em;padding-left:.4em;margin-top:2px}
+.internalReferences ul{overflow:hidden;margin-left:-0.4em;float:left;margin-bottom:.3em}
+#fulltext .plain .openUrl{text-indent:0}
+#fulltext .plain .openUrl li{padding:0 .3em}
+#fulltext .plain .externalReferences+.openUrl{margin-left:-1.6em}
+.internalReferences ul li,.openUrl li{border-left:1px solid #757373;font-size:1.1em;margin-left:-0.1em;display:inline;padding:0 .4em 0 .3em;line-height:1.2em}
+#fulltext .openUrl li:first-child{border-left:none;padding-left:.1em}
+.internalReferences ul li a,.openUrl li a{font-size:.9em}
+.internalReferences a,.openUrl li a{float:left;margin-top:2px}
+.internalReferences li a,.openUrl li a{float:none}
+.openUrl{clear:left;margin:0 0 .3em 0;overflow:hidden}
+.openUrl li a{color:#007e8a}
+#productContent .plain li .internalReferences ul li,#productContent .custom li .internalReferences ul li,#productContent ul.openUrl li{padding:0 .4em 0 .3em}
+#referenceLinking .internalReferences .directLinkLabel{background:url(../images/wolIconsNew.gif) no-repeat scroll 0 -590px}
+#productContent .plain li .internalReferences ul{padding-left:1.6em}
+.flot-graph{margin-bottom:1em}
+.flot-graph .legend table{width:auto}
+#totalViews{font-weight:normal;margin:1em 0;overflow:hidden}
+#totalViews a{margin-left:.5em;cursor:pointer}
+#totalViews li{float:left;margin-left:1em}
+#totalViews li span{font-weight:bold}
+#fancybox-inner .tabbedContent li{background-color:#e9eff0}
+#fancybox-inner .tabbedContent li a{color:#4a696c}
+#fancybox-inner .tabbedContent li.active{background-color:#007e8b}
+#fancybox-inner .tabbedContent{border-bottom:0}
+#fancybox-inner .dataTable{border:2px solid #007e8b;padding:.5em .5em .5em 1.5em;height:225px;overflow:hidden;margin-bottom:1em}
+#flotGraph{border:2px solid #007e8b;padding:.5em .5em .5em 1.5em;height:245px;overflow:hidden;margin-bottom:1em}
+#flotGraph #graph{height:225px;width:700px;margin:10px 0 10px 0}
+#flotGraph #graph .legend{width:70px}
+#flotGraph #graph .legend table{width:50px}
+.flotToolTip{position:absolute;padding:3px;background-color:#5d5d5d;color:#fff;font-weight:bold;z-index:1000000;font-size:1.3em}
+#fancybox-inner #toggleTotals{background:0;color:#000;font-weight:normal;padding-top:.3em}
+#fancybox-inner #toggleTotals input{vertical-align:middle}
+#fancybox-inner #aboutUsageData{padding:1em 1em 0 1em;overflow:hidden}
+#fancybox-inner #aboutUsageData{background-color:#e7eeef}
+#aboutUsageData ul{list-style:disc outside;margin-bottom:1em;margin-left:3em}
+.issueVolumes{padding:.8em 1em .1em .8em}
+.issueVolumes li{margin:0 0 .5em 0;overflow:hidden;clear:both}
+.issueVolumes li ol{margin:0 0 1em 3.8em;padding:.5em 0 0 0;overflow:hidden}
+.issueVolumes li p{margin-bottom:0;color:#757373;margin-bottom:.7em}
+.issueVolumes li a{font-weight:bold}
+.issueVolumes li ol li{margin:0 0 .5em 1.2em;line-height:1.2em}
+.issueVolumes li a.issuesInYear{line-height:140%;text-decoration:none}
+.issueVolumes li span{margin-left:1.9em}
+.issueVolumes li a:hover span{text-decoration:underline}
+.issueVolumes li .closed{background:url(../images/plus.gif) no-repeat 0 .35em}
+.issueVolumes li li{padding-left:2em}
+.issueVolumes li li li{padding-left:1em}
+.issueVolumes li li .closed,.issueVolumes li li .open{padding-left:2em;margin-left:-2em;display:block;float:left}
+.issueVolumes li .open{background:url(../images/minus.gif) no-repeat 0 .35em}
+.issueVolumes li .fetching{background:url(../images/arrows.gif) no-repeat 0 0}
+li.backfileBoundary{border-top:2px solid #e1e9eb;padding-top:.5em}
+li span.backfileLabel{color:#757373;float:right;font-size:.9em;margin-right:1em}
+.issueVolumes li .freeAccess,.issueVolumes li .openAccess,.issueVolumes li .licensedContent{float:left;padding:0;margin:-5px 0 0 0}
+.issueVolumes li .issue{margin:5px 0 0 0}
+.issueVolumes li .articles{padding:0;font-size:1em;margin:0 0 0 1em}
+.issueVolumes li .articles li{padding:0}
+.madgexJobsWidget{width:174px;background:#1697ab;margin:1em auto;-moz-border-radius:.6em;border-radius:.6em}
+.madgexJobsWidget h2,.madgexJobsWidget p{margin:0}
+.madgexJobsWidget h2 a{display:block;text-indent:-9999px;height:25px;padding:0 .5em;background:url(../images/wjn_title_wiley_logo.gif) center no-repeat}
+.madgexJobsWidget h3{text-align:center;padding:0 .3em}
+.madgexJobsWidget h3 a{display:block;color:#FFF;border-top:1px solid #FFF;padding:.5em 0}
+.madgexJobsWidget ul{padding:0 10px 1em 10px;width:152px;border:1px solid #dededf;border-top:0;border-bottom:0;background:#f6f7f8}
+.madgexJobsWidget li{padding:0;margin:0 0 .2em 0;color:#666;line-height:1.2em;word-wrap:break-word}
+.madgexJobsWidget li a{display:block;padding:.7em 0 0 0;font-weight:bold;color:#007e8a;word-wrap:break-word}
+.madgexJobsWidget p a{display:block;width:154px;font-weight:normal;font-size:11px;color:#FFF;padding:.5em 10px}
+.pangaeaLink{line-height:27px;padding-left:42px;margin-top:1.5em;overflow:hidden;background:transparent url(../images/thirdparty/pangaea/pangaea_logo_39x27.gif) no-repeat 0 0}
+.access .leftCol,.access .rightCol{float:left;width:46%;margin-bottom:2em}
+.access .rightCol{float:right;clear:none}
+.wolLogin+.shibbolethWidget,.shibbolethWidget+.wolLogin,.shibbolethWidget+.recommendToLibrarian{padding-top:2em;margin-top:2em;border-top:2px solid #e1e9eb}
+.loginContainer{width:400px;margin:0 auto;padding:30px 0 30px 20px}
+.fancyboxForceHeight{min-height:450px}
+.standalone{padding-bottom:120px}
+.confirmContainer{padding:25px 0 15px}
+.overlayLogo{margin:0 0 20px -20px}
+.loginContainer .message{margin-top:1em}
+.loginContainer .errorMsg{color:#b94a48}
+.loginContainer .loginForm{background-color:#eee;padding:15px 20px 5px;margin:20px 0 30px -20px}
+.loginForm .formField,.loginForm .formAction{margin-bottom:.75em}
+.loginContainer .formField,.loginContainer .formAction{padding:.4em 0 0}
+.loginForm .formField .label{color:#5c5c5c;display:block;margin-bottom:.2em}
+.loginContainer .formField label{color:black}
+.loginContainer .formField label.error{color:#b94a48;line-height:1.4em}
+.loginForm .formField input{display:block;width:98%;float:none;padding:2px;border:1px solid #ccc;border-radius:3px;box-shadow:inset 0 1px 1px rgba(0,126,138,0.075);-webkit-transition:border linear .2s,box-shadow linear .2s;-moz-transition:border linear .2s,box-shadow linear .2s;-ms-transition:border linear .2s,box-shadow linear .2s;-o-transition:border linear .2s,box-shadow linear .2s;transition:border linear .2s,box-shadow linear .2s}
+.loginForm .inlineCheck{display:inline;padding:0 0 10px}
+.loginForm .inlineCheck input{display:inline;vertical-align:middle;float:left;width:20px;border:0}
+.loginForm .formField input:focus{border-color:#007e8a;border-color:rgba(0,126,138,0.8);outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px rgba(0,126,138,0.6)}
+.loginForm .formField .error:focus{-webkit-box-shadow:0 0 4px #d59392;-moz-box-shadow:0 0 4px #d59392;box-shadow:0 0 4px #d59392;border-color:#b94a48}
+.loginForm .forgotPassword{padding:0 0 4px 15px;font-size:1em;display:inline;vertical-align:baseline}
+.noLogin .navAction,.loginForm .formAction{overflow:hidden;padding-bottom:2px}
+.navAction .actionBtn,.formAction .actionBtn{float:right;background-color:#007e8a;border:0;border-radius:3px;box-shadow:1px 1px 2px #ccc;text-shadow:1px 0 1px #5d5d5d;color:#fff;font-weight:bold;padding:2px 4px;text-decoration:none;cursor:pointer;-webkit-transition:background .3s ease;-moz-transition:background .3s ease;-ms-transition:background .3s ease;-o-transition:background .3s ease;transition:background .3s ease;overflow:visible;margin-right:1%}
+.loginContainer .formAction .actionBtn{width:160px;text-transform:uppercase}
+.loginForm .centered{text-align:center}
+.centered .actionBtn{float:none;display:inline}
+.navAction .actionBtn{display:inline-block;float:left;text-align:center;width:180px;text-transform:uppercase;font-size:1.2em;padding-top:5px;padding-bottom:5px;margin-right:2%}
+.navAction .actionBtn:hover,.formAction .actionBtn:hover{background-color:#095b65}
+.navAction .okBtn{float:right;width:auto;font-size:1em;padding:.2em 2em}
+.formAction .actionBtn:active{position:relative;top:1px}
+.formAction .registerLink{font-size:1.3em;float:left;line-height:2;font-weight:bold}
+.formAction .secondaryBtn{background-color:#999}
+.formAction .secondaryBtn:hover{background-color:#777}
+.navAction .cancelBtn{background-color:#CCC;text-shadow:1px 0 1px #AAA;color:#777}
+.navAction .cancelBtn:hover{background-color:#BBB;color:#555}
+.asConfirm .formAction .actionBtn,.asConfirm .formAction .secondaryBtn{float:none;margin-right:.5em}
+.pdfOverlay{line-height:1.3}
+.pdfOverlay .choosePdfFormat{color:#007e8b;margin-bottom:1.5em;font-size:1.4em}
+.pdfOverlay .pdfOptions{overflow:hidden}
+.pdfOverlay .pdfOptions .pdfType{float:left;width:42%;margin:0 3.5%}
+.pdfOverlay .standardPdf,.pdfOverlay .enhancedPdf{padding-top:54px;font-size:1.1em;font-weight:bold;display:block;color:#3d3d3d;text-align:center;background:url(../images/wolReadcubeIcons.png) 0 0 no-repeat}
+.pdfOverlay .standardPdf{background-position:40% -96px}
+.pdfOverlay .enhancedPdf{background-position:50% 0}
+.pdfOverlay .readcubeRef{padding:.2em .4em;margin-left:1.2em;border-radius:3px;font-weight:bold;font-size:.9em;color:#fff;background:#007e8b;display:inline-block}
+.pdfOverlay .enhancedPdfBenefits{list-style-type:square;margin:1em 0 .5em .7em}
+.pdfOverlay .enhancedPdfBenefits .benefit{padding:0 0 .3em 0;font-size:.9em;margin-left:.5em}
+div.homepageFragment table td{vertical-align:top}
+#fullWidthContent .enhancedArticleLink,#content .enhancedArticleLink,#pdf .enhancedArticleLink{background:url('../images/wolIconsNew.gif') no-repeat 2px -871px;padding-left:18px;color:#2a7ab0!important}
+#content .viewFullArticleAndPdf .viewFullArticleAndPdfOptions .enhancedArticleLink{background-position:8px -869px;padding-left:23px}#titleMeta{float:left;width:54.3em;margin:0 0 1em 0}
+#titleMeta p a{font-size:1em}
+#titleMeta cite{display:inline;font-size:1.3em}
+#footnotes cite{font-size:1em}
+#titleMeta #productTitle{border-bottom:.1em solid #e1e9eb;margin:0 0 .23em 0;padding-bottom:.22em}
+p.copyright{font-size:1.1em;color:#a3a2a2}
+#titleMeta .smallCaps{font-variant:small-caps}
+#titleMeta h2{line-height:1.3em}
+#titleMeta .issueDetails p span,#titleMeta #issuePages,#titleMeta .earlyView,#titleMeta .acceptedArticle,#titleMeta #issueDate,#titleMeta #volumeNumber,#titleMeta #issueNumber{color:#007e8b;font-weight:bold}
+#titleMeta #cover{float:left;margin-right:1em}
+#titleMeta #cover .coverLink{padding:0 0 0 .5em;margin:10.5em 0 0 -5px;line-height:2em}
+#titleMeta #metaData{position:relative}
+#titleMeta p{margin-bottom:.5em}
+#titleMeta #doi{word-wrap:break-word}
+#titleMeta #metaData .issueAndVolume{margin:0}
+#titleMeta #productDescription{padding-top:1em;clear:left}
+#titleMeta #issueDetails{margin:0 0 1em 0}
+#titleMeta #issueDetails p{margin:0}
+#titleMeta .articleTitle{font-size:1.4em;color:#000;margin:0 0 1em 0}
+#titleMeta .articleTitle .mainTitle{display:block;margin-bottom:.5em}
+#titleMeta .articleTitle .additionalTitle{font-weight:normal;font-size:.9em}
+#titleMeta .subtitle{line-height:1.8em}
+#titleMeta #bookSeries,#titleMeta #authors,#titleMeta #editors,#titleMeta #seriesEditors,#articleInformation #authors,#articleInformation #editors{margin:0 0 1em 0;line-height:1.4em}
+#titleMeta #bookSeries a{font-size:1em}
+#titleMeta #editors li,#titleMeta #seriesEditors li #articleInformation #authors li,#articleInformation #editors li{display:inline}
+#titleMeta #authors{overflow:hidden}
+#titleMeta #authors li{display:inline-block;margin-right:5px}
+#titleMeta #authors li span{display:inline-block}
+#titleMeta #authors li sup{display:inline-block;line-height:1em}
+#titleMeta #authorsAffiliations,#titleMeta #editorsAffiliations{margin:0 0 1em 0}
+#titleMeta #authorsAffiliations li{text-indent:1em}
+#titleMeta #authorsAffiliations li p{text-indent:0;padding-left:.5em;width:41em}
+#authorsAffiliations .affiliationNumber,#editorsAffiliations .affiliationNumber{float:left;vertical-align:text-bottom;min-width:1em;font-size:.9em;line-height:1.5em;text-align:right;margin-right:.5em}
+#authorsAffiliations .affiliation sup,#editorsAffiliations .affiliation sup{font-size:.9em;line-height:1em}
+#titleMeta #authorsAffiliations p,#titleMeta #editorsAffiliations p{margin:0}
+#titleMeta #authorsAffiliations li,#titleMeta #editorsAffiliations li{overflow:hidden}
+#titleMeta #authorsAffiliations p,#editorsAffiliations .affiliation p{float:left;width:43em}
+#titleMeta #publicationHistoryDetails{margin:0 0 1em 0;clear:both}
+#titleMeta #publicationHistoryDetails li{line-height:1.3em}
+#titleMeta #publicationHistoryDetails li span{width:6em;display:block;float:left}
+#titleMeta #footnotes{margin:0 0 1em}
+#titleMeta #footnotes li span.bullet{display:block;float:left;min-width:1em;overflow-x:visible;overflow-y:visible;text-align:center}
+#titleMeta #footnotes li div.para{margin:0 0 0 1.7em}
+#titleMeta #footnotes li div.para p{margin:0}
+#titleMeta .fundingInfo span{display:block;font-weight:bold;margin-bottom:.5em}
+#titleMeta .fundingInfo{margin:0 0 1em 0}
+#titleMeta .fundingInfo ul{list-style-type:disc;margin:0 0 0 1.1em}
+#titleMeta .fundingInfo li{line-height:1.3em}
+#titleMeta #totalViews{clear:both}
+#titleMeta #totalViews span{font-weight:bold}
+#titleMeta #totalViewsError span{font-weight:bold}
+#titleMeta #totalViewsError{clear:both}
+#titleMeta #totalViewsError a{padding-left:.5em}
+#titleMeta #articleMeta sup a{vertical-align:top}
+#titleMeta #additionalInformation h4{margin-bottom:.4em}
+#titleMeta #correspondence sup,#titleMeta #howToCite cite,#titleMeta #howToCite .articleTitle{font-size:1em}
+.issueVolumes,#issuesByYear ul.issues{border-left:2px solid #e1e9eb;border-top:2px solid #e1e9eb}
+.issueVolumes{padding:.8em 0 .1em .8em}
+.issueVolumes li{margin:0 0 .5em 0;overflow:hidden;clear:both}
+.issueVolumes li ol{margin:0 0 1em 3.8em;padding:.5em 0 0 0;overflow:hidden}
+.issueVolumes li p{margin-bottom:0;color:#757373;margin-bottom:.7em}
+.issueVolumes li a{font-weight:bold}
+.issueVolumes li ol li{margin:0 0 .5em 1.2em;line-height:1.2em}
+.issueVolumes li a.issuesInYear{line-height:200%;text-decoration:none;display:block;overflow:hidden;position:relative;padding:.5em 0 0 0}
+.issueVolumes li span{margin-left:3.2em;display:inline-block;*display:inline;zoom:1}
+.issueVolumes li a.issuesInYear span.openAccess{position:absolute;left:1.4em;top:.4em}
+.issueVolumes li a#backfileIssueAccess{line-height:140%}
+.issueVolumes li a:hover span{text-decoration:underline}
+.issueVolumes li .closed{background:url(../images/plus.gif) no-repeat 0 1.2em}
+.issueVolumes li .open{background:url(../images/minus.gif) no-repeat 0 1.2em}
+.issueVolumes li .fetching{background:url(../images/arrows.gif) no-repeat 0 0}
+#allIssues li.backfileBoundary{border-top:2px solid #e1e9eb;padding-top:.5em}
+#allIssues li span.backfileLabel{color:#757373;float:right;font-size:.9em}
+.issueVolumes li .freeAccess,.issueVolumes li .openAccess,.issueVolumes li .licensedContent{float:left;padding:0;margin:0}
+.issueVolumes li .issue{width:34.5em;float:right;margin:5px 0 0 0}
+#siteMapList ol{margin:0 0 1.2em 2em}
+#siteMapList a{margin:0 0 .2em 0;display:block}
+#issuesByYear .issue{border-bottom:2px solid #e1e9eb;padding:.8em 0 .8em .8em;overflow:hidden;position:relative}
+#issuesByYear .details{margin-left:6.5em}
+.details p{margin:0;color:#007e8a;font-weight:bold}
+.details p span{color:#757373;font-weight:normal;font-style:italic}
+.details .issueDetails,.details p.issue-pages,.details p.issue-number,.details p.issue-volume{color:#000;font-weight:normal}
+#issuesByYear .details p.specialIssue{color:#757373;font-weight:normal}
+#issuesByYear .issue .openAccess{float:left;margin-left:.4em}
+#issueToc{width:54.3em}
+#bookHome form,#issueToc form{padding-left:0}
+#issueToc .listNum{display:none}
+#issueTocGroups li{padding-left:1em;border-bottom:2px solid #e4eef0}
+#issueTocGroups .subSectionHeading{margin:0;padding:1em 0;position:relative;overflow:hidden}
+#issueTocGroups li ol li{margin-top:0;padding-left:0;border-bottom:0}
+#issueTocGroups li .articles .productMenu li{padding:0 .6em 0 .4em}
+#issueToc form .selectAll label{vertical-align:top}
+#issueToc .buttonGroup.topLeftRoundCorner{border-left:none}
+#issueToc .paginationFilter{margin-left:0;padding-left:1em;border-left:2px solid #e4eef0}
+div.graphicalToc .graphicalTocImg{margin:1em 1.5em 1em 0}
+#issueToc #issueTocGroups{border-top:2px solid #e4eef0;margin-bottom:1em}
+#bookHome .resultControls,#issueToc .resultControls{padding-top:0}
+#issueToc .resultControls .toggleSlideshow{float:right;font-size:1.2em;font-weight:bold;line-height:1.6;cursor:pointer}
+#exportCitation .citations{min-height:8em;overflow:auto}
+#exportCitation .citations li{width:75%;line-height:1.3em}
+#exportCitation #exportOptions{float:none;width:100%}
+#subjectLanding #subjectNews,#subjectLanding #newArticles,#journalHome #recentIssues,.moduleFragmentContainer{margin:0 0 2em 0;width:26em}
+.customModuleFragmentContainer{margin:0 0 2em 0}
+.customModuleFragmentContainer img{width:100%}
+.moduleFragmentContainer h4{margin:0 0 .3em 0;font-size:1em}
+.moduleFragmentContainer .imgShadow{margin-bottom:0;margin-right:1em}
+.moduleFragmentContainer .sectionHeading h3{display:inline;float:none}
+#journalHome #recentArticles{clear:both}
+#journalHome #recentArticles .topLeftRoundCorner{padding:.8em 0 0 .8em}
+#journalHome .issues li{margin:0 0 .5em 0}
+#journalHome .issues p.issue,#journalHome .issues p.volumeAndIssue{margin:0;font-size:.9em}
+#journalHome .issues p.issue{font-weight:bold}
+#journalHome .issues p.volumeAndIssue{color:#000}
+#journalHome .currentIssue,#journalHome .virtualIssue{color:#000;font-weight:bold;margin-right:.5em}
+#journalHome .supplimentIssue,#journalHome .specialIssue{color:#757373;font-size:.9em;font-style:italic;margin-bottom:0}
+#mostViewdPublications{margin:0 0 1em 0;padding:1em 0 0 1em}
+#mostViewdPublications ul{padding:0 0 0 1em;overflow:hidden}
+#mostViewdPublications li{margin:0 2em 0 -0.8em;float:left;width:9.6em}
+#mostViewdPublications li h2{padding-top:.5em}
+#mostViewdPublications li h2 #mostViewdPublications li p{margin-bottom:0;clear:both}
+#subjectLanding .articles .access{width:2em;position:relative}
+p#viewAllProducts{margin:1em 0 0 0}
+#browseBySubject{padding:.5em 0 0 .5em}
+#browseBySubject li{clear:left;font-size:1.3em;padding:0;position:relative;width:auto}
+#browseBySubject li a{padding:.4em 1em .4em .5em;display:block;position:relative;cursor:pointer}
+#browseBySubject li.hover{background-color:#e1e9eb}
+#browseBySubject li.hover a{z-index:100;background:url(../images/browse_over_noShadow.gif) no-repeat 13em -3px}
+#browseBySubject li.hover li a{background:0;z-index:auto;padding:.2em;width:auto;position:static;margin:0}
+.js_en #browseBySubject li.hover div{display:block}
+.js_en #browseBySubject li div{display:none;left:15.5em;top:0;position:absolute;float:left;z-index:10;margin:-2em 0 0 0;border:2px solid #e1eae9;padding:1em;float:left;background:#fff}
+#browseBySubject li div ol{float:left;margin:0;padding:0;background:#fff;width:15em}
+#browseBySubject li li{font-size:1em;margin:0;padding:.25em 1em;position:relative;z-index:101}
+#browseBySubject li li:hover,#browseBySubject li li.hover{background:#e1e9eb;color:#c2320f}
+#mainContent #browseBySubject{width:19em}
+.js_en #mainContent #browseBySubject li div{left:14.4em}
+#mrwAdvancedSearch #productOptions li,#mrwAdvancedSearch #products li{margin-bottom:.5em}
+#mrwAdvancedSearch #productOptions li label,#mrwAdvancedSearch #products li label{vertical-align:top;margin-left:.5em}
+#mrwAdvancedSearch #products{margin-left:2.3em}
+#mrwAdvancedSearch .topLeftRoundCorner,#advancedSearch form.topLeftRoundCorner{padding:1em 0 0 0}
+#mrwAdvancedSearch .topLeftRoundCorner{clear:both}
+#advancedSearch .searchCriteria{padding-top:0}
+#advancedSearch #searchCriteria li{margin:0 0 .5em 0;clear:both;position:relative;min-height:1.4em}
+#searchTips .sectionHeading p,#advancedSearch .sectionHeading p{line-height:1.8em}
+#advancedSearch .submit,#mrwAdvancedSearch .submit{float:right}
+#advancedSearch h3,#mrwAdvancedSearch h3{margin:0 0 .5em}
+#advancedSearch select,#mrwAdvancedSearch select{min-height:1.4em;border:1px solid #829db8}
+#advancedSearch fieldset,#mrwAdvancedSearch fieldset{border-bottom:2px solid #e1e9eb;border-left:2px solid #e1e9eb;margin:0;padding:1em 0 1em 1em}
+#advancedSearch #subjects li label,#advancedSearch #searchCriteria li label{display:none}
+#advancedSearch #searchCriteria .searchText{float:left;width:20.5em;border:1px solid #829db8;margin:0 .5em .5em 5.9em;min-height:1.4em}
+#advancedSearch select.searchRestriction{width:14.2em;float:left;margin-right:1em}
+#advancedSearch #searchCriteria li a.deleteRow{background:#fff url(../images/wolIconsNew.gif) no-repeat 0 -623px;height:16px;margin:.2em 0 0 0;text-indent:-999em;width:16px;float:left}
+#advancedSearch #searchCriteria li a.deleteRow:focus{-moz-outline-style:none}
+#advancedSearch .searchCriteriaOptions{clear:both;padding-top:.5em}
+#advancedSearch #searchCriteria li select.andOrNot{width:5.4em;float:left;position:absolute;left:0}
+#advancedSearch .dateRanges,#mrwAdvancedSearch .dateRanges{width:20em;float:left;margin:0 1em 0 0}
+#advancedSearch .publicationTypes,#mrwAdvancedSearch .publicationTypes{width:12em;float:left}
+#advancedSearch .subjectsAndAccess,#mrwAdvancedSearch .subjectsAndAccess{width:21em;float:right}
+#dateRange li{margin-bottom:.5em}
+#advancedSearch .publicationTypes label,#mrwAdvancedSearch .publicationTypes label,#mrwAdvancedSearch #topics label{vertical-align:top;margin:0 0 0 .3em}
+#advancedSearch #dateRange li input,#advancedSearch #dateRange li label,#mrwAdvancedSearch #dateRange input,#mrwAdvancedSearch #dateRange label{vertical-align:middle}
+#advancedSearch #startYear,#advancedSearch #endYear,#mrwAdvancedSearch #startYear,#mrwAdvancedSearch #endYear{width:3.55em;border:1px solid #829db8;min-height:1.4em}
+#advancedSearch #startYear,#mrwAdvancedSearch #startYear{margin:0 .3em 0 1.4em}
+#advancedSearch #inTheLastList,#mrwAdvancedSearch #inTheLastList{width:8em;margin:0 0 0 1em}
+#dateRange .formInfo{margin:.5em 0 0 1.5em;font-style:italic;color:#757373}
+#advancedSearch .subjectsAndAccess li,#advancedSearch .publicationTypes li,#mrwAdvancedSearch .subjectsAndAccess li,#mrwAdvancedSearch .publicationTypes li{margin:0 0 .5em 0}
+#advancedSearch #subjects li select{width:14.2em}
+#advancedSearch .adSearchSubmit,#mrwAdvancedSearch .adSearchSubmit{margin-top:1em;overflow:hidden;width:100%;border-bottom:2px solid #e1e9eb;padding-bottom:1em}
+#advancedSearch .adSearchSubmit .action{margin-left:1em}
+#advancedSearch #resultsOrder li label,#advancedSearch #access li label{vertical-align:top;margin:0 0 0 .3em}
+#mrwAdvancedSearch #resultsOrder li,#advancedSearch #resultsOrder li{display:inline;margin:0 1em 0 0}
+#mrwAdvancedSearch .sectionHeading h2{font-size:1.3em}
+#mrwAdvancedSearch #topics li{overflow:hidden;margin:0 0 .5em 0;width:100%}
+#mrwAdvancedSearch #topics input,#mrwAdvancedSearch #topics label{float:left}
+#mrwAdvancedSearch #topics label{vertical-align:top;margin:0 0 0 .5em;line-height:1.3em;width:15em}
+#mrwSearchText{width:28.5em}
+#mrwSearchText label{position:absolute;left:-100em}
+#mrwSearchText input{border:1px solid #829db8;font-size:1.2em;margin:0 .5em .5em 0;min-height:1.4em;width:28.5em}
+#mrwSearchOptions{width:41em}
+#mrwSearchOptions li{margin:0 .5em .5em 0;float:left;width:17em}
+#mrwSearchOptions label{margin:0 0 0 .2em;vertical-align:top}
+#mrwContentSearch .searchCriteriaOptions{overflow:hidden;width:100%}
+#mrwAdvancedSearch .action{float:left;margin-left:1em}
+#mrwAdvancedSearch h3{margin-bottom:.3em}
+#mrwAdvancedSearch #substanceClasRestriction ul li{margin-bottom:.5em}
+#mrwAdvancedSearch #substanceClasRestriction ul li label{width:35%;float:left;vertical-align:top}
+#mrwAdvancedSearch #substanceClasRestriction ul li select{width:30%}
+#mrwAdvancedSearch #dbRecordsOnly li,#mrwAdvancedSearch .searchDocumentation li{margin:0 .5em .3em 0}
+#mrwAdvancedSearch #dbRecordsOnly label,#mrwAdvancedSearch .searchDocumentation label{margin:0 0 0 .2em;padding-top:.2em;vertical-align:top}
+#mrwAdvancedSearch .publicationTypes #allTypes,#mrwAdvancedSearch .subjectsAndAccess #allTopics{margin-bottom:.7em}
+#searchTips ol{list-style-type:decimal;margin:0 0 .8em 1.7em;font-weight:bold;color:#5d5d5d}
+#searchTips h3{margin-bottom:.2em}
+#searchTips td ol,#searchTips li p,#searchTips li ul,#searchTips dl,#searchTips ol ol li,#searchTips ol li span{font-weight:normal;color:#000}
+#searchTips ol ol{list-style-type:disc;margin:0 0 .5em 1.2em}
+#searchTips ul{list-style-type:disc;margin:.2em 0 1em 1.5em}
+#searchStemming ol li li,#searchTips li{margin:0 0 .5em 0}
+#searchTips li li{margin:0 0 .2em 0}
+#searchTips .assistance{font-style:italic}
+#searchTips ol.mainList p{margin:0}
+#searchStemming ol li{margin-bottom:1.5em}
+#searchTips dl{width:100%;overflow:hidden}
+#searchTips dt,#searchTips .mainList dd{width:48%}
+#searchTips dt{margin:0 2% 0 0}
+#searchTips dl.doubleDefinition dd{width:24%}
+#additionalTips ul,#searchTips table{margin-bottom:2em;line-height:1.2em}
+#searchTips td ol{list-style-type:decimal;margin:1em 0 1em 1.5em}
+#searchTips td span{display:block;margin:1em 0 0 0}
+#searchTips .tipsProductSpecific dt,#searchTips .tipsProductSpecific dd{display:inline;margin:0;padding:0;width:auto;float:none}
+#searchTips .tipsProductSpecific dt{display:inline-block;clear:both;font-weight:bold}
+#trustedProxy .ipAddress input{width:2em;margin-right:.1em}
+#trustedProxy .ipAddress .inline{margin-left:22%}
+#trustedProxy .ipAddress .inline input{margin-bottom:.5em}
+#trustedProxy .ipAddress .fieldAssistance{clear:both;margin-top:0}
+#trustedProxy .ipAddress .error{display:block;margin-bottom:.5em}
+.submitInstructions{clear:both;margin:.5em 0 0}
+.submitInstructions ol li{color:#5d5d5d;margin:.3em 0 .7em 0}
+#contentAlertsSignup form{padding:1em 0 0 0}
+#contentAlertsSignup #titleFilter{padding:0 1em 0 1em;margin-bottom:1em;overflow:auto}
+#contentAlertsSignup #titleFilter label{padding-top:.3em}
+#contentAlertsSignup #titleFilter label,#contentAlertsSignup #titleFilter select{margin:0 .5em 0 0;float:left}
+#contentAlertsSignup #titleFilter select{font-size:1.2em;border:1px solid #839db6}
+#pageNotFound a{color:#007e8b}
+.moduleFragment{margin:0 0 1em 0;line-height:1.3em;overflow:hidden}
+.moduleFragment p{overflow:hidden}
+.moduleFragment li p{overflow:visible}
+.moduleFragment ul{list-style-type:disc;margin-left:1.5em}
+.moduleFragment img{margin-right:1em}
+#ipAddress #ipExamples{margin:0 0 1em 0}
+#ipAddress #ipExamples h2{margin:0 1em 0 0}
+#ipAddress #ipExamples p{color:#5d5d5d;font-style:italic;margin:0}
+#ipAddress #ipExamples p span{display:block}
+#passwordMonth,#passwordDay{width:1.8em}
+#passwordYear{width:3.6em}
+#familyLandingPage #collections ol li{margin-bottom:.5em;overflow:hidden;min-height:2em;clear:both}
+#familyLandingPage #collections ol a{width:41.5em;float:right;margin:0}
+#familyLandingPage #collections ol .freeAccess,#familyLandingPage #collections ol .openAccess,#familyLandingPage #collections ol .licensedContent{width:2.5em;float:left;margin:0 0 .5em 0}
+#bookHome .books{width:100%;border-top:2px solid #e1e9eb}
+#bookHome .books fieldset{padding:1em 0 0 1em}
+#bookHome .sectionHeading label{display:none}
+.onlineBooksInSeries li{margin-bottom:.5em;overflow:hidden;width:100%}
+.onlineBooksInSeries li a{float:left;line-height:1.2em;margin:.85em 0 0;width:41em}
+.onlineBooksInSeries .access{width:1.5em;margin:0 1em 0 0}
+#bookHome .books li .access input{margin-top:.4em}
+#articleDesc{float:left;padding-top:.5em;padding-bottom:1.5em;clear:left}
+#articleSummary{clear:both}
+#ccaDiv img{vertical-align:middle}
+#articleDesc .articleCategory,#articleDesc #articleType{margin-top:-0.5em}
+#articleDesc #articleTitle{border-top:.2em solid #e1e9eb;padding-top:.5em}
+#articleDesc #articleTitle .articleTitle{clear:left;margin:0 2em 0 0}
+#titleMeta .articleCategory,#titleMeta #articleType{float:left;background:#fff;color:#a3a2a2;font-weight:bold;padding-right:.5em}
+#articleDesc #articleMeta #productTitle,#articleDesc #articleParent #productTitle{line-height:1.2em;border:0;clear:left;font-size:1.2em;padding-top:.3em}
+#articleDesc #articleMeta{float:left;width:24em;margin-top:.5em}
+#articleDesc #authors li{line-height:1.5em;display:inline;float:none}
+#articleDesc .publicationDate{margin-top:1em}
+#articleDesc #articleParent{width:29em;float:right;padding-top:.5em;border-top:.2em solid #e1e9eb;margin-top:1.2em;color:#a3a2a2;margin-left:1em}
+#articleDesc #articleParent .articleCategory{margin-top:-1.1em}
+#articleDesc #articleParent #cover{clear:left;float:left;margin-top:.5em}
+#articleDesc #articleParent #cover .imgShadow{margin-bottom:1.5em}
+#articleDesc #articleParent #metaData{margin-top:.5em;float:right;width:17em}
+#articleDesc #articleParent #metaData .supplement #articleDesc #articleParent #metaData .specialIssue{margin-top:.5em}
+#titleMeta #additionalInformation{clear:both;border-top:.2em solid #e1e9eb;padding-top:.22em;float:left;margin-top:1em;width:100%}
+#titleMeta #additionalInformation .articleCategory{margin-top:-1em}
+#articleDesc .affiliation{text-indent:0}
+#titleMeta #additionalInformation .errata span.label{font-size:1.2em}
+#licenseAgreement .topLeftRoundCorner{padding-right:1em}
+#licenseAgreement ol{list-style:upper-alpha;margin-left:2.5em;margin-bottom:1em;line-height:1.3em}
+#licenseAgreement ol.innerOL{margin-bottom:0}
+#licenseAgreement ol li>ol{list-style:decimal}
+#licenseAgreement ol li>ol li>ol{list-style:lower-alpha}
+#licenseAgreement ol li>ol li>ol li>ol{list-style:lower-roman}
+#licenseAgreement h2{margin-bottom:0}
+#subjectTitles #titles .publication{float:right}
+.rentalLink{background-image:url("../images/deepdyve.ico");background-repeat:no-repeat;padding-left:2em;padding-bottom:.5em}
+#recommendToLibrarian #titleMeta{float:none;width:100%;overflow:hidden}
+#recommendToLibrarian #recaptcha_image{clear:left;margin-left:22%}
+#email_article label{width:30%}
+#email_article #recaptcha_image{margin-left:30%}
+#recommendToLibrarian #titleMeta #metaData{float:left}
+#recommendToLibrarian #recommendations input{clear:both;vertical-align:top;padding:0;margin:0;width:auto;border:0}
+#recommendToLibrarian #recommendations label{clear:none;width:80%;padding-bottom:.5em;vertical-align:top;margin-left:1em;line-height:1.1em}
+#recommendToLibrarian fieldset p.fieldAssistance{margin-top:0}
+.addthis_toolbox a{font-size:1.2em;vertical-align:baseline;line-height:1.6em}
+.addthis_toolbox{margin:1em 0 1em .7em}
+#countryInstitutions ul,#institutions ul{line-height:1.4em}
+#fulltext .dataTable table{width:33%;text-align:left}
+#fulltext .dataTable .flot-graph{margin-bottom:1em}
+#fulltext .dataTable .flot-graph .legend table{width:auto}
+#fulltext .dataTable{margin:2em 0;clear:both}
+#mostCitedOrRead{padding-top:0}
+#mostCitedOrRead .articles{border-top:2px solid #e4eef0;border-bottom:2px solid #e4eef0;padding:1em 0 0 1em;margin-left:-1em}
+#mostCitedOrRead .articles .citation{margin-left:0;width:39.5em}
+#mostCitedOrRead .resultControls{padding-left:0}
+#figureNavigation{background:#e1e9eb;overflow:hidden;padding:5px}
+.powerPoint{background-image:url(../images/powerPoint_icon.png);background-repeat:no-repeat;background-position:center top;padding-top:40px;width:75px;float:left;text-align:center;font-size:1.1em}
+.usageStats{overflow:hidden}
+#downloadStatisticalData .error{display:block;margin:-0.8em 0 1em 1.3em}
+.tableComments{margin-bottom:1em;font-size:.8em}
+.tableComments li{line-height:1.4em}
+#usageTotals li{float:left;margin-right:1em}
+#usageTotals{margin-bottom:1em;overflow:hidden}
+.versionWarning{background-color:red;margin-bottom:1em}
+.versionWarning p{margin-bottom:0;color:white;font-weight:bold;padding:.8em .4em;line-height:1.2em;white-space:nowrap}
+.versionWarning .action{background:none repeat scroll 0 0 white;color:#007e8b;font-size:.9em;margin:0 0 0 1em;padding-top:.2em}
+#titleMeta .versionWarning .action{font-size:.9em}
+#productContent .versionWarning{text-align:right}
+.articleAbstract .bullet{padding-left:20px;list-style:disc outside none}
+.articleAbstract .bullet li{overflow:visible;padding-bottom:0}
+.articles li .citation .articleAbstract h3{color:#000;font-weight:bold;text-transform:none}
+#articleTitle .crossmark-link{float:right}#editAccountInformation .sectionHeading p,#viewAccountInformation .sectionHeading p{line-height:2em}
+#usageReports .bulleted,#registration .bulleted{margin:0 0 1em 0}
+#usageReports form.simple .submit{margin-right:3em;margin-top:-25px}
+#usageInfo{margin-top:3em}
+#registration .bulleted li{margin-bottom:.2em}
+#registration .termsOfUse div{float:left;width:62.5em}
+#registration .termsOfUse input{margin-right:.8em}
+#registration .termsOfUse label{float:none;position:static}
+#registration .termsOfUse input{width:1em;border:0;margin-top:-0.1em}
+#registration .submit{margin:1em 1em 1em 0}
+#editAccountInformation #accountInfoSubmit{margin:0 1em 1em 0}
+#newSocietyRegistrationLink{clear:both}
+#editAccountInformation p.formError{margin-bottom:.5em;margin-left:13.2em;width:15.25em}
+form.simple .promotionalInfo div{float:left;overflow:hidden;width:56em}
+form.simple .promotionalInfo label{line-height:1.4em;clear:none;width:46em;margin:0}
+form.simple .promotionalInfo input{margin:.2em 1em 0 0;width:20px}
+form.simple .promotionalInfo p.label{float:left;width:13em;color:#000}
+.registrationInfo p,form.simple #contentAlerts p,form.simple .termsOfUse p{color:#000}
+form.simple .divider .formError{margin:.3em 0 .7em 13em}
+form.simple .termsOfUse .formError{margin-left:2em;margin-top:-0.5em}
+#shibboleth,#athens{overflow:hidden}
+#institutionalAndAthensLogin .topLeftRoundCorner{margin-bottom:1em;border-bottom:2px solid #e4eef0;padding-bottom:0}
+#athens{position:relative}
+#athens .submit{float:right;margin-right:49%;margin-bottom:1em;font-size:1.2em}
+#athens .note{bottom:5px;display:block;position:absolute;right:120px;width:230px}
+#UKInstitution{margin-bottom:3em}
+#UKInstitution label{display:none}
+#UKInstitution .submit{float:left;margin-top:0;width:auto;border:0}
+#viewAccountInformation dl,#editAccountInformation dl{overflow:hidden}
+#editAccountInformation .separator{padding-bottom:0}
+.promotionalInfo dl{margin-bottom:1em}
+#viewAccountInformation dt,#editAccountInformation dt{width:13.2em;padding-bottom:1em}
+#viewAccountInformation dd,#editAccountInformation dd{padding-bottom:1em;word-wrap:break-word}
+.loginDetails dd{margin-right:2.5em;width:16.1em}
+.promotionalInfo dd{margin-right:0;width:52em;margin-bottom:1em;overflow:hidden}
+#termsAndConditions,#privacyPolicy{margin-right:1em}
+#termsAndConditions h2,#privacyPolicy h2{margin-bottom:0}
+.termsAndConditionsItems{list-style-type:upper-alpha;margin-left:2em;margin-bottom:1em}
+.termsAndConditionsItems li{margin-bottom:.5em;line-height:1.3em}
+.termsAndConditionsItems li ol{list-style-type:decimal;margin-left:2em}
+#registrationConfirmation .topLeftRoundCorner{padding-right:1em}
+#accountInfoSubmit .submit{margin-right:0}#accessDenied{overflow:hidden;padding-bottom:.5em}
+.js_en #accessDenied.isHidden{visibility:hidden!important;text-indent:-9999em}
+#accessDenied.isHidden,.js_en #accessDenied.ppv-injected{visibility:visible!important;text-indent:0}
+.accessDeniedMessage{font-weight:bold;margin:0 0 .5em 0;color:#bc361a}
+#accessDenied .access{margin:0 0 1em 0;overflow:hidden;width:100%}
+#accessDenied .topLeftRoundCorner{clear:none}
+#accessDenied .patientAccess h2{display:block;width:125px;height:20px;background:url(../images/patientAccess_logo.gif) no-repeat;margin-bottom:.5em;text-indent:-999px}
+#accessDenied .patientAccess{clear:left}
+#accessDenied .access h3{margin:1em 0 0}
+#accessDenied .access .password,#accessDenied .access .email{margin:.4em 0;width:20em;float:right;border:1px solid #839db6}
+#mainContent #accessDenied .access .password,#mainContent #accessDenied .access .email{width:19em;float:none;clear:left}
+#accessDenied .recommendToLibrarians{margin:0;clear:both}
+#accessDenied .login,#accessDenied .register,#accessDenied .renewSubscription,#accessDenied .purchaseOnlineAccess{float:left;min-height:12em;width:26.5em;margin:0 2em 1em 0}
+#accessDenied .purchaseOnlineAccess{margin:0 0 2em 0}
+#accessDenied .login{margin-bottom:2em}
+#accessDenied .login form div{overflow:hidden;width:100%}
+#accessDenied .login label{width:8em;float:left;margin:.4em 0 .4em 0}
+#accessDenied #accessDeniedCancel.submit,#accessDenied #accessDeniedConfirm.submit{float:left;margin-right:.5em}
+#accessDenied .keyFeatures{margin-bottom:1em}
+#accessDenied .access ul,#accessDenied .keyFeatures ul{padding-bottom:1em;line-height:1.8em}
+.access #accessDeniedOptions ul{padding-bottom:0}
+#accessDenied .access li,#accessDenied .keyFeatures li{background:#fff url(../images/bulletTeal.gif) no-repeat 0 7px;padding:0 0 0 1em}
+#accessDenied .instList li{background:0;padding:0}
+#accessDenied .access h3,#accessDenied .keyFeatures h3{margin:0;padding:0 0 .5em 0}
+#accessDenied .keyFeatures h3{margin-top:.5em;font-size:1.2em}
+#accessDenied .recommendToLibrarians h3{margin:1em 0}
+#accessDenied .submit{float:right;clear:right;margin-top:.5em}
+#mainContent #accessDenied .submit{margin-right:.5em}
+#pdf #accessDenied{margin:1.5em auto 0;width:97.9em}
+#accessDenied .access .purchaseOnlineAccess .submit{float:left;margin-bottom:1em}
+#accessDenied .keyFeatures,#accessDenied .recommendToLibrarians,#accessDenied .access .purchaseOnlineAccess p{clear:both}
+#micrError{margin:1em 0 0 0}
+#mrwAccessDenied{margin:1em 0 0 3em}
+#accessDenied #deepDyve{float:left;width:43em;clear:none}
+#institutionalLogin{padding:1em 0 0 1em;border-bottom:2px solid #e4eef0}
+#institutionalLogin fieldset{padding:0;border-bottom:0;max-width:35em}
+#institutionalLogin input{width:72%;float:right;*margin-right:0}
+#institutionalLogin .submit{margin-right:54%;width:auto}
+#shibboleth p{max-width:350px}
+#accessDenied .shibbolethLogin,#accessDenied .login,#accessDenied .register{width:46%;padding:1em 0 0 1em}
+#accessDenied h2{line-height:1.2}
+#mainContent #accessDenied .register{clear:left}#myProfileInfo{margin:0 0 .5em -0.5em}
+#myProfileInfo li{padding:0 .5em;margin:0 0 .5em 0}
+#myProfile li a{font-weight:bold}
+#myProfileIntro{margin:1em 0 1.5em 0}
+#myProfile .topLeftRoundCorner{margin-bottom:1em}
+#savedItemsAndAlerts,#authorServicesPromotion{float:left;width:36.5em;clear:none}
+#savedItemsAndAlerts li{margin:0 0 1em 0}
+#authorServicesPromotion{float:right}
+#myProfile .citation{float:left;width:38em}
+#myProfile .accessInfo{padding-top:.3em}
+#myProfile .articles .number{margin:.3em 0 0 0}
+#searchResults form,#savedPublications form,.savedItems form{padding:0;overflow:hidden;width:100%}
+.savedItems .sectionHeading p{line-height:1.8em}
+.savedItemsList{border-top:2px solid #e1e9eb;overflow:hidden}
+.savedItems .articles{padding:0 0 0 1em;margin:0 0 0 1px}
+#publications,#subjectTitles #titles{padding:1em 0 0 0;margin:0 0 1em 0;border-top:2px solid #e1e9eb;border-bottom:2px solid #e1e9eb}
+#alertsManager #publications{border:0;padding:0}
+#alertsManager #searchAlerts .articles li,#publications li,#titles li{padding:.2em 0 .3em 1em;margin-bottom:.5em;overflow:hidden}
+#publications li,#titles li{clear:both}
+#publications li{min-height:2.4em}
+#alertsManager #searchAlerts .articles li,#alertsManager #publications li{margin-bottom:0}
+#contentAlertsSignup #publications li{min-height:1%}
+#contentAlertsSignup #publications li .publication{position:static}
+#publications label,#subjectTitles #titles label{position:absolute;left:-1000em}
+#publications .publication p,#publications a,#publications span .previousTitle,#publications li a,#titles .previousTitle,#publicationTitleSearch .previousTitle,#publicationsAtoZ #publications .previousTitle,#alertsManager .articles li a,#savedSearches .searchString a,#subjectTitles #titles a{font-weight:bold;margin:.1em 0 0;display:block}
+#alertsManager #publications .publication p{width:32em}
+#subjectTitles .access span{margin-top:-3px}
+.previousTitle{padding-bottom:.5em;color:#757373;line-height:1.2em}
+#publicationsAtoZ #publications .previousTitle{padding-right:9em}
+.currentlyKnownAsLabel{margin:0 1em 0 0;line-height:1.2em;float:left}
+#alertsManager #searchAlerts .articles li{width:100%}
+#alertsManager .alerts .buttonGroup li,#alertsManager .alerts .buttonGroup{width:auto}
+#alertsManager .buttonGroup{float:right}
+#alertsManager .simple .submit{margin-right:48.5%}
+.productTitle{background:#fff;color:#757373;display:block;text-transform:uppercase;position:absolute;top:5px;right:0}
+.resultControls{padding:1em 0 1em 1em;overflow:hidden;clear:both}
+#publicationTitleSearch form,#publicationsAtoZ form,#subjectTitles form{padding-left:0}
+#publicationTitleSearch .resultControls,#publicationsAtoZ .resultControls,#subjectTitles .resultControls{padding-top:0}
+#searchResults #searchResultsList .resultControls{padding:0 0 1em 0}
+.resultControls .buttonGroup{float:left;padding:0 0 0 1em}
+#subjectTitles #subjectTitleInfo{margin:0 0 1em 1em}
+#resultInfo p{padding:1em 1em 0 1em}
+#searchResults #resultInfo p{width:40em;float:left;padding:0}
+#searchResults #resultInfo p em,#searchedForText em{font-weight:bold}
+.articles .access,#publications .access,#titles .access{width:3.5em;margin-right:1em}
+.articles .access{min-height:2.4em}
+#publications .access .openAccess,.articles .access .openAccess{background-position:-383px -43px}
+#publications .access .freeAccess,.articles .access .freeAccess{background-position:-383px 0}
+#publications .access .licensedContent,.articles .access .licensedContent{background-position:-383px -96px}
+.articles .citation{padding:.3em 0 0 0}
+#titles li .title,#publications .publication{padding:.4em 0 0 0}
+#savedPublications .access .number,#publications .access input,.articles .access input{margin:5px 0 0 0}
+#savedArticles .articles .citation{margin:.1em 0 0 0}
+#savedSearches .access input,#savedPublications .licensedContent,#savedPublications .freeAccess,#savedPublications .openAccess{margin-top:0}
+#savedPublications .access .number{margin:.5em 0 0 0}
+#savedArticles .access .number{margin:.35em 0 0 0}
+#savedArticlesList .articles .access,#savedPublicationsList #publications .access,#searchResultsList .articles .access{width:5em}
+#recentArticles .articles .access{width:2em}
+#recentArticles .licensedContent,#recentArticles .freeAccess,#recentArticles .openAccess{width:1.5em;margin-left:.5em;float:left}
+#savedPublications .number{float:left;font-weight:bold;text-align:center;width:1.6em}
+.publication,#titles .title,.searchString,#articlesInUse .citation,#savedArticles .citation{float:left;width:39.5em;position:relative;margin-left:0}
+#savedPublicationsList .alerts,#titles .title,#publicationTitleSearch .publication,#publicationsAtoZ .publication{float:right}
+#titles li .access input{margin-top:4px}
+#titles li span.previousTitle{margin-top:6px}
+.searchString{position:static}
+#bookHome .citation{width:39.5em;margin-left:0}
+#issueToc .citation{margin-left:0;width:39.3em}
+#journalHome #recentArticles .articles .citation{margin-left:0;padding-top:.35em}
+#contentAlertsSignup .publication{width:31.7em;margin-left:0}
+#savedArticles .citation{width:35em;padding-right:11em}
+#publications .publication a,#subjectTitles #titles li .title a{padding-right:7.9em}
+#savedPublications .publication a{padding-right:6.8em}
+#savedArticles .citation .productMenu a{padding-right:.2em}
+.alerts{float:left;width:10.5em;position:relative;margin-right:1em}
+#contentAlertsSignup .alerts{float:right;width:11.6em;margin:0;position:static}
+li div.alerts input{margin:0;float:right}
+#searchResultsList{width:55.2em;float:left;padding:0 0 0 1em}
+#searchResultsList .access input{margin-top:.30em}
+#searchResultsList .articles .citation{padding-top:.35em}
+#searchResultsList .access .number{margin-top:.3em}
+#relatedInfo{border:2px solid #e1e9eb;padding:1em 1em 0 1em;border-right:0}
+#relatedInfo h3{margin:0 0 1em 0}
+#relatedInfo h4{margin:1em 0 0 0}
+#savedSearches .alerts,#savedPublications .alerts #searchResults #resultInfo .buttonGroup{float:right}
+#savedSearches .articles .buttonGroup input{float:none}
+#searchResultsList ol.searchResults{clear:left;padding-top:1em}
+#searchResultsList .paginationFilter{margin-left:0}
+#savedArticles li .accessInfo{text-align:left}
+#alertsManager .topLeftRoundCorner{margin-bottom:2.5em;padding-right:1em}
+#alertFrequency{margin:0 0 1em 0}
+#alertFrequency select{border:1px solid #839db6}
+#alertsManager #searchAlerts .articles li,#alertsManager #publications li{padding-left:0;padding-right:0;width:auto}
+#alertsManager .searchString,#alertsManager .publication{width:43em;padding:0}
+#alertsManager .articles li .alerts .buttonGroup,#savedSearches .articles li .alerts .buttonGroup{padding:0;overflow:hidden}
+#savedSearchesList .alerts,#alertsManager .alerts{margin-right:0;width:19em}
+#alertsPreferences dt{width:12.2em;margin:0 0 1em 0}
+#alertsPreferences dd{padding-right:1em}
+#messageFormat{clear:both}
+#messageFormat span{width:12.2em;font-size:1.2em;float:left}
+#messageFormat input{vertical-align:middle;margin-right:.5em}
+#messageFormat label{margin-right:2em}
+#alertsManager .alerts .buttonGroup li{margin:0 .5em 0 0}
+#alertsManager .alerts .buttonGroup li input{float:none}
+#alertsManager #citationAlerts .articles li .citation{float:left;margin-left:0;width:49.5em;position:relative}
+#alertsManager #citationAlerts .alerts{width:10em;float:right}
+#savedArticles .articles .alerts,#alertsManager #citationAlerts .alerts{margin-top:.5em}
+#alertsManager #citationAlerts .articles li .access{width:1.5em}
+#alertsManager #citationAlerts .articles li .citation{margin-left:0}
+#alertsManager form.simple fieldset input[type="radio"]{border:0;width:auto;margin-left:0}
+#articleSelectPermissions td form{margin:0}
+#articleSelectPermissions #editUserPermissions{margin-bottom:1em}
+#articleSelectPermissions table{width:50%}
+#editUserPermissions thead th{width:33%}
+#articleSelectPermissions .topLeftRoundCorner{margin-bottom:2em}
+#articleSelectPermissions #userAction{text-indent:-999em}
+#articleSelectPermissions .submit{float:right}
+#administratorHome .simple{padding:.8em .8em 0 .8em;margin-bottom:1em;overflow:hidden}
+#administratorHome .sectionHeading p a{line-height:1.2em}
+#administratorHome span.value{width:42em;margin-right:10%}
+#administratorHome span.value span{display:block}
+#editAdministratorProfile .sectionHeading p{line-height:2em}
+.bookSummaries{margin:.3em 0}
+.bookSummaries ul li{padding-bottom:0}
+.bookSummaries ul li p{color:#000}
+#articlesInUse .citation{width:37em;padding-right:11em;position:static}
+#articlesInUse .accessExpiryDate{float:left;width:14.5em;margin-right:1em;text-align:right}
+#articlesInUse .accessExpiryDate p{margin:0}
+#articlesInUse #tokenBalance{width:100%;overflow:hidden;margin:0 0 1em 0}
+#articlesInUse #tokenBalance dd{font-weight:bold;padding:0 0 0 .3em}
+#searchResults .articles .citation{margin:0 1em 0 0;width:38.5em}
+#activationSuccess .options{line-height:1.3em}
+#activationSuccess .options li{background:url(../images/wolIconsNew.gif) no-repeat -395px -506px;padding:0 0 0 1em}
+.articles p.savedSearchString{color:#000;font-weight:bold;margin:0}
+#currentSubscriptions{margin:0 0 0 -1em}
+#currentSubscriptions h2{margin:0}
+#currentSubscriptions th,#currentSubscriptions td{padding:.5em 0 .5em 1em}
+#currentSubscriptions #tabbedViewTitle{padding:.5em 1em;border-bottom:2px solid #e1e9eb;margin-bottom:.5em}
+#exportOptions{float:right;padding-right:2em;width:23em}
+#exportOptions h2{margin-left:.5em}
+#exportOptions ul,#availableCustomers h2{margin:0 0 .5em 0}
+#availableCustomers{float:left;margin:0 0 1em 1em;width:51em;display:inline}
+#availableCustomers ul.inlineBorder{margin-left:-0.5em;width:45em;font-weight:bold}
+#currentSubscriptions table{margin-bottom:1em;border:2px solid #e1e9eb;border-left:none;border-right:0}
+#ordersAndSubscriptions .topLeftRoundCorner{margin-bottom:2em}
+#ordersAndSubscriptions .sectionHeading select{border:1px solid #829db8;height:auto;float:left;margin:0 0 0 1em}
+#ordersAndSubscriptions .jumpList{font-size:1.2em;list-style-position:inside;list-style-type:decimal}
+#accessProvidedBy ul{padding-bottom:1em}
+#accessProvidedBy li{line-height:1.3em}
+#ordersAndSubscriptions thead th{width:14%}
+#ordersAndSubscriptions th.orderedArticle,#ordersAndSubscriptions th.orderedPublication{width:55%}
+#ordersAndSubscriptions .citation{position:relative}
+#personalsubscriptions .publication{width:35em}
+.payPerViewForm .total,#ordersAndSubscriptions .citation a,#ordersAndSubscriptions .publication a{font-weight:bold;color:#000}
+#ordersAndSubscriptions .citation h3{color:#757373;font-size:1em;font-weight:normal;margin:0;text-transform:uppercase}
+#ordersAndSubscriptions .citation p{margin:0;color:#757373}
+#roamingAccess #refreshRoamingAccess{margin-right:1em}
+#deleteLogo{margin:0 0 1.5em 0;overflow:hidden}
+#deleteLogo .submit{clear:both;margin-top:.5em}
+#deleteLogo img,#payPerViewOptions .topLeftRoundCorner{float:left}
+#institutionalNameAndLogo #fileUpload{min-height:1.8em}
+.payPerView .topLeftRoundCorner{float:right;margin:0 2em 2em 0;min-height:5em;width:29.3em;clear:none}
+.payPerView .articles .citation{width:24em;margin-left:0;float:none}
+#payPerViewAccountVerified .options{line-height:1.2em}
+.payPerViewForm,#purchaseInfo{float:left;width:62em;margin-right:0}
+.payPerViewForm form.simple span.value{margin-right:38%;text-align:right}
+.payPerViewForm .discount{color:#bc361a}
+.payPerViewForm form.simple dd{margin-right:49%;padding-bottom:.5em;text-align:right;float:none}
+.payPerViewForm form.simple address p{margin:0}
+#onlineOpen .simple #expiryDateMonth,#fullWidthContent .payPerViewForm .simple #expiryDateMonth{width:8em;margin-right:1em;float:left}
+#fullWidthContent .payPerViewForm .simple #expiryDateMonth{width:5.8em}
+#onlineOpen .simple #expiryDateYear,.payPerViewForm .simple #expiryDateYear{width:8em;float:left}
+#onlineOpen .simple #securityCode,.payPerViewForm .simple #securityCode{width:3em}
+.payPerViewForm .simple #securityCode{margin-right:12.7em}
+#payPerViewBillingAddress div.simple{background:0;padding:0}
+#payPerViewBillingAddress .separator span.value{margin-right:0}
+#payPerViewConfirmation .articles .citation{width:24em}
+#payPerViewConfirmation .articles .productMenu li{margin-left:0}
+#creditCardInfo{width:43em}
+.cardInfo{width:100%;overflow:hidden;margin:0 0 2.5em 0}
+.cardInfo img{float:left;margin:0 1em 0 0}
+.cardInfo p{float:left;width:20em}
+#trustedProxyDownload textarea{font-size:1.2em;width:53em}
+#trustedProxyDownload .submit,#referringUrlDownload .submit{margin-right:1em;float:right}
+#referringUrlInstructions,#trustedProxyInstructions{margin:1em 1em 0 0}
+#referringUrlInstructions li,#trustedProxyInstructions li{overflow:hidden;width:100%}
+#referringUrlInstructions .number,#trustedProxyInstructions .number{float:left;width:2em;margin:.2em 0 0 0}
+#referringUrlInstructions .instructions,#trustedProxyInstructions .instructions{float:left;width:60.5em}
+#trustedProxyDownladForm .submit,#trustedProxyDownload .submit{float:right;margin:0 1em 0 0}
+#trustedProxyInstructions .maintainance{width:65em}
+.divideText{display:block;margin:.5em 0}
+#onlineOpen .mailingOptions{list-style:decimal;margin-left:20px}
+#fullWidthContent #onlineOpen .mailingOptions li input{margin-right:.5em}
+#currentHoldingDownloads{width:100%;margin:0 0 1.5em 0}
+#currentHoldingDownloads #journalCsvDownload,#currentHoldingDownloads #onlineBooksCsvDownload,#currentHoldingDownloads #dbAndPcCsvDownload{width:13%;text-align:left;vertical-align:bottom}
+#currentHoldingDownloads #customerName{width:40%}
+#currentHoldings .bulleted{margin:1em 1em 1em 0}
+#additionalIps{clear:both;border-top:2px solid #e4eef0}
+#additionalIps dl{width:100%;overflow:hidden}
+#additionalIps dt{width:22%;margin:0 0 .5em 0}
+#additionalIps dd{margin:0 .7em .5em 0;width:36%}
+#additionalIps dd.assistance{clear:none;color:#5d5d5d;margin-right:0;width:40%}
+#loginInformation .simple .submit,#licenseSource form.simple .submit{margin-right:1em}
+#institutionalNameAndLogo fieldset .submit{border:0;width:auto}.visuallyhidden,form.simple label.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;clear:none}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.simple{background:transparent url(../images/topLeftRoundCorner.gif) no-repeat left top;clear:both}
+form.simple h1,form.simple h2,form.simple h3,form.simple h4,form.simple h5,form.simple h6{margin-bottom:.5em;clear:both}
+.simple .legend{font-weight:bold}
+form.simple textarea,form.simple fieldset input,form.simple fieldset select,.simple span.value,.simple p.value{float:left;border:1px solid #839db6;margin:0 0 .5em 0;width:29%}
+form.simple select[multiple]{height:20em}
+form.simple fieldset input.wide,form.simple fieldset textarea.wide,form.simple fieldset.wide input,form.simple fieldset.wide textarea{width:76%;margin-right:0}
+form.simple fieldset.wide input ~ label.error,form.simple fieldset.wide label.error{margin-left:22%;clear:both}
+form.simple fieldset fieldset input{width:1.5em;float:left;margin-right:.5em;clear:both}
+form.simple input.r,form.simple input.cb{border:0;width:auto;margin-left:0}
+form.simple select{background:#fff}
+#addaffiliationToParent div.societyAffiliation select{margin:0 0 .6em 22%}
+#addaffiliationToParent div.societyAffiliation{display:none;width:100%}
+form.simple fieldset input.withDeleteAction,form.simple fieldset input.withResolveAction{width:27%}
+form.simple fieldset input.withDeleteAction.withResolveAction{width:25%}
+form.simple .submit,form.simple input[type="submit"]{float:right;margin-bottom:1em;margin-right:49%}
+form.simple fieldset .submit,form.simple fieldset input[type='submit']{border:0;width:auto}
+form.simple input.submit[disabled],form.nonSimple input.submit[disabled]{color:#00373d}
+form.simple .action input[disabled],form.nonSimple .action input[disabled]{color:#aca8aa}
+form.simple .submit,form.simple input[type="submit"],form.simple .action{float:right;margin-top:1em;margin-left:1em}
+form.simple fieldset input.action{clear:left;float:left;margin:0 0 1em 22%}
+form.simple fieldset .action+.action{margin-left:1em;clear:none}
+form.simple .inline input{margin:0;clear:none;float:none;margin-bottom:1em;white-space:nowrap}
+form.simple .inline .submit,form.simple .inline input[type="submit"]{margin-bottom:0}
+form.simple p.value,form.simple span.value{border:0}
+.simple p.value{clear:none}
+form.simple p{margin:.3em 0 .7em 0;clear:left}
+.simple .readMore{float:right}
+.simple span.value{border:0;clear:none}
+.simple span.label{cursor:auto;color:#000}
+.simple p span.label,.simple p span.value{font-size:1em;padding-top:0}
+form.simple .aligned{float:left}
+form.simple .alignedInputs{overflow:hidden;float:left;width:29%}
+form.simple .alignedInputs input{margin-right:.5em}
+form.simple p.requiredFieldsText{position:relative;padding-left:1em}
+form.simple p.requiredFieldsText em{background:url(../images/star.gif) no-repeat 0 0;color:#bc361a;text-indent:-999em;width:.8em;position:absolute;left:0}
+form.simple p.assistance,form.simple .fieldAssistance{clear:both;font-style:italic;margin:.4em 0 .6em 0}
+form.simple p.fieldAssistance{margin:-1em 0 .6em 22%;color:#5d5d5d}
+form.simple ul.fieldAssistance{margin:0 0 .6em 22%;color:#5d5d5d}
+form.simple label,.simple .label{clear:both;float:left;padding:.1em 0 0;width:22%;margin-bottom:.5em}
+form.simple .error{clear:none;color:#bc361a;margin-left:3%;width:45%}
+.simple .error a{color:#bc361a;text-decoration:underline}
+form.simple .error span{padding-right:1em}
+form.simple .divider label.error{margin-left:41%;width:50%}
+form.simple .advice{clear:none;color:#5d5d5d;margin:0 0 0 3%;width:45%;float:left}
+form.simple .inline label{float:none;margin:.2em .4em 0 0;vertical-align:top;white-space:nowrap}
+form.simple .inline label *{vertical-align:top}
+form.simple .divider label,div.simple .divider span.label{width:41%}
+form.simple fieldset fieldset label{margin-right:55%}
+form.simple .inline label{float:none;margin:.2em .4em 0 0;vertical-align:top;white-space:nowrap}
+form.simple label.hidden{position:absolute;left:-999em}
+form.simple label em,form.simple p em{background:transparent url(../images/star.gif) no-repeat scroll 0 0;position:auto;display:inline-block;margin-left:.3em;text-indent:-9999px;width:.7em}
+form.simple .aligned{margin-left:16.3em}
+form.simple a.fieldAction{float:left;text-indent:-999em;width:1.4em;height:1.4em}
+form.simple a.fieldAction.delete{background:transparent url(../images/delete.gif) no-repeat scroll 0 0}
+form.simple a.fieldAction.resolve{background:transparent url(../images/database_go.gif) no-repeat scroll 0 0}
+form.simple a.fieldAction.resolve.working{background:transparent url(../images/arrows.gif) no-repeat scroll 0 0}
+form.simple fieldset,.simple div.separator{border-bottom:2px solid #e4eef0;padding:.8em .8em 0 .8em;overflow:hidden}
+form.simple fieldset.multipleChoice{border:0;clear:both;padding:0}
+fieldset.multipleChoice p{margin-top:0}
+fieldset.multipleChoice label{clear:none;margin-left:1%}
+fieldset.multipleChoice div{overflow:hidden}
+form.simple img{display:block;margin-bottom:1em}
+form.simple input.smallWidth{width:4em}
+div.simple{padding:0 1em 0 1em;overflow:hidden;margin-bottom:1em;position:relative}
+div.simple div.separator{border-bottom:2px solid #e4eef0;overflow:hidden;padding:.8em 0 0 .8em;margin:0 -1em 0 -0.8em;position:relative}
+div.simple p{overflow:hidden;width:100%}
+div.simple p span.label,div.simple p span.value{margin-bottom:0}
+div.simple span.label{position:static}
+.simple .divider{width:50%;float:left;padding:.2em 0 1em}
+.simple .divider p{padding-right:1em}
+form.simple .divider textarea,form.simple .divider input,form.simple .divider span.value,form.simple .divider select{width:50%;margin:0 0 .45em 0}
+form.simple .divider .fieldAssistance{margin-left:41%}
+.globalFormError{margin:0 0 .5em 0;clear:both;color:#bc361a}
+form.simple ul.multiRow li{overflow:hidden;clear:both}
+form.simple fieldset .repeat{float:left;clear:both}
+form.simple .repeat{float:left;margin-left:22%}
+.simple .tsAndCs input{width:1.5em;float:left}
+.simple .tsAndCs label{width:90%;clear:none;margin-left:1em}
+.simple #regionCodesMap ~ .action{float:left;margin-left:22%}
+.js_en .simple .dummyFileButton{position:absolute;background:#006976 url(../images/wolIconsNew.gif) no-repeat 100% -804px;left:31.8em;padding-left:.1em;height:16px;width:5.2em;float:left}
+.js_en .simple .dummyFileButton input{background:url(../images/wolIconsNew.gif) no-repeat 0 -804px;color:#fff;cursor:pointer;font-size:1.1em;font-weight:bold;height:16px;border:0;position:relative;left:0;width:5.2em;height:16px}
+.js_en .simple .fileUpload{position:absolute;top:0;left:14em}
+.js_en .simple .uploadContainer{clear:both;position:relative}
+.js_en label[for="regionCodesMap"],.js_en .contextReceiver{display:none}
+.simple .tsAndCs .cochraneTNC input{clear:both}
+.simple .tsAndCs .cochraneTNC .error{margin-left:2em;clear:both;float:none;display:block}#mrwFrame{height:22.5em;margin:0 0 0 2em}
+#mrwFrame #leftBorder,#mrwFrame #rightBorder{width:99%}
+#mrwFrame #titleMeta{width:37%;float:left;margin:0 0 0 1em}
+#mrwFrame #promosAndTools .searchCriteria #scope{float:left;width:13em;margin-right:1em}
+#mrwFrame #promosAndTools .searchCriteria #searchText{height:1.4em}
+#mrwFrame #promosAndTools{width:364px}
+#mrwFrame .menuGroup{width:210px;float:left;margin:0 2em 0 1em}
+#mrwFrame .menuGroup h2{margin-top:0}
+#mrwFrame .menuGroup ol{margin:.5em 0 0 0;padding:0}
+#mrwFrame .menuGroup ol li{display:inline;margin:0 1em 0 0;padding:0;line-height:1.5em;text-indent:0}
+#mrwFrame #header{min-width:1000px}
+#mrwContent{min-width:1000px}.asist ol{margin-left:.75em}
+.asist.tree li a{font-weight:normal}
+.asist.tree a.viewing{font-weight:bold}
+.asist .branchLabel{float:left;width:75%}
+.asist .search,.asist .exploded,.asist .scope{text-indent:-999em;display:block;width:16px;height:16px;float:left;margin-left:5px;background-repeat:no-repeat}
+.asist .search{background-image:url(../images/magnifier.gif)}
+.asist .exploded{background-image:url(../images/magnifierAndZoom.gif)}
+.asist .scope,#scopeNote h4{background-image:url(../images/notes.gif)}
+#scopeInfo h4{margin-bottom:.5em}
+#scopeInfo ul{margin-bottom:1em}
+#scopeNote h4{padding-left:21px;background-repeat:no-repeat;line-height:16px;margin-bottom:0}
+#browseAsist #scopeInfo.topLeftRoundCorner{width:18em;float:left}
+#browseAsist{width:54.3em;overflow:hidden}
+#browseAsist .topLeftRoundCorner{width:33em;float:right;clear:none}
+#browseAsist #termResults{width:100%;float:none}
+#browseAsist #terms li{margin:1em 0}
+#browseAsist #terms div.seeTerm{margin-left:1em}
+#asistRestrict li.allAsist{border-bottom:2px solid #e1e9eb;margin-bottom:.25em;padding-bottom:.25em}
+#asistRestrict li label{margin-left:.5em}
+#asistRestrict li label,#asistRestrict li input{vertical-align:middle}
+#asistRestrict li{margin-bottom:.5em}
+.searchForm .asistSearchOptions{padding:0 0 .5em .9em;margin:-0.5em 0 0 0}
+.searchForm .asistSearchOptions a{display:block;color:#5c5c5c}#cookieBanner{position:static;z-index:102;background-color:#e1e9eb;color:#000;padding:1em;overflow:auto;border-bottom:2px solid silver}
+#mrwFrame #cookieBanner{display:none}
+.js_en #mrwFrame #cookieBanner{display:block}
+#cookieBanner .bannerTitle{color:#5d5d5d;font-size:1.4em;font-weight:bold}
+#cookieBanner .bannerDescription{background:#FFF;border:2px solid #b4ced4;border-radius:10px;float:left;margin:0 0 0 10px;padding:10px;width:93%}
+#cookieBanner .closeBanner{float:right;text-indent:-999px;overflow:hidden;width:15px;height:15px;display:block;background:#FFF url(../images/wolIcons2.gif) -385px -541px no-repeat}.js_en form.simple label{background-color:#fff}
+.js_en .slider{padding-left:.3em;font-size:1em}
+.js_en ul#overlayList{list-style-type:none;margin:.5em 0}
+.js_en #overlayList li{text-indent:0;clear:left}
+.js_en #overlayList li span.bullet{float:left;min-width:2em;display:block;text-align:right;overflow:visible}
+.js_en #overlayList li div.text{padding-left:3em;text-align:left;overflow:visible}
+.js_en #overlayList li div.text{padding-left:3em;text-align:left;overflow:visible}
+.js_en #overlayList li div.text p{margin:0 0 .2em 0;line-height:1.5em}
+.js_en ul#overlayList li{line-height:1.5em}
+.js_en #overlayList li cite{display:block;margin:0 0 0 2.8em}
+.js_en #overlayList ul.externalReferences{margin:0;clear:both;margin:0 0 0 2.8em}
+.js_en #overlayList .internalReferences{margin:0 0 0 2.8em;width:auto}
+.js_en #overlayList ul.externalReferences li{display:inline;margin-right:.5em;padding:0}
+.js_en #overlayList li .internalReferences ul{overflow:hidden;margin-left:-0.4em;float:left;margin-bottom:.3em}
+.js_en #overlayList li .internalReferences ul li{border-left:1px solid #757373;font-size:1.1em;margin-left:-0.1em;display:inline;padding:0 .4em 0 .3em;line-height:1.2em}
+.js_en #overlayList ul.openUrl{margin-left:2.8em}
+.js_en #overlayList .internalReferences .directLinkLabel{display:block;padding-left:.4em;float:left;margin-right:.7em}
+.js_en #overlayList .internalReferences .directLinkLabel a{display:block;font-weight:bold;padding:0 .4em 0 0;background:#e2eaed url(../images/wolIconsNew.gif) no-repeat 100% -278px;color:#000;font-size:.9em;text-decoration:none;line-height:1.4em}
+.js_en #overlayList .custom li .internalReferences .directLinkLabel{margin-top:2px}
+.js_en #overlayList ol#citedByInternal li .internalReferences ul{margin-left:0}
+.js_en #overlayList div.internalReferences ul li a,.js_en #overlayList ul.externalReferences li a,.js_en #overlayList ul.openUrl li a{font-size:.9em;color:#007e8b}
+.js_en #overlayList ul.openUrl li:first-child{padding-left:0}
+.js_en #overlayList caption{font-weight:bold;padding:0 0 1em;text-align:left;width:100%}
+.js_en #overlayList .equation .math,.js_en #overlayList .equation img{float:left}
+.js_en #overlayList .number{float:right}
+.js_en #mrwFulltext #article .headingCont h1,.js_en #mrwFulltext #article .headingCont h2,.js_en #mrwFulltext #article .headingCont h3,.js_en #mrwFulltext #article .headingCont h4{padding:0 0 .1em .25em}
+.js_en #fulltext .headingCont select,.js_en #mrwFulltext .headingCont select{border:#c7d5d9 .1em solid;font-size:1.2em;float:right;margin-left:3em;margin-top:0}
+.js_en #mrwFulltext .headingCont select{font-size:1em}
+.js_en .failureHeading,.js_en .failureMessage{margin:0;width:490px}
+.js_en .failureHeading{font-size:1.4em;font-weight:bold;padding:0}
+.js_en .failureMessage{padding:0}
+.js_en #accordion h2{margin:.5em 0 0 0;background-color:#e1e9eb;padding:.5em;padding-left:1.7em;cursor:pointer;clear:both}
+.js_en #accordion h2.ui-accordion-header{background:url(../images/wolIcons2.gif) no-repeat scroll -389px -118px;background-color:#e1e9eb}
+.js_en #accordion h2.selected{background:url(../images/wolIcons2.gif) no-repeat scroll -389px -133px;background-color:#e1e9eb;color:#006976}
+.js_en #trustedProxy #accordion fieldset.topLeftRoundCorner,.js_en #referringUrl #accordion div.topLeftRoundCorner{padding-top:1.5em!important;background-position:0 5px}
+.js_en #login #loggedIn .profile ul{display:none}
+.js_en .profile{clear:both}
+.js_en .profile li{color:#757373;float:left;font-weight:bold;margin-right:.5em}
+.js_en .profile li span{display:block;background:transparent url(../images/wolIcons2.gif) no-repeat scroll 100% -462px;padding:.4em .9em .3em}
+.js_en .profile li a{color:#5d5d5d}
+.js_en .profile li.active{background:#007e8b url(../images/subNav_007e8b_left.gif) no-repeat}
+.js_en .profile li.active a{background:url(../images/subNav_007e8b_right.gif) no-repeat 100% 0;color:#fff}
+.js_en .profile li.active li a{background-image:none;color:#5d5d5d}
+.js_en .profile li ul{left:0;position:absolute;z-index:100;padding-top:2px}
+.js_en .profile li ul li{width:28.1em;background-image:none;background-color:#fff;margin:0;border-bottom:2px solid #e1e9eb;border-left:2px solid #e1e9eb;font-size:1em}
+.js_en .profile li ul li a{background-image:none;background-color:#fff;padding:0;padding:.5em;display:block}
+.js_en .profile li ul li a:hover{background:#e1e9eb}
+.js_en #pageNavAndTools #showFullJournalMenu{display:block;font-size:1.1em;font-weight:bold;margin-bottom:.5em;margin-top:.5em;color:#3d3d3d}
+.js_en #allParagraphs{display:none}
+.js_en #login form label#emailLabel,.js_en #login form label#passwordLabel{position:absolute;top:6em;left:1.4em;cursor:auto;display:block}
+.js_en #login form label#passwordLabel{top:10.3em}
+.js_en #browseMrw li a.branchLabel{text-decoration:none;font-weight:bold;line-height:140%}
+.js_en #browseMrw li a.branchLabel:hover span{text-decoration:underline}
+.js_en .emrw-table>.title{padding-left:6em}
+.js_en .jumpList,.js_en .emrw-table .table-container,.js_en #searchByCitation{display:none}
+.js_en #handle{background-color:silver;float:left;margin-left:10px;font-size:1.2em;padding:.3em;outline:0;text-decoration:none;position:absolute;color:#fff;text-align:center}
+.js_en #globalMessaging{z-index:102}
+.js_en #globalMessaging ul{font-size:1em}
+.js_en .decisionTree{display:none}
+.js_en select#productType,.js_en select#reportOwner,.js_en select#reportType,.js_en select#reportYear,.js_en select#reportMonth,.js_en select#reportYearStart,.js_en select#reportMonthStart,.js_en select#reportFormat{float:left;margin-right:1em}
+.js_en select#productType{width:12em}
+.js_en select#reportOwner{width:10em}
+.js_en select#reportYear{width:5em}
+.js_en select#reportMonth{width:7em}
+.js_en select#reportYearStart{width:5em}
+.js_en select#reportMonthStart{width:7em}
+.js_en select#reportFormat{width:4em}
+.js_en #usageReports fieldset .error{margin-left:0;width:100%}
+.js_en #usageReports .loading{clear:both;padding:0 2.5em;line-height:2.2em;text-align:left;border:1px solid #CCC;font-size:1.2em;background:url(../images/arrows.gif) 10px center no-repeat;margin:10px 0}
+.js_en #usageReports #usageData .error{width:auto;border-color:#bc361a;background:url(../images/error.gif) 10px center no-repeat}
+.js_en #additionalInformation .articleCategory a{margin-left:.5em}
+.js_en #authorsDetail,.js_en #editorsDetail,.js_en #publicationHistoryDetails,.js_en #howToCite,.js_en #errata,.js_en #fundingInfo,.js_en #isbnInfo,.js_en #bookSeriesInfo{display:none}
+.js_en #toggleAddInfo{clear:left;overflow:hidden;margin-left:-5px;width:100%}
+.js_en #toggleAddInfo a{float:left;border-left:2px solid #d5dcde;margin-left:-2px;margin-right:7px;padding-left:5px}
+.js_en #globalMenu #resourcesMenu{position:absolute;top:21px;left:17em;background-color:#fff;background:url(../images/resourcesMenuPointer.gif) no-repeat -4.5em 0;padding-top:1.3em;min-width:0;bottom:inherit;z-index:105}
+.js_en #globalMenu #resourcesMenu ul{padding:1em;background-color:#fff;border-left:3px solid #e9eff0;border-right:2px solid #e9eff0;border-bottom:2px solid #e9eff0;background-image:none;margin-top:.1em}
+.js_en #globalMenu #resourcesMenu li{line-height:1.6em;float:none;background-color:#fff;margin-top:0;padding:0}
+.js_en #globalMenu #resourcesMenu li a{width:11em;display:block;border-left:none;color:#007e8a;font-weight:normal;padding:.4em 1em;background-color:#fff;font-size:1.08em}
+.js_en #globalMenu #resourcesMenu li a:hover{background-color:#e9eff0;text-decoration:none}
+.js_en #issueToc .figZoom img{visibility:hidden}
+.js_en #bookHome #homepageContent ~ p#showContent,.js_en #bookHomeSeries #homepageContent ~ p#showContent,.js_en #mrwHome #homepageContent ~ p#showContent{overflow:hidden}
+.js_en #bookHome #homepageContent ~ p#showContent a,.js_en #bookHomeSeries #homepageContent ~ p#showContent a,.js_en #mrwHome #homepageContent ~ p#showContent a{float:right;cursor:pointer}
+.js_en #fulltext .downloadToPowerpoint{display:none}
+.js_en #usageReports .copyTable{display:block}
+.js_en #usageData{display:none}
+.js_en .tabbedContent .metrics{display:none}
+.js_en .report_usage{display:none}
+#report_queue{width:98%;margin:20px 0 40px 0}
+.refresh{background:#007e8c;color:#fff;font-weight:bold;line-height:16px;font-size:11px;padding:5px}
+.expand{padding-bottom:2px}
+table.report{background:#efffff;font-size:10px;display:none}
+table.report td,table.report th{border:1px solid #e6eff1;padding:5px;line-height:16px}
+table.report tr.errRow{background:#fcc39e}
+table.report .report_type{width:138px}
+table.report .report_name{width:150px}
+table.report .start_date{width:76px}
+table.report .end_date{width:76px}
+table.report .status{width:130px}
+table.report .action{width:218px}
+.wrapper{width:35%;float:left}
+.simple .wrapper label{width:75px}
+.simple .productTypeStyle select#productType,.reportTypeStyle select#reportType{width:170px}
+.simple .reportYearStartStyle select#reportYearStart,.simple .reportYearStyle select#reportYear{width:60px;margin-right:0}
+.simple .reportMonthStartStyle select#reportMonthStart,.simple .reportMonthStyle select#reportMonth{width:101px}
+.reportTypeStyle{width:50%}
+.reportYearStartStyle,.reportYearStyle{width:19%}
+.reportMonthStartStyle,.reportMonthStyle{width:16%}
+.reportMonthStartStyle label.reportMonthStartLabel,.reportMonthStyle label.reportMonthLabel{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+.reportFormatStyle{float:right;width:20%}
+#usageReports form.simple fieldset input[type="submit"].downloadbtn{background:#006976;background:-moz-linear-gradient(90deg 8px,#095b65,#006976) repeatscroll 0 0 transparent;margin-right:5px;margin-top:24px;color:#fff;padding:1px 3px}
+form.simple label.errDisp{margin-left:0}
+.simple fieldset{font-size:90%}
+form.simple label,.simple .label{margin-bottom:.3em}
+.productTypeLabel,.reportYearStartLabel,.reportTypeLabel,.reportYearLabel{width:66px}
+.wrapper .productTypeStyle,.wrapper .reportTypeStyle{width:274px}
+#reportMonth{width:100px}
+.reportFormatLabel{width:50px}
+.reportFormatStyle{width:150px}
+.reportMonthStyle{width:114px}
+.simple .reportMonthStyle select#reportMonth{width:101px}
+.reportFormatStyle select#reportFormat{width:50px}
+#downloads_block{clear:both;margin:20px 0;font-size:9px;width:99%;background:white}
+#downloads_block li{padding:0 8px;text-align:left;font-size:10px;background-color:#efffff;height:25px;margin:2px 2px}
+#downloads_block li div a{font-size:9px;text-decoration:underline}
+#downloads_block li div{float:left;height:25px;line-height:22px;font-size:9px}
+#downloads_block li div.sec1{width:15%;float:left}
+#downloads_block li div.sec2{width:15%;float:left}
+#downloads_block li div.sec3{width:25%;float:left}
+#downloads_block li div.sec4{width:20%;float:left}
+#downloads_block li div.sec5{width:25%;float:left}
+#downloads_block li.errorBlock{background:#ffb3b3}
+#downloads_block li.report_queue{background:#007e8c;color:#fff;font-weight:bold}
+#downloads_block li.report_queue div{font-size:11px}
+.js_en .report_usage{display:none}
+#usageReports form.simple fieldset input[type="submit"].generatebtn{background:#006976;background:-moz-linear-gradient(90deg 8px,#095b65,#006976) repeat scroll 0 0 transparent;margin-top:0;color:#fff;padding:1px 3px}
+.ajax-loader{top:38px;left:371px;position:absolute;display:none}
+#report_queue{position:relative}.shibbolethWidget{line-height:1.3;max-width:35em}
+.shibbolethWidget .actionBtn{background-color:#007e8a;border:0;border-radius:3px;box-shadow:1px 1px 2px #ccc;color:#fff;font-weight:bold;padding:2px 4px;text-decoration:none;cursor:pointer;-webkit-transition:background .3s ease;-moz-transition:background .3s ease;-ms-transition:background .3s ease;-o-transition:background .3s ease;transition:background .3s ease}
+.shibbolethWidget .actionBtn:hover,.shibbolethWidget .instName .actionBtn:hover{background-color:#095b65}
+.shibbolethWidget .actionBtn:active,.shibbolethWidget .instName .actionBtn:active{position:relative;top:1px}
+.shibbolethWidget .disabled,.shibbolethWidget .disabled:hover{color:#fff;background-color:#ccc;cursor:default}
+.shibbolethWidget .disabled:active{position:static}
+.shibbolethWidget .loginForm .formField,.shibbolethWidget .loginForm .formAction{margin-bottom:.75em}
+.shibbolethWidget .loginForm .formAction{text-align:right}
+.loginForm .formField .label{display:block;margin-bottom:.2em}
+.loginForm .formField .instInput{width:98%;padding:2px;border:1px solid #ccc}
+.loginForm .formField .error{border-color:#b94a48;color:#000}
+.loginForm .loginVia{margin-bottom:.5em;font-weight:bold}
+.shibbolethWidget .prevLogins{margin-top:2em}
+.shibbolethWidget .instList .instName{list-style-type:none;margin-bottom:.5em;vertical-align:middle;overflow:hidden;padding-bottom:1px}
+.shibbolethWidget .instName .actionBtn,.shibbolethWidget .instName .rdo,.shibbolethWidget .instName .instLabel{float:left}
+.shibbolethWidget .instName .actionBtn{border-radius:9px;background:#aaa url(../images/wolShibbolethIcons.png) 0 0 no-repeat;width:18px;height:18px;display:inline-block;text-indent:100%;border:0;padding:0;box-shadow:1px 0 1px #ccc;cursor:pointer}
+.shibbolethWidget .instName .waiting,.shibbolethWidget .instName .waiting:hover,.shibbolethWidget .instName .waiting:active{background:transparent url(../images/arrows.gif) 2px 1px no-repeat;cursor:default;position:static;box-shadow:none}
+.shibbolethWidget .instName .rdo{position:relative;top:2px}
+.shibbolethWidget .prevLogins .instName .rdo,.shibbolethWidget .instName .instLabel{margin-left:.5em;color:#007e8a;max-width:85%}
+.js .shibbolethWidget .instName .instLabel:hover,.js_en .shibbolethWidget .instName .instLabel:hover{text-decoration:underline}
+.js .shibbolethWidget .prevLogins .instName .rdo,.js_en .shibbolethWidget .prevLogins .instName .rdo,.js .shibbolethWidget .prevLogins .formAction .actionBtn,.js_en .shibbolethWidget .prevLogins .formAction .actionBtn,.js .shibbolethWidget .searchResults,.js_en .shibbolethWidget .searchResults{display:none}
+.ui-autocomplete-loading{background:url("../images/arrows.gif") 99% 40% no-repeat}
+.shibboleth-autocomplete{background-color:#fff;border:1px solid #ccc;border-radius:3px;box-shadow:2px 2px 3px #ccc;max-height:30em;overflow-y:auto;overflow-x:hidden;line-height:1.3;margin-top:-2px;display:block}
+.shibboleth-autocomplete .ui-menu-item{margin:0;padding:0;zoom:1;float:left;clear:left;width:100%}
+.shibboleth-autocomplete .ui-menu-item a{padding:.2em .3em;display:block;color:inherit;text-decoration:none;cursor:pointer}
+.shibboleth-autocomplete .ui-menu-item .ui-state-hover{background:#007e8a;color:#fff}
+.shibbolethWidget{_width:auto!important;_width:35em}
+.shibbolethWidget .actionBtn{*overflow:visible}
+.shibbolethWidget .instName .actionBtn{*text-indent:0;*line-height:99px;_overflow:hidden}
+.shibbolethWidget .instName .rdo,.shibbolethWidget .instName .prevInst{*margin-left:.3em}
+.shibbolethWidget .instName .rdo{*top:-1px}
+.shibbolethWidget .ui-menu .ui-menu-item .ui-state-hover{_background:#fff;_color:#007e8a}
+#mainContent .loginForm .formField .instInput{width:97%}.eAlerts{margin-top:2em}
+.eAlerts .submit{margin:1em 0}
+.societyAlertHeading{margin:1em 0}
+.societyEAlerts .topLeftRoundCorner{overflow:hidden}
+.societyAlertList{float:left;margin:20px 0 20px 20px;width:46%}
+.contentAlerts .singleCol{float:none;margin:20px 0 0 20px}
+.societyAlertList .alertItem{margin-bottom:20px}
+.societyAlertList .alertLbl{display:inline-block;width:85%;*display:inline;*zoom:1}
+.societyAlertList .alertField{*height:14px;margin-right:10px;vertical-align:top}
+.societyEAlerts .alertResponse{display:inline-block;*display:inline;font-weight:bold;margin-left:15px;zoom:1}
+.societyEAlerts .alertError{display:inline-block;font-weight:bold;color:#bc361a}
+.societyEAlerts .tabbedContent{margin:10px 0;display:none}
+.societyEAlerts .selectAll{float:none;padding-left:20px;margin-top:20px}
+.societyEAlerts .selectAll input{margin-right:10px}
+#fancybox-inner .societyEAlerts{padding:10px}
+#fancybox-inner .societyEAlerts .tabbedContent{border-bottom:2px solid #007e8b}
+#fancybox-inner .societyEAlerts .tabbedContent li.active a{color:#FFF}
+#fancybox-inner .societyEAlerts .tabbedContent a{color:#007e8a}
+.js_en .societyEAlerts .tabbedContent{display:block}
+.js_en .societyEAlerts .personalChoiceAlerts{display:none}
