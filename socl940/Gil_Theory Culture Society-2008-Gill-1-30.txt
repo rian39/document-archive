@@ -1,0 +1,1628 @@
+Theory,http://tcs.sagepub.com/
+Culture & Society
+
+In the Social Factory?: Immaterial Labour, Precariousness and Cultural Work
+Rosalind Gill and Andy Pratt
+Theory Culture Society 2008 25: 1
+DOI: 10.1177/0263276408097794
+The online version of this article can be found at:
+http://tcs.sagepub.com/content/25/7-8/1
+
+Published by:
+http://www.sagepublications.com
+
+On behalf of:
+Theory, Culture and Society
+
+Additional services and information for Theory, Culture & Society can be found at:
+Email Alerts: http://tcs.sagepub.com/cgi/alerts
+Subscriptions: http://tcs.sagepub.com/subscriptions
+Reprints: http://www.sagepub.com/journalsReprints.nav
+Permissions: http://www.sagepub.com/journalsPermissions.nav
+Citations: http://tcs.sagepub.com/content/25/7-8/1.refs.html
+
+>> Version of Record - Jan 8, 2009
+What is This?
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 1
+
+Precarity and Cultural Work
+
+In the Social Factory?
+Immaterial Labour, Precariousness and
+Cultural Work
+
+Rosalind Gill and Andy Pratt
+
+Abstract
+This article introduces a special section concerned with precariousness and
+cultural work. Its aim is to bring into dialogue three bodies of ideas – the
+work of the autonomous Marxist ‘Italian laboratory’; activist writings about
+precariousness and precarity; and the emerging empirical scholarship
+concerned with the distinctive features of cultural work, at a moment when
+artists, designers and (new) media workers have taken centre stage as a
+supposed ‘creative class’ of model entrepreneurs. The article is divided into
+three sections. It starts by introducing the ideas of the autonomous Marxist
+tradition, highlighting arguments about the autonomy of labour, informational capitalism and the ‘factory without walls’, as well as key concepts such
+as multitude and immaterial labour. The impact of these ideas and of
+Operaismo politics more generally on the precarity movement is then
+considered in the second section, discussing some of the issues that have
+animated debate both within and outside this movement, which has often
+treated cultural workers as exemplifying the experiences of a new
+‘precariat’. In the third and final section we turn to the empirical literature
+about cultural work, pointing to its main features before bringing it into
+debate with the ideas already discussed. Several points of overlap and
+critique are elaborated – focusing in particular on issues of affect, temporality, subjectivity and solidarity.
+Key words
+affect ■ autonomous Marxism ■ creative industries
+immaterial labour ■ precariousness
+
+■
+
+■
+
+cultural work
+
+■
+
+Theory, Culture & Society 2008 (SAGE, Los Angeles, London, New Delhi, and Singapore),
+Vol. 25(7–8): 1–30
+DOI: 10.1177/0263276408097794
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+2
+
+3/12/08
+
+14:07
+
+Page 2
+
+Theory, Culture & Society 25(7–8)
+
+T
+
+RANSFORMATIONS IN advanced capitalism under the impact of
+globalization, information and communication technologies, and
+changing modes of political and economic governance have produced
+an apparently novel situation in which increasing numbers of workers in
+affluent societies are engaged in insecure, casualized or irregular labour.
+While capitalist labour has always been characterized by intermittency for
+lower-paid and lower-skilled workers, the recent departure is the addition
+of well-paid and high-status workers into this group of ‘precarious workers’.
+The last decades have seen a variety of attempts to make sense of the broad
+changes in contemporary capitalism that have given rise to this – through
+discussions of shifts relating to post-Fordism, post-industrialization,
+network society, liquid modernity, information society, ‘new economy’, ‘new
+capitalism’ and risk society (see Bauman, 2000, 2005; Beck, 2000; Beck
+and Ritter, 1992; Beck et al., 2000; Bell, 1973; Boltanski and Chiapello,
+2005; Castells, 1996; Lash and Urry, 1993; Reich, 2000; Sennett, 1998,
+2006; Theory, Culture & Society has also been an important forum for these
+debates). While work has been central to all these accounts, the relationship between the transformations within working life and workers’ subjectivities has been relatively under-explored. However, in the last few years
+a number of terms have been developed that appear to speak directly to this.
+Notions include creative labour, network labour, cognitive labour, affective
+labour and immaterial labour. While such terms are not reducible to each
+other (Neilson and Rossiter, 2005), their very proliferation points to the
+significance of contemporary transformations and signals – at the very least
+– that ‘something’ is going on.
+In this special section we will address that ‘something’ through a
+sustained focus on one group of workers said perhaps more than any other
+to symbolize contemporary transformations of work: cultural and creative
+workers. In this context it is important to be clear about the object of our
+analysis. The cultural and creative industries are part of what is commonly
+referred to as the service and knowledge economy. Writers who stress the
+role of creativity (as a source of competitive advantage) point to the injection of ‘creative’ work into all areas of economic life. By contrast, scholars
+who are interested in the cultural industries point to the growth of the
+particular industries that produce cultural outputs. These industries have
+undergone significant expansion in recent years (Pratt, 2007). The two terms
+– cultural industries and creative industries – are subject to considerable
+dispute (Hesmondhalgh, 2002, 2007; Lovink and Rossiter, 2007; Peck,
+2005; Pratt, 2005, 2008). We regard the term ‘creative industries’ simply as
+a political rebranding of the cultural industries following Miege (1989),
+Garnham (1987) and Hesmondhalgh and Pratt (2005).
+Artists, (new) media workers and other cultural labourers are hailed
+as ‘model entrepreneurs’ by industry and government figures (Florida, 2002;
+Reich, 2000); they are also conjured in more critical discourses as exemplars of the move away from stable notions of ‘career’ to more informal,
+insecure and discontinuous employment (Jones, 1996), are said to be iconic
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 3
+
+Gill & Pratt – In the Social Factory? 3
+
+representatives of the ‘brave new world of work’ (Beck, 2000; Flores and
+Gray, 2000), in which risks and responsibilities must be borne solely by the
+individual (Allen and Henry, 1997; Batt et al., 1999; Gill, 2007; Jarvis and
+Pratt, 2006; McRobbie, 1999, 2002; Neff et al., 2005), and, more recently,
+as we elaborate in this article, they have been identified as the poster boys
+and girls of the new ‘precariat’ – a neologism that brings together the
+meanings of precariousness and proletariat to signify both an experience of
+exploitation and a (potential) new political subjectivity.
+While there has been discussion of the emergence of ‘free agents’
+(Pink, 2001) and of the tensions of the work–life balance (Hyman et al.,
+2003; McDowell, 2004; Perrons, 2003; Webster, 2004), precariousness,
+precarity and precarization have recently emerged as novel territory for
+thinking – and intervening in – labour and life. They come at once from the
+powerful body of work associated with autonomist Marxist intellectuals in
+Italy and France, and – importantly – from post-operaist political activism,
+such as that seen in the EuroMayDay mobilizations in the first few years of
+the 21st century. Precariousness (in relation to work) refers to all forms of
+insecure, contingent, flexible work – from illegalized, casualized and
+temporary employment, to homeworking, piecework and freelancing. In
+turn, precarity signifies both the multiplication of precarious, unstable,
+insecure forms of living and, simultaneously, new forms of political struggle
+and solidarity that reach beyond the traditional models of the political party
+or trade union. This double meaning is central to understanding the ideas
+and politics associated with precarity; the new moment of capitalism that
+engenders precariousness is seen as not only oppressive but also as offering
+the potential for new subjectivities, new socialities and new kinds of politics.
+The aim of this special section is to bring together three bodies of ideas
+– the work of the ‘Italian laboratory’, including Antonio Negri, Michael
+Hardt, Paolo Virno, Franco Beradi and Maurizio Lazzarato; the activist
+writings about precarity that have appeared in online journal sites such as
+Fibreculture and Mute; and the emerging research on creative labour being
+produced by sociologists and others (Adkins, 1999; Banks, 2007; Batt et
+al., 1999; Beck, 2003; Blair, 2003; Blair et al., 2003; Deuze, 2007; Gill,
+2002, 2007; Gottschall and Kroos, 2007; Jeffcutt and Pratt, 2002; Markusen
+and Schrock, 2006; McRobbie, 1998, 1999, 2003; Mayerhofer and Mokre,
+2007; Neff et al., 2005; Perrons, 1999, 2002, 2003; Pratt, 2002; Pratt et al.,
+2007; Ross, 2003; Taylor and Littleton, 2008a, 2008b; Ursell, 2000;). It is
+striking how little connection, until now, there has been between the theory
+and activism influenced by autonomous Marxists and empirical research
+(though see de Peuter and Dyer-Witheford, 2006; Ehrenstein, 2006), and it
+is this that the articles collected here seek to develop, beginning a conversation between the different traditions. Each of these strands constitutes, in
+a sense, an emergent field that is in process and not yet stabilized (in the
+manner understood by sociologists of scientific knowledge). The objective
+here is not to ‘apply’ one ‘perspective’ to another, but rather to bring these
+ideas into a dialogue in which sometimes difficult and challenging ‘high’
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+4
+
+3/12/08
+
+14:07
+
+Page 4
+
+Theory, Culture & Society 25(7–8)
+
+theory, activist politics and empirical research can raise new questions of
+each other. In what follows we discuss the writings of the autonomist school
+together with activist writings, in recognition of them as always-already
+entangled with political movements, and respecting their desire to move
+beyond a sociological perspective to a more political engagement with the
+dynamics of power in post-Fordist societies (Hardt and Negri, 2000, 2004;
+Negri, 1979, 1989; Virno et al., 2004).
+The special section features five articles (including this one) which
+situate themselves in different ways in relation to these debates. After this
+article, the section opens with an essay by Andrew Ross entitled ‘The New
+Geography of Work: Power to the Precarious?’, in which he argues that the
+precariousness of work in the creative economy reflects the uptake and
+infiltration of models of employment from the low-wage sectors. He asks
+whether precariousness in and beyond the creative industries can become
+a source of solidarity and ‘common cause’ among different groups. In the
+second article Susan Christopherson offers direct evidence of precarious
+work in the film industry. Historically, the film industry has been an early
+adopter of flexible and freelance work. Christopherson highlights the recent
+consequences: the weakening of union representation and control, and the
+way that, far from opening up access, the social networking and social
+recruitment that precarious work relies upon has markedly intensified
+divisions on the basis of gender and ethnicity. Next, Brett Neilson and Ned
+Rossiter argue that precariousness is the norm in capitalism and that
+Fordism was in fact the aberration or exception. Interrogating precarity as
+a political concept, they argue that its potential to produce novel forms of
+connection, subjectivity and political organization is itself a precarious
+project of border crossing and translation. Finally Hesmondhalgh and Baker
+take on the usefulness of autonomist ideas for engaging with the area of television production they are researching. They are critical of the autonomist
+notions of immaterial and affective labour, and use their empirical analysis
+to ‘talk back’ to this body of ideas. Intellectually and politically the articles
+take contrasting positions, yet are united by the attempts to think – and
+intervene in – precariousness as a defining feature of cultural labour, and,
+some might argue, contemporary life. In the remaining space of this article,
+however, the aim is to set out the context for this special section, with a
+discussion of precariousness, precarity and creative or cultural work.
+This article is divided into three parts. In the first we introduce the
+notions of precariousness, precarity and precarization in the context of
+contemporary autonomist Marxist writing. A number of key terms or themes
+will be examined – e.g. notions of immaterial labour, the social factory and
+multitude. In the second the politics of the precarity movement is discussed.
+In the final part of the article we turn to the growing body of empirical
+research on creative labour, and highlight several key themes of this work
+which overlap and resonate with autonomist thinking. These are themes
+relating to the importance of affect, temporality, subjectivity and solidarity.
+We raise questions and present the following articles in the spirit of
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 5
+
+Gill & Pratt – In the Social Factory? 5
+
+beginning a dialogue, some themes of which include: how might the autonomist preoccupation with temporality speak to the experiences of timepressured cultural workers? Does the autonomist emphasis upon the
+affective dimensions of work contribute to an understanding of creative
+labour? How might empirical studies of the experience of cultural work
+speak to autonomist arguments about emergent subjectivities in these
+fields? What kinds of political organization and resistance are likely to
+emerge in these profoundly individualized fields, and might precarity offer
+a point of articulation and solidarity? A short conclusion then draws this
+introductory article to a close.
+Autonomist Marxism and the Multitude
+The account of capitalism proposed by autonomist Marxists (see for example
+Hardt, 2005; Hardt and Negri, 2000, 2004; Lazzarato, 1996, 2007; Murphy
+and Mustapha, 2005b; Virno et al., 2004; Virno and Hardt, 1996) differs in
+several key respects from classical Marxism. It rejects the notion of history
+as a linear progression through a series of different stages, leading to the
+final and inevitable collapse of capitalism, brought about by declining rates
+of profit. In place of an account of the power of capital, it stresses the
+autonomy and creativity of labour, and workers’ power to bring about
+change. From this perspective, capital never shifts of its own accord;
+workers’ movements are the stimulus of development. Rather than seeing
+wage labourers as (merely) victims of capital, autonomists highlight their
+role as protagonists, in a view of capitalism in which a dialectical logic gives
+way to a revitalized emphasis on the antagonism of capitalist relations
+(though not understood in simple binary terms).
+Work or labour has been a pre-eminent focus of autonomist writing
+and activism, and is understood as representing the central mechanism of
+capitalism. Autonomist theorist Harry Cleaver defines capitalism as ‘a social
+system based on the imposition of work with the commodity form’ (2000:
+82), a system in which life is arranged around, and subordinated to, work
+and becomes the grounds of its mode of domination (Weeks, 2005). Given
+this understanding, autonomist Marxists do not call for more work, for the
+right to work or even for less alienated work, but point to the refusal of work
+as a political – potentially revolutionary – act. This is because, as Negri
+argues, to refuse work is fundamentally to challenge capitalism: ‘the refusal
+of work does not negate one nexus of capitalist society, one aspect of capital’s
+process of production or reproduction. Rather, with all its radicality, it
+negates the whole of capitalist society’ (Negri, 1979: 124).
+Autonomist writers are critical of some Marxists for their failure to
+appreciate the significance of work as constitutive of social life, and for
+their tendency to romanticize labour. Negri notes that it is sometimes treated
+as if it were ‘a title of nobility’ rather than the central mechanism of
+capitalist domination. He indicts other socialists for their commitment to
+‘productivism’, seeing it both as a retreat from critical analysis and from
+utopian imagination. For Negri, the refusal of work is both ‘a demand and
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+6
+
+3/12/08
+
+14:07
+
+Page 6
+
+Theory, Culture & Society 25(7–8)
+
+a perspective’ (Weeks, 2005: 109ff.). Refusal was a central tenet of
+Operaismo, the Italian workerist movements of the 1970s, alongside the
+‘leading role thesis’ and the ‘strongest link strategy’, which held that the
+critique of capital should start from working-class struggles and that energy
+be focused on the strongest parts of proletarian movements (rather than the
+weakest links of capital). As a practice, such a challenge may include
+slacking, absenteeism, wildcat strikes and acts of refusal or sabotage within
+the workplace, and it articulates an alternative to productivist values in an
+affirmation of what Kathi Weeks calls ‘hedonist Marxism’: ‘our propensity
+to want more – more time, freedom, and pleasure’, and a ‘vision of life no
+longer organised primarily around work’ (Weeks, 2005: 133). This captures
+autonomists’ emphasis on the positive, constructive aspects of refusal, and
+on a kind of politics which is not only designed to change the future, but
+also, in its very practice, to bring into existence new ways of being, living
+and relating. In this sense it echoes the ideas of the situationists (Debord,
+1994; Vaneigem, 1972). This is Negri’s idea of communism as a ‘constituting praxis’. As Hardt and Negri put it in Empire: ‘the refusal of work and
+authority, or really the refusal of voluntary servitude, is the beginning of a
+liberatory politics. . . . Beyond the simple refusal, or as part of that refusal,
+we need also to construct a new mode of life and above all a new community’
+(2000: 204). Other autonomists characterize this as ‘exit’ or ‘exodus’ – again
+highlighting less the negative aspects of such terms but rather the capacity
+to ‘reinvent’ the rules of the game and ‘disorient the enemy’ (Virno, 1996).
+The dynamism of autonomist accounts of capitalism is striking. As
+Dyer-Witheford (2005) vividly argues, it is ‘a story of escalating cut and
+thrust, a spiral attack and counter-attack’:
+Capital attempts to expropriate the inventive, cooperative capacity of workers,
+on which it depends for production of commodities. But labour resists. The
+spectre of subversion drives capital on a relentless ‘flight to the future’,
+expanding its territorial space and technological intensity in an attempt to
+destroy or circumvent an antagonist from whose value-creating power it can
+never, however, separate without destroying itself. (2005: 137)
+
+From this perspective, the working class is ‘not just made, but incessantly
+remade, as its contestation brings on successive rounds of capitalist reorganisation’ (Dyer-Witheford, 2005, our emphasis), which in turn generate
+new strategies and tactics of struggle. Hardt and Negri argue that, in the
+most recent phase of these ongoing cycles of attack and counter-attack, the
+industrial militancy of the European and North American working class
+brought forth a devastating ‘reply’ from capital, in which all the forces of
+state repression, transnationalization and technological development were
+deployed to decimate organized labour. The era of Fordist, industrial
+production was all but destroyed and the mass worker was replaced by the
+‘socialized worker’, bringing into being a new epoch in which the factory is
+increasingly disseminated out into society as a whole. Tronti (1966) writes
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 7
+
+Gill & Pratt – In the Social Factory? 7
+
+of the ‘social factory’ and Negri of ‘firms without factories’ or the ‘factory
+without walls’. From this perspective labour is deterritorialized, dispersed
+and decentralized so that ‘the whole society is placed at the disposal of
+profit’ (Negri, 1989: 79). It is further argued that the state, in turn, has
+shifted from a planner-state based on Keynesian economic principles to a
+‘crisis state’ or ‘neoliberal’ state which, as Michael Hardt (2005: 10) argues,
+‘does not mean a reduction in economic and social interventionism, but, on
+the contrary, a broadening of social labour power and an intensification of
+the state’s control over the social factory’. This is both more intense and
+more globally dispersed, as centralized programmes of imperialist
+expansion give way to ‘a decentred, transnational regime of production and
+governance’ (Murphy and Mustapha, 2005a: 1).
+It is not difficult to discern similarities between autonomist accounts
+of contemporary capitalism and analyses of post-Fordism (Piore and Sabel,
+1984), and in particular the work of the Regulation School (Aglietta, 1979;
+Lipietz, 1992). Moreover, the periodization adopted by many autonomist
+intellectuals resonates with several other perspectives in identifying the mid
+1970s as a key moment (Harvey, 1988; Jameson, 1991), the site of a
+temporal shift in capitalist organization. What distinguishes autonomist
+ideas from these other accounts are two linked themes: first the optimism
+of this perspective, most notably the resistance to seeing the shift as a
+terminal blow to the working class, and second the focus on subjectivity. As
+long ago as the early 1970s Negri posed the question: ‘What is the working
+class today, in this specific crisis, no longer merely as objects of exploitation, but the subject of power?’ (1973: 105, emphasis added). In more recent
+writing Hardt and Negri (2000, 2004) focus on the potentialities and
+capacities of the new post-Fordist proletariat, revisioned to fit their conceptualization of the dispersed social factory, as multitude, operators and
+agents. The notion of multitude, in particular, emerges as a key term for
+thinking class composition for this new (dispersed, fragmented, individualized) moment, in a way that maintains a stress upon collective forms of
+subjectivity and politics: ‘Multitude is meant to recognize what the class
+formation is today and, in describing that class formation, to recognize forms
+of its possibilities of acting politically’ (Hardt, 2005: 96).
+Informational Capitalism and Immaterial Labour
+Perhaps the autonomist term which, more than any other, may be expected
+to make a significant contribution to understanding the nature and
+conditions of creative work is that of ‘immaterial labour’, ‘where labour
+produces immaterial goods such as a service, a cultural product, knowledge
+or communication’ (Hardt and Negri, 2000: 292). Lazzarato (1996: 133)
+argues that the concept refers to two different aspects of labour:
+On the one hand, as regards the ‘informational content’ of the commodity, it
+refers directly to the changes taking place in workers’ labour processes in big
+companies in the industrial and tertiary sectors, where the skills involved in
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+8
+
+3/12/08
+
+14:07
+
+Page 8
+
+Theory, Culture & Society 25(7–8)
+direct labour are increasingly skills involving cybernetics and computer
+control (and horizontal and vertical communication). On the other hand, as
+regards the activity that produces the ‘cultural content’ of the commodity,
+immaterial labour involves a series of activities that are not normally recognized as ‘work’ – in other words, the kinds of activities involved in defining
+and fixing cultural and artistic standards, fashions, tastes, consumer norms
+and, more strategically, public opinion. Once the privileged domain of the
+bourgeoisie and its children, these activities have since the end of the 1970s
+become the domain of what we have come to define as ‘mass intellectuality’.
+
+Autonomist writers stress dual processes – on the one hand the ‘reTaylorisation’ (Galetto et al., 2007) or ‘proletarianisation’ (Del Re, 2005) of
+cultural and intellectual work, and on the other the transformation of all work
+such that it is increasingly dependent on communicative and emotional
+capacities. As Cristina Morini (2007: 40) puts it: ‘cognitive capitalism tends
+to prioritize extracting value from relational and emotional elements’. The
+notion of affective labour has achieved greater prominence in recent years as
+autonomous Marxists emphasize the significance to capitalism of the production and manipulation of affect. This is related to a shift in capitalism understood by Hardt and Negri (2000: 291) as ‘informationalization’ – the notion
+that lives are increasingly dominated by technologies: ‘Today we increasingly
+think like computers, while communication technologies and their model of
+interaction are becoming more and more central to labouring activities.’ This
+is leading, they argue, to a ‘homogenization of labouring processes’ (Hardt
+and Negri, 2000: 290). However, neither Lazzarato nor Hardt and Negri
+conceive of immaterial labour as purely functional to capitalism, but also see
+it as providing potential for a kind of spontaneous, elementary communism.
+Their writing emphasizes its double face – on the one side the shifts and
+intensification of exploitation brought about by the acceleration of information, and by Empire’s search for ways of realizing ‘unmediated command
+over subjectivity itself’ (Lazzarato, 1996: 134), but on the other the release
+of a social potential for transformation, largely attributable to its affective
+dimensions and the opportunities for human contact and interaction. This
+has some echoes of Marx’s ideas about the contradictory nature of capitalism. For autonomists, too, capitalism’s potential destruction is immanent to
+it. Indeed, nothing is outside – ‘there is only trade or war’, as the political
+slogan has it (quoted by Foti in Oudenampsen and Sullivan, 2004). However,
+Hardt and Negri say more than this. For them, workers’ use of technology
+exceeds the capacity of capital to control it (and them):
+Co-operation, or the association of producers, is posed independently of the
+organisational capacity of capital; the co-operation and subjectivity of labour
+have found a point of contact outside the machinations of capital. Capital
+becomes merely an apparatus of capture, phantasm and an idol. Around it
+move radically autonomous processes of self valorisation that not only constitute an alternative basis of potential development but also actually represent
+a new constituent foundation. (Hardt and Negri, 1994: 282)
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 9
+
+Gill & Pratt – In the Social Factory? 9
+
+A number of criticisms have been raised of the notions of informational capitalism and immaterial labour. The image of a society dominated
+by knowledge and information work is seen by some as too redolent of the
+language used by prophets of capitalism and management gurus (DyerWitheford, 2005); it also meshes inappropriately with Bell’s (1973) liberal
+formulation of post-industrial society which underpins the work of Castells
+(1996) and Florida (2002). Moreover, the stubborn materiality of most work
+seemingly represents a riposte to autonomist claims; just as assertions about
+‘virtual society’ and the ‘death of distance’ (Cairncross, 1998; Coyle, 1998;
+Quah, 1999) led to a resurgence of interest in place that highlighted the
+clustering and embeddedness of Internet companies in specific locales
+(English-Lueck et al., 2002; Indergaard, 2004; Perrons, 2004b; Pratt, 2000,
+2002; Pratt et al., 2007), so too the emphasis upon immateriality calls for
+a response that highlights the persistence of all-too-material forms of labour
+– even the zeros and ones that make up the Internet’s codes have to be
+written, and entered, by someone, somewhere.
+A further point of critique – taken up by Hesmondhalgh and Baker
+(this issue) – relates to the elision of differences within this account. While
+it might be true that most work today is in some sense impacted by information and communications, the grandiosity of such a claim obscures
+profound differences between different groups of workers – between, for
+example, the fast food operative with a digital headset or electronic till in
+their minimum wage McJob, and the highly educated, well-paid cultural
+analyst. Both are touched by the ‘information revolution’, to be sure, but is
+the ‘interactivity’ or ‘affectivity’ deployed in their work sufficient grounds
+for treating them as similar kinds of labouring subject? Put into a global
+perspective, the argument is even harder to sustain. George Caffentzis broke
+with other autonomists on this issue, pointing out that Hardt and Negri’s
+account was told from the perspective of male white and Northern subjects,
+and accusing them of celebrating cyborgs and immaterial labour while
+ignoring the contemporary renaissance of slavery: ‘the computer requires
+the sweatshop, and the cyborg’s existence is premised on the slave’
+(Caffentzis, 1998, cited in Dyer-Witheford, 2005: 149). This opens up the
+need for a careful consideration of what relationship cultural (or creative)
+workers may/may not have with ‘informational’ workers. There is already a
+critical literature regarding the tendency to analytically frame manufacture
+and services as a dualism (Walker, 1985). Moreover, Hesmondhalgh (2002)
+stresses the importance of symbolic production to the distinction of cultural
+work from other work. Finally, we need to be cautious about extrapolating
+the modes and forms of activism of these groups given their different formations and orientations. Clearly, a range of empirical work is figured here.
+Operaismo to Precarity
+Notwithstanding these criticisms, autonomist Marxist writings have proved
+attractive and inspirational to many scholars and activists eager for a
+critique of, and alternative to, post-Fordist capitalism. In the last decade
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 10
+
+10 Theory, Culture & Society 25(7–8)
+
+precarity politics has become one of the inheritors of the Operaismo movements in which many autonomists were involved. Like the autonomist
+writing discussed so far, precarity draws attention to both ‘the oppressive
+face of post-Fordist capitalism’ and the ‘potentialities that spring from
+workers’ own refusal of labour’ and their subjective demands (Neilson and
+Rossiter, 2005: 1). The notion embodies a critique of contemporary capitalism in tandem with an optimistic sense of the potential for change. Initially
+organized around struggles over labour, precarietà designated all forms of
+insecure, flexible, temporary, casual, intermittent, fractional or freelance
+work. Precarity became a collective platform and rallying point for the postFordist proletariat. As Neilson and Rossiter put it, in terms which echo
+Negri: ‘At base was an attempt to identify or imagine precarious, contingent
+or flexible workers as a new kind of political subject, replete with their own
+forms of collective organization and modes of expression’ (p. 2). However,
+precarity politics quickly expanded to encompass a variety of struggles,
+including those relating to migration, citizenship, LBGT and feminist
+movements. Activism ‘transformed precarietà from being, in the main, an
+economic category addressing new forms of occupation and labour relations,
+to a more open instrument of struggle, enabling resistance and the reimagination of contemporary politics, lives and subjectivities’ (Andall et al.,
+2007: 4).
+The precarity movement has been notable for the sheer energy and
+inventiveness of its attempts to interrupt the flow of transnational capital.
+Precarity activism is often ‘creative activism’ (De Sario, 2007), which uses
+theatre, cinema, music and stunts to effect political change, deploys visual
+tools and images extensively (Mattoni and Doerr, 2007) and also draws on
+situationist-inspired strategies of ‘detournement’ (Fantone, 2007). Alongside
+the mass mobilizations of the EuroMayDay demonstrations, which began in
+Milan in 2001 and had spread to 18 different European cities by 2005,
+actions included derives (Makeworlds Festival, 2001), precarity ping-pong
+and incursions by the invented saint San Precario into supermarkets,
+fashion shows and film festivals. Marcello Tari and Ilaria Vanni (2006)
+document the ‘life and deeds’ of this subversive transgender saint, patron
+of precarious workers, whose celebration day – on 29 February – was
+designed to draw attention to casualization and flexploitation and the
+takeover of life by work, and to create ‘lines of flight according to need,
+personal inclination and group affiliation’ (Tari and Vanni, 2006: 6).
+It is useful to think of the precarity movement as geographically and
+temporally specific. Its origination in Western Europe is significant, as is its
+association with the politics of 1970s Turin. As many have argued, ‘on a
+global scale and in its privatized and/or unpaid versions, precarity is and
+always has been the standard experience of work in capitalism’
+(Mitropoulous, 2005: 5, emphasis added; see also Frassanito Network,
+2006). As Neilson and Rossiter argue (this issue), it is Fordism and
+Keynesianism that are the exception, both spatially and temporally, thus the
+emergence of precarity movements in Western Europe may have their
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 11
+
+Gill & Pratt – In the Social Factory? 11
+
+foundation in the ‘relative longevity of social state models in the face of
+neoliberal labour reforms’, which meant that conditions experienced by most
+people, in most places, most of the time during the history of capitalism
+appeared newly harsh and brutal. For the same reasons precarity politics
+also (arguably) has a generational specificity, centred around people in their
+twenties and thirties – the ‘precarious generation’ (Bourdieu, 1999) identified by many (Beck, 2000; Sennett, 1998) as disproportionately affected by
+risk and insecurity compared to the previous generation, and with little
+expectation of work security.
+Some have argued that precarity politics are also temporally specific.
+The precariat is to post-Fordism what the proletariat was to the industrial
+age, argues Alex Foti (in Oudenampsen and Sullivan, 2004; see also Raunig,
+2007). Neilson and Rossiter ‘date’ the movement more carefully, asking
+whether and how its ascendance in the first few years of the 21st century
+may be connected to the aftermath of the attacks on the World Trade Center
+in New York and the subsequent US-led wars on Afghanistan and Iraq. Is
+this timing mere coincidence or do the mobilizations around precarity tap
+into more general insecurities and concerns about ‘seemingly interminable
+global conflict’? (Neilson and Rossiter, 2005). This also raises questions
+about the ways in which the notion may relate to Judith Butler’s (2004)
+discussion of ‘precarious life’, which has been articulated as an ontological,
+existential category founded in questions about who counts as human, what
+is recognized as a grievable loss, and the development of relational ethics.
+Might the growth of precarization also be connected to the growth and
+development of the worldwide web and the huge expansion of the cultural
+industries and cultural production – both areas which are characterized by
+the degree to which they presume precarious labour?
+Debating Precarity
+Some of the objections raised to autonomist ideas have also become
+animated debates within precarity politics. There has been contestation
+about who best exemplifies the experience of precarity. Laura Fantone
+(2007: 9) critiques what she sees as the ‘imaginary subject’ at the heart of
+precarity politics: the ‘single, male, urban artist or creative worker,
+idealised as the vanguard of the precariat’, who is often counterposed to
+the implicitly more ‘backward’ and less radical figure of the ‘suburban
+housewife’. This is tied to an accusation of both Eurocentrism and androcentrism which makes ‘different precarities’ less visible (Vishmidt, 2005).
+While women have almost always done ‘immaterial and affective labour,
+often with little recognition in both fields’, precariousness is only discussed
+‘at the moment when the Western male worker began feeling the negative
+effects of the new post-industrial flexible job market’ (Fantone, 2007: 7).
+As the movement has widened in response to such criticisms, other figures
+said to be emblematic of precarity include the undocumented migrant,
+female care workers, or sex workers (Makeworlds Festival, 2001; Mezzadra,
+2005).
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 12
+
+12 Theory, Culture & Society 25(7–8)
+
+Another debate concerns solidarity across difference. As a site for
+mobilizations across a variety of issues, locations and experiences, the
+precarity movement has sought to make connections between diverse groups
+– artists and creatives, factory workers, undocumented migrants, sex
+workers, students, etc. The Milan-based organization Chainworkers, for
+example, attempted to organize both ‘chainworkers’ (workers in malls,
+shopping centres, hypermarkets and logistics companies) and ‘brainworkers’
+(members of the ‘cognitariat’, programmers and freelancers). Alex Foti (in
+Oudenampsen and Sullivan, 2004) argued that while the former are always
+‘on the verge of social exclusion’, the latter ‘might make above-standard
+wages but if they lose their job they are thrown into poverty’ – and thus
+pointed to potential solidarity between them. The appeal of the notion of
+precarity is precisely in this potentiality, yet it also produces tensions
+common to all forms of transversal politics: how to deal with differences,
+how to find ‘common cause’, how to build solidarity while also respecting
+the singularity and specificity of the very different experiences of (say)
+janitors, creatives and office temps? At its best, precarity activism can be
+a politics of articulation in the Gramscian (see Gramsci, 1971) sense, requiring no pure or authentic subject as its model and resisting the temptation
+to collapse different experiences of precariousness into a singular form, with
+a unitary cause, but rather respecting differences and articulating them in
+struggle. Nevertheless, this politics of articulation (Hall, 1985, 1988, 1990;
+Laclau, 1979; Laclau and Mouffe, 1985) of contingent foundations (Butler,
+1992), still leaves everything to fight over. Not least is the question of
+whether there are grounds for such solidarity in a global frame characterized by enormous disparities in wealth and power. Would it actually be in
+the best interests of ‘the maquiladora worker to ally herself with the fashion
+designer?’ asks Angela Mitropoulos (2005), pertinently. Do they have
+common cause or identity of interests? What are the distinct modes of
+exploitation in operation? Can their different interests be articulated? Then
+there are questions about what kinds of power dynamics these very
+different locations/subjectivities might produce within the movement, and
+the very real challenges of building connections between actors who are
+positioned in radically different ways. Mitropoulos demands:
+If the exploitation and circulation of ‘cognitive’ or ‘creative labour’ consists,
+as Maurizio Lazzarato argues, in the injunction to ‘be active, to communicate,
+to relate to others’ and to ‘become subjects’ then how does this shape their
+interactions with others, for better or worse? How does the fast food chainworker, who is compelled to be affective, compliant, and routinised, not
+assume such a role in relation to the software programming ‘brainworker’,
+whose habitual forms of exploitation oblige opinion, innovation and selfmanagement? (Mitropoulos, 2005: 91)
+
+Finally, there have also been debates about the aims (and complicities) of precarity activism and, particularly, the extent to which the
+movement may look to the (nation) state to attenuate the worst features of
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 13
+
+Gill & Pratt – In the Social Factory? 13
+
+the experience of post-Fordist capitalism. Social policies, social welfare and
+public services (to the extent that they continue to exist) operate on an older
+social logic which is ‘the antithesis of the speed, innovation and flexibility’
+which are demanded of workers (Fantone, 2007: 6). Should the state provide
+an ‘income of citizenship’ or ‘income of existence’ (Fumagalli and Lazzarato,
+1999) for these precarious and insecure times? Feminist precarity activists
+Sconvegno (Galetto et al., 2007) argue that the movement is situated
+between on one hand deadening and obsolete calls (from older trade unions)
+for a return to ‘permanent employment’ ‘all the way to your pension’, and
+the spectre of ‘total lack of protection and rights’ on the other. In this context,
+some have argued for a ‘social income’ or for ‘flexicurity’. For others,
+however, this faith in the state is regarded as problematic, reinforcing securitization agendas and the erosion of civil liberties (particularly in the post
+9/11 period). More profoundly, it is seen as resting upon a somewhat naive
+understanding of state–capital relations (a position developed by Neilson
+and Rossiter, this issue). Again, the issue raises significant questions for
+precarity as a political project.
+Precariousness, Precarity and Creative Labour
+When Raymond Williams (1976) articulated his two great conceptions of
+culture – one based on a hierarchy of value and the other on the more anthropological understanding of culture as ‘a way of life’ – he left little room for
+consideration of cultural work (or culture as work). As Andrew Ross (Lovink
+and Ross, 2007) has noted, this is not surprising given the ‘labourist’ context
+in which Williams was working in 1960s and 1970s Britain; his aim was to
+open up a new direction for thinking culture. Nevertheless, Williams could
+not have anticipated that artists, writers, filmmakers, designers and others
+would, only a few decades later, have come to take centre stage as a supposed
+‘creative class’ endowed with almost mythical qualities (Florida, 2002).
+As paradigms of entrepreneurial selfhood, ‘creatives’, as they are now
+labelled, are the apple of the policymaker’s eye, and are recipients of the kind
+of lip service usually bestowed by national managers on high-tech engineers
+as generators of value. Art products are the object of intense financial speculation; cultural productions are top hit-makers in the jackpot end of the
+economy; ‘cultural districts’ are posited as the key to urban New Prosperity;
+and creative industries policy is embraced as the anchor of regional development by governments around the world on the lookout for a catch-up industrial plan. In the business world, creativity is viewed as a wonderstuff for
+transforming workplaces into powerhouses of value, while intellectual
+property – the lucrative prize of creative endeavor – is increasingly regarded
+as the ‘oil of the 21st century’. (Ross, p. 32)
+
+As Ross makes clear, creative workers and the cultural or creative industries more generally are imbued with an extraordinary range of capacities,
+which relate to wealth creation, urban regeneration and social cohesion
+(Gill, 2002, 2007; Pratt and Gill, 2000; Pratt et al., 2007). The notion of a
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 14
+
+14 Theory, Culture & Society 25(7–8)
+
+creative class has been roundly critiqued elsewhere (Peck, 2005; Pratt,
+2008), as has the use of the creative industries in policy discourse, particularly in the context of the 1990s UK New Labour government (Garnham,
+2005; Hesmondhalgh and Pratt, 2005; McRobbie, 1998, 1999, 2003; Pratt,
+2005). Here, though, our focus is on the claims that artists and creatives
+are ‘model entrepreneurs’, the ideal workers of the future.
+In recent years a number of qualitative and ethnographic studies have
+examined the lives of artists, fashion designers, television creatives and new
+media workers, and this research has raised critical questions about the
+much vaunted flexibility, autonomy and informality of these domains. A
+clear and largely consistent picture of creative labour has emerged from this
+research, particularly that focused on the ‘new’ micro-businesses in the
+cultural industries – what Ulrich Beck (2000) refers to as ‘me and company’,
+Leadbeater and Oakley (1999) dub ‘the Independents’, and Ross (2003)
+explores as the ‘industrialisation of Bohemia’.
+Studies have highlighted a number of relatively stable features of this
+kind of work: a preponderance of temporary, intermittent and precarious
+jobs; long hours and bulimic patterns of working; the collapse or erasure of
+the boundaries between work and play; poor pay; high levels of mobility;
+passionate attachment to the work and to the identity of creative labourer
+(e.g. web designer, artist, fashion designer); an attitudinal mindset that is a
+blend of bohemianism and entrepreneurialism; informal work environments
+and distinctive forms of sociality; and profound experiences of insecurity
+and anxiety about finding work, earning enough money and ‘keeping up’ in
+rapidly changing fields (Banks, 2007; Banks and Milestone, in press; Batt
+et al., 1999; Caves, 2000; Christopherson, 2002, 2003; Christopherson and
+van Jaarsveld, 2005; Gill, 2002, 2007; Jarvis and Pratt, 2006; Kennedy, in
+press; Kotamraju, 2002; McRobbie, 2002, 2003, 2006, 2007b; Milestone,
+1997; Neff et al., 2005; O’Connor et al., 2000; Perrons, 2007; Richards and
+Milestone, 2000; Ross, 2003; Taylor and Littleton, 2008a; Ursell, 2000).
+Structurally, research has also pointed to the preponderance of youthful,
+able-bodied people in these fields, marked gender inequalities, high levels
+of educational achievement, complex entanglements of class, nationality
+and ethnicity, and to the relative lack of caring responsibilities undertaken
+by people involved in this kind of creative work (in ways that might lend
+support to Beck’s arguments about individualization as a ‘compulsion’, the
+drive in capitalism towards a moment in which subjects can work unfettered
+by relationships or family; see also Adkins, 1999).
+There seem to be a number of potentially productive areas of overlap
+or resonance between research on cultural labour and the ideas of the Italian
+autonomist school and the precarity activism discussed so far. To our mind
+they coalesce around concerns with affect, temporality, subjectivity and
+solidarity. Thus we will consider each of these briefly to open up some
+possibilities for dialogue.
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 15
+
+Gill & Pratt – In the Social Factory? 15
+
+Affect
+One of the most consistent findings of research on work within the creative
+industries is that it is experienced by most who are involved with it as
+profoundly satisfying and intensely pleasurable (at least some of the time).
+A vocabulary of love is repeatedly evinced in such studies, with work
+imbued with the features of the Romantic tradition of the artist, suffused
+with positive emotional qualities (von Osten, 2007). Research speaks of
+deep attachment, affective bindings, and to the idea of self-expression and
+self-actualization through work. Indeed, such characterizations are so
+common that McRobbie (forthcoming) argues that we might dub this kind
+of labour ‘passionate work’.
+In this context, autonomous Marxists’ emphasis upon ‘affective labour’
+might be thought to offer a way of engaging with this, connecting such
+emotional investments with ‘work as play’ to wider transformations within
+capitalism – as well as the possibility to intervene in them. Yet does it? One
+of the problems with the notion of affective labour, which was alluded to
+earlier and is discussed in Hesmondhalgh and Baker’s article (in this
+issue), is the bluntness and generality of its definition. Designed to improve
+upon and narrow down ‘immaterial labour’, it lacks conceptual coherence
+and ends up collapsing entirely different kinds of work and experience. If
+all work has affective dimensions then what does it mean to say that any
+particular job involves affective labour? By what criteria might we distinguish between the hospice nurse and the backroom computer programmer?
+It is clear from empirical research on work in the cultural field that such
+labour calls on a whole range of different kinds of affective work (Kennedy,
+2008). Hesmondhalgh and Baker (this issue) attempt to unpack some of the
+emotional skills and qualities involved in work on a TV production, and
+they also contrast the autonomists’ focus on affective labour with
+Hochschild’s (1983) earlier work on (gendered) emotional labour.
+Perhaps even more troubling than the rather general conceptualization of affective labour in autonomists’ thinking is the work the notion of
+‘affect’ itself is called upon to do in their account of contemporary capitalism. As in so much autonomous Marxist writing the notion has a double face
+– it speaks on the one hand to the extent to which emotions, feelings,
+relationships are ‘put to work’ in post-Fordist capitalism, and on the other
+to the immanent human cooperative capacities and potentialities that may
+be set free by such labour. However, the former assertion, we contend, is
+made sotto voce in the context of their loud affirmation of the potentially
+transformative and transgressive nature of affect. Affect appears largely in
+its more pleasant guises – solidarity, sociality, cooperativeness, desire – and,
+importantly, as (largely) always-already transgressive. What this emphasis
+misses is both profoundly important to understanding cultural labour and
+for their account of contemporary capitalism.
+First, it occludes all the affective features of cultural labour that do
+not involve affirmative feelings. It misses, for example, the fatigue, exhaustion and frustration that are well documented in studies of cultural work. It
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 16
+
+16 Theory, Culture & Society 25(7–8)
+
+misses also the fears (of getting left behind, of not finding work), the competitiveness, the experience of socializing not simply as pleasurable potential,
+but as a compulsory means of securing future work (Gill, 2007; McRobbie,
+2002; Ursell, 2000). Above all, it misses the anxiety, insecurity and individualized shame that are endemic features of fields in which you are judged
+on what you produce, ‘you are only as good as your last job’, and your whole
+life and sense of self is bound up with your work (Blair, 2001). These are
+not incidental features of the experience of cultural labour; they are toxic,
+individualized but thoroughly structural features of workplaces that include
+television production companies, fashion and web design houses, and (not
+least) the neoliberal university.
+These (unpleasant) affective experiences –as well as the pleasures of
+the work – need to be theorized to furnish a full understanding of the experience of cultural work. To be fair, sociological research (our own included)
+has fallen short in this respect too, preferring to oscillate between polarized
+accounts which stress different features of the experience rather than
+producing an integrated understanding. But what is clear from the emerging
+research is the urgency of thinking these together – a prospect which seems
+to be foreclosed, rather than opened up, by the autonomists’ take on affect.
+Second, these ideas rest upon a view of affect that appears baffling to
+those outside the Nietzschean/Deleuzian tradition from which much autonomist writing draws. It is conjured as a pre-subjective intensity, which exists
+outside signification, and can exceed power relations and break through
+them, offering a glimpse of a better world, with new ways of being and
+relating. Yet why, we might wonder, is affect assumed to be autonomous?
+How can its essential transgressiveness be defended? How can it be said to
+exist outside relations of power, as if it were sealed in some pure realm that
+capitalism cannot reach to taint and corrupt? How, in sum, can it be claimed
+that affect is somehow outside the social? To be sure, affects can be mobilized in anti-capitalist struggles, as Hardt and Negri have argued (see also
+Terranova, 2004). Every activist involved in any kind of political organization knows this – it is about ‘hearts and minds’ after all. But this is a very
+different proposition from the suggestion that affect is – somehow – alwaysalready transgressive (for alternative formulations see: Ahmed, 2004;
+Berlant, 2008; Tyler, 2008a, 2008b).
+In autonomist writing, affect is called upon partly to critique what is
+understood as Foucault’s overemphasis on the reach and scope of power.
+Hardt counterposes ‘biopower from below’ in arguing for an affective dimension which evades, resists and exceeds the new modalities of control. There
+is not space here to fully elaborate a critique of this position, but we would
+echo Hemmings’ powerful interrogation of the ‘affective turn’, in which she
+argues that affect ‘often emerges as a rhetorical device whose ultimate goal
+is to persuade “paranoid theorists” into a more productive frame of mind’
+(2005: 551). Its affirmatory focus gives little space to affects which, far from
+resisting or transgressing, seem to collude and reproduce. Where is the
+ugliness of racism and hate crime, for example? Little space seems allowed
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 17
+
+Gill & Pratt – In the Social Factory? 17
+
+for affects that are normative or disciplinary, binding us into structures and
+relations that may, in classical Marxist terms, not be in our real interests.
+In relation to understanding cultural labour it leaves us with no way of
+grappling with the role played by affect in generating consent (or even
+passion) for working lives that, without this emotional and symbolic sheen,
+might appear arduous, tiring and exploitative. Moreover, the autonomists’
+very selective focus on affect does not help to illuminate the ‘self-exploitation’ that has been identified as a salient feature of this field (McRobbie,
+2002; Ross, 2003), and in this respect Foucauldian-inflected accounts
+appear more compelling in their ability to make sense of how pleasure itself
+may become a disciplinary technology.
+Temporality
+When read through the concerns of the recent ‘turn to labour’ in cultural
+studies, one of the autonomists’ most compelling arguments relates to the
+takeover of life by work. This is understood by autonomist writers and
+activists not through the familiar liberal notion of ‘work–life balance’ but
+through the radical contention that we all exist in the ‘social factory’. ‘When
+we say “work” in cognitive capitalism, we mean less and less a precise and
+circumscribed part of our life, and more and more a comprehensive action’
+(Morini, 2007: 44), in which the whole life experience of the worker is
+harnessed to capital.
+For autonomists this claim is largely understood in terms of time. Thus
+it is not so much that work extends across different spaces (the home and,
+with mobile devices, almost everywhere), but that the temporality of life
+becomes governed by work. Papadopoulos et al. (2008) argue that precarity is a form of exploitation which operates primarily on the level of time,
+evaporating distinctions between work and leisure, production and
+consumption. Moreover, in the ‘participation economy’ of Web 2.0 (Rossiter,
+in Delfanti, 2008) ‘free time’ becomes ‘free labour’ (Terranova, 2000) as
+people produce and upload content for Facebook, Bebo and YouTube,
+modify games for giant multinational corporations and leave data trails that
+are ‘informational goldmines’ on Google and Safari, etc.
+These arguments accord profoundly with the findings of research on
+cultural work. Time emerges powerfully from such accounts as problematic
+and difficult in many respects. First, much research points to the extraordinarily long working hours of cultural workers – which are often considerably in excess of working-time agreements and exert heavy costs on – or
+even prohibit – relationships outside work with friends, partners, children
+(in ways that are unevenly affected by gender and age). Second, research
+has pointed to the significant disruption caused by stop-go ‘bulimic’ patterns
+of working, in which periods with no work can give way to periods that
+require intense activity, round-the-clock working, with its attendant impacts
+on sleep, diet, health and social life (Gill, 2007; McRobbie, 2006, 2007b;
+Perrons, 2002, 2007; Pratt, 2000). Moreover, in some industries (for
+example fashion and the computer games industry) ‘crunch times’ are
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 18
+
+18 Theory, Culture & Society 25(7–8)
+
+becoming more and more normalized (de Peuter and Dyer-Witheford, 2006),
+such that working hours previously only expected as a collection went to
+show or a game came to publication become increasingly routinized as part
+of the job. As McRobbie (forthcoming) argues, this gives rise to health
+hazards of a different kind from the workplace accidents of industrial work:
+there may be fewer burns and severed limbs, but the injuries of this highend creative labour include exhaustion, burn-out, alcohol and drug-related
+problems, premature heart attacks and strokes, and a whole host of mental
+and emotional disorders related to anxiety and depression (see also Gill,
+2009, on the hidden injuries of the neoliberal university).
+The blurring of work and non-work time is another feature of cultural
+labour which seems to fit with autonomist accounts. Research shows that
+many cultural workers – especially young people – frequently make no
+distinction between work time and other time. However, while autonomists
+tend to figure this in terms of the colonization of life and suggest refusal,
+‘tarrying with time’ (Tsianos and Papadopoulos, n.d.), or Temporary
+Autonomous Zones (Bey, 1985), or the slow movement (Leung, forthcoming)
+as possible modes of resistance, the empirical literature points to a more
+complicated and ambivalent picture. Long hours and the takeover of life by
+labour may be dictated by punishing schedules and oppressive deadlines,
+and may be experienced as intensely exploitative, but they may also be the
+outcome of passionate engagement, creativity and self-expression, and opportunities for socializing in fields in which ‘networking’ is less about ‘schmoozing’ the powerful than ‘chilling’ with friends, co-workers and people who
+share similar interests and enthusiasms. Not all cultural workers, it seems,
+share Hardt and Negri’s critique of productivism! Sometimes networking may
+be ‘compulsory sociality’ (Gregg, 2008) required to survive in a field; at other
+times it may be pleasurable ‘hanging out’ (Pratt, 2006). Often, of course, it is
+both. It seems to us that the meanings which cultural workers give to this
+should be central – and this is one area where a productive dialogue could
+be established between autonomism and sociological work on cultural labour.
+Subjectivity
+As we noted at the start of this article, one of the things that distinguishes
+the work of Lazzarato, Hardt, Negri, Virno and others from much other social
+theory – including other Marxist writing – is its emphasis upon subjectivity.
+Perhaps more than any other body of scholarship it has been concerned to
+connect changes in the organization of capitalism to transformations in
+subjectivity, and this represents, in our view, a bold and important project
+which resonates with and complements the research of some sociologists
+and critical psychologists – particularly those concerned with the subjectivities demanded by contemporary neoliberal capitalism (Brown, 2003;
+McRobbie, 2007a, 2007b; Rose, 1990; Walkerdine et al., 2001).
+Yet there are tensions within autonomist thinking about subjectivity,
+which relate – like those around affect – to the productive and affirmatory
+focus of their work. On the one hand there is a concern with capitalism’s
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 19
+
+Gill & Pratt – In the Social Factory? 19
+
+attempt to exercise control over not simply workers’ bodies and productive
+capacities but over their subjectivity as well. Lazzarato (1996: 135) contends
+that ‘the new slogan of Western societies is that we should all “become
+subjects”’. He argues: ‘Participative management is a technology of power,
+a technology for creating and controlling “subjective processes”.’ This
+seems to accord with a Foucaultian tradition of analysis interested in new
+forms of governmentality (Miller and Rose, 2008).
+On the other hand, however, autonomist writers are concerned to stress
+emergent subjectivities, the possibilities of resistance, the features of
+subjectivity that exceed capitalist control and regulation. They argue that
+one’s subjectivity does not arise from one’s position in the class structure
+but is produced when the contemporary regime of labour becomes embodied
+experience: subjectivity is not a facticity, it is an imperceptible departure
+(Papadopoulos et al., 2008). The point of departure of the new social subject
+is not immaterial production as such but its materialization in the subject’s
+flesh (Negri, 2003).
+We would contend, however, that subjectivity is always mediated by
+the meanings which people give to their experience – even ‘materialization
+in the flesh’ (which we would understand as embodied ways of knowing) is
+not, in our view, outside culture. Thus, to understand emergent subjectivities, to understand what Marx would have thought of as the difference
+between a class in itself and class for itself, centrally requires attention to
+the meanings cultural workers themselves give to their life and work – not
+merely, we must stress, for the sake of sociological completeness, but in
+order to found a political project. Without this, how to account for not only
+the refusals, but also the compliance, the lack of refusal? To put it back to
+autonomist writers in a more Deleuzian-infused language, we need to understand not only the possible becomings, but also the not-becomings.
+Moreover, these tensions generate issues similar to those we raised
+about affect: namely, how is it that parts of subjectivity can resist, evade or
+exceed capitalist colonization? In addition, they point to a fundamental
+epistemological question: if contemporary forms of capitalist organization
+demand ‘cooperativeness’, ‘participation’, ‘creativity’ and other practices
+that are also – simultaneously – said to be features of an elementary spontaneous communism, then how can one distinguish between those instances
+that might make capitalists quake in their boots and those which are indices
+(on the contrary) of capitalism’s penetration of workers’ very souls? By what
+kinds of principled criteria might we differentiate between the radically
+different meanings of apparently similar practices? These are important
+questions that autonomist writing does not seem to resolve.
+Solidarity
+Finally, however, it seems to us that one of the most important – yet largely
+implicit – contributions that autonomists’ thinking and precarity activism
+might make to this field is in putting questions of cultural labour, political
+economy and social justice on the agenda. The lack of trade unionization
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 20
+
+20 Theory, Culture & Society 25(7–8)
+
+and labour organization in many areas of cultural work is striking, and is
+both cause and outcome of industries that are individualized, deregulated
+and reliant upon cheap or even free labour, with working hours and
+conditions (particularly among freelancers and intermittents) that are largely
+beyond scrutiny.
+This situation has been scandalously ignored by the academic fields
+of media and cultural studies, which have – with notable exceptions –
+woefully neglected cultural production, or at times have become caught up
+in the hyperbole of fields such as web design or fashion, believing their
+myths of ‘coolness, creativity and egalitarianism’ (Gill, 2002). In the context
+of the silence from most scholars about cultural labour, autonomist thinking
+and activism makes a major contribution in focusing on the role of work in
+capitalism and drawing attention to processes of precarization and individualization. Moreover, in resisting a purely sociological account in favour of
+an emphasis upon the political potentials of immaterial labour, this work
+points to the possibility of change, of re-imagining life and labour, of
+creating new forms of solidarity.
+Conclusion
+This article has examined the contribution that autonomous Marxism has
+made to theorizing the experience of ‘immaterial’ cultural labour in postFordist capitalism, and has pointed to the new forms and practices of politics
+that are mobilized around the precariousness that is said to be a defining
+feature of contemporary life. Autonomous Marxist ideas have provided
+inspiration to many seeking a principled left critique of contemporary capitalism, and their ambition and sweep is little short of extraordinary. The
+ideas have restored a dynamism to accounts of capitalism and accorded
+workers a leading role in effecting change, with an affirmatory emphasis on
+the potentialities created by new forms of labour. The focus on the dispersal of work beyond the factory gate and the dissemination of capitalist
+relations throughout the ‘social factory’ makes a major contribution to social
+theory, and the autonomist attention to subjectivity and to new or potential
+solidarities is also valuable.
+In this article we have brought autonomist writings together with activist
+ideas about precarity as a key feature of contemporary experience. For some,
+the figure of the artist or creative worker has been emblematic of the experience of precarity: negotiating short-term, insecure, poorly paid, precarious
+work in conditions of structural uncertainty. As we have noted, however, this
+is contested and precarity might be better thought of as a political rallying
+point for a diverse range of struggles about labour, migration and citizenship.
+When juxtaposed with the growing body of empirical research on
+cultural work, however, the autonomist tradition has both added insights and
+thrown up tensions. The notions of ‘immaterial labour’ and ‘affective labour’
+that are so central to this work are rather ill-defined and not sharp enough
+to see the ways in which cultural work is both like and not like other work.
+Moreover, the emphasis upon affect as positive, transgressive potential has
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 21
+
+Gill & Pratt – In the Social Factory? 21
+
+made it difficult for autonomist writers to see the other roles affect may play
+– not simply in resisting capital but binding us to it. A fuller understanding needs to grasp both pleasure and pain, and their relation to forms of
+exploitation that increasingly work through dispersed disciplinary modalities and technologies of subjecthood.
+The autonomist and activist focus on refusal and resistance raises
+questions about the relative absence of labour organization within many
+cultural workplaces (the film industry being an obvious exception), and this
+represents a significant contribution. However, to understand this requires
+a closer analysis than the autonomists provide – one that can engage with
+the specificities of different industries, workplaces and locations, and attend
+to the meanings that workers themselves give to their labour. To argue this
+is not to reinstate ‘mere’ sociology against the autonomists’ explicitly political engagement (though we are not so happy with the ‘mere’) but to argue,
+on the contrary (and with a debt to Marx), that this emphasis is necessary
+not only to understand but also to change the world.
+Acknowledgements
+This special section arose out of a meeting on cultural work and precariousness,
+organized by the authors and held at the London School of Economics in March
+2007. We would like to thank all the participants for their stimulating contributions,
+and gratefully acknowledge the financial support of the ESRC (award number RES341–25–005) in making it possible. Thanks are also due to Roger Burrows, Geert
+Lovink and Angela McRobbie for their enthusiastic support of the broader project
+on which this is based. In an unusual step, we would also like to express our
+appreciation to Nick Dyer-Witheford and Kathi Weeks, whose readings of
+Autonomía have influenced and refined our own understanding. Thanks also go to
+Nick Gane and others at Theory, Culture & Society for their work in editing this
+special section. Finally, our particular thanks go to Dave Hesmondhalgh, Brett
+Neilson, Ned Rossiter and Stephanie Taylor for generously taking time to give
+helpful comments on earlier drafts of this article.
+References
+Adkins, L. (1999) ‘Community and Economy: A Re-traditionalization of Gender?’,
+Theory, Culture & Society 16(1): 119–39.
+Aglietta, M. (1979) A Theory of Capitalist Regulation: The US Experience. London:
+New Left Books.
+Ahmed, S. (2004) The Cultural Politics of Emotion. Edinburgh: Edinburgh
+University Press.
+Allen, J. and N. Henry (1997) ‘Ulrich Beck’s “Risk Society” at Work: Labour and
+Employment in the Contract Service Industries’, Transactions of the Institute of
+British Geographers 22(2): 180–96.
+Andall, J., N. Puwar and the Italian Group (2007) ‘Editorial: Italian Feminisms’,
+Feminist Review 87: 1–4.
+Banks, M. (2007) The Politics of Cultural Work. Basingstoke: Palgrave Macmillan.
+Banks, M. and K. Milestone (in press, 2009) ‘Individualization, Gender and
+Cultural Work’, Gender, Work and Organization.
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 22
+
+22 Theory, Culture & Society 25(7–8)
+Batt, R., S. Christopherson and N. Rightor (1999) Net-working: Working Life in a
+Project-based Industry: A Collaborative Study of People Working in New Media in
+New York. Ithaca, NY: Cornell University Press.
+Bauman, Z. (2000) Liquid Modernity. Cambridge: Polity Press.
+Bauman, Z. (2005) Liquid Life. Cambridge: Polity Press.
+Beck, A. (2003) Cultural Work: Understanding the Cultural Industries. London:
+Routledge.
+Beck, U. (2000) The Brave New World of Work. Cambridge: Polity Press.
+Beck, U. and M. Ritter (1992) Risk Society: Towards a New Modernity. London:
+SAGE.
+Beck, U., J. Van Loon and B. Adam (2000) The Risk Society and Beyond: Critical
+Issues for Social Theory. London: SAGE.
+Bell, D. (1973) The Coming of Post-industrial Society. New York: Basic Books.
+Berlant, L.G. (2008) The Female Complaint: The Unfinished Business of Sentimentality in American Culture. Durham, NC: Duke University Press.
+Bey, H. (1985) TAZ: The Temporary Autonomous Zone: Ontological Anarchy, Poetic
+Terrorism. New York: Autonomedia.
+Blair, H. (2001) ‘“You’re Only as Good as Your Last Job”: The Labour Process and
+Labour Market in the British Film Industry’, Work, Employment and Society 15(1):
+149–69.
+Blair, H. (2003) ‘Winning and Losing in Flexible Labour Markets: The Formation
+and Operation of Networks of Interdependence in the UK Film Industry’, Sociology – The Journal of the British Sociological Association 37(4): 677–94.
+Blair, H., N. Culkin and K. Randle (2003) ‘From London to Los Angeles: A
+Comparison of Local Labour Market Processes in the US and UK Film Industries’,
+International Journal of Human Resource Management 14(4): 619–33.
+Boltanski, L. and E. Chiapello (2005) The New Spirit of Capitalism. London: Verso.
+Bourdieu, P. (1999) ‘Job Insecurity Is Everywhere Now’, in Acts of Resistance:
+Against the Tyranny of the Market, trans. R. Nice. New York: New Books.
+Brown, W. (2003) ‘Neo-liberalism and the End of Liberal Democracy’, Theory &
+Event 7(1): 1–19.
+Butler, J. (1992) ‘Contingent Foundations’, in J.W. Scott and J. Butler (eds) Feminists Theorize the Political. London: Routledge.
+Butler, J. (2004) Precarious Life: The Powers of Mourning and Violence. London:
+Verso.
+Cairncross, F. (1998) The Death of Distance: How the Communications Revolution
+Will Change Our Lives. Boston, MA: Harvard Business School Press.
+Castells, M. (1996) The Rise of the Network Society. Cambridge, MA: Blackwell
+Publishers.
+Caves, R.E. (2000) Creative Industries: Contracts between Art and Commerce.
+Cambridge, MA: Harvard University Press.
+Christopherson, S. (2002) ‘Project Work in Context: Regulatory Change and the New
+Geography of Media’, Environment and Planning A 34(11): 2003–15.
+Christopherson, S. (2003) ‘The Limits to “New Regionalism”: (Re)Learning from
+the Media Industries’, Geoforum 34(4): 413–15.
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 23
+
+Gill & Pratt – In the Social Factory? 23
+Christopherson, S. and D. van Jaarsveld (2005) ‘New Media after the dot.com bust:
+The Persistent Influence of Political Institutions on Work in the Cultural Industries’, International Journal of Cultural Policy 11(1): 77–94.
+Cleaver, H. (2000) Reading Capital Politically. Edinburgh: AK Press.
+Coyle, D. (1998) The Weightless Economy. London: Capstone.
+Debord, G. (1994) The Society of the Spectacle. New York: Zone Books.
+Delfanti, A (2008) ‘The Challenge of Working at the Time of Network: Interview
+with Ned Rossiter’, Il Manifesto 1 May, URL (consulted June 2008): http://
+www.ilmanifesto.it/argomenti-settimana/articolo_43169543799d495da0c8deecbdea
+8c2d.html
+Del Re, A. (2005) ‘Feminism and Autonomy: Itinerary of Struggle’, pp. 48–72 in
+T.S. Murphy and A.-K. Mustapha (eds) Resistance in Practice: The Philosophy of
+Antonio Negri. London: Pluto Press.
+de Peuter, G. and N. Dyer-Witheford (2006) ‘A Playful Multitude? Mobilising and
+Counter-mobilising Immaterial Game Labour’, Fibreculture 5.
+De Sario, B. (2007) ‘“Precari su Marte”: An Experiment in Activism against Precarity’, Feminist Review 87: 21–39.
+Deuze, M. (2007) Media Work. Cambridge: Polity Press.
+Dyer-Witheford, N. (2005) ‘Cyber-Negri: General Intellect and Immaterial Labor’,
+pp. 136–62 in T.S. Murphy and A.-K. Mustapha (eds) Resistance in Practice: The
+Philosophy of Antonio Negri. London: Pluto Press.
+Ehrenstein, A. (2006) ‘Social Relationality and Affective Experience in Precarious
+Labour Conditions’, unpublished MRes. thesis, Dept. of Social Psychology, Cardiff
+University.
+English-Lueck, J.A., C.N. Darrah and A. Savari (2002) ‘Trusting Strangers: Work
+Relationships in Four High-tech Communities’, Information, Communication &
+Society 5: 90–108.
+Fantone, L. (2007) ‘Precarious Changes: Gender and Generational Politics in
+Contemporary Italy’, Feminist Review 87: 5–20.
+Flores, F. and J. Gray (2000) Entrepreneurship and the Wired Life: Work in the Wake
+of Careers. London: Demos
+Florida, R.L. (2002) The Rise of the Creative Class: And How It’s Transforming Work,
+Leisure, Community and Everyday Life. New York: Basic Books.
+Frassanito Network (2006) ‘Movements and Struggles of Migration’, URL (consulted
+October 2008): http://thistuesday.org/node/130
+Fumagalli, A. and M. Lazzarato (1999) Tutte bianche. Rome: Derive Approdi.
+Galetto, M., C. Lasala, S. Magaraggia, C. Martiucci, O. Elsabetta and F. Pozzi (2007)
+‘A Snapshot of Precariousness: Voices, Perspectives, Dialogues’, Feminist Review
+87: 104–12.
+Garnham, N. (1987) ‘Concepts of Culture – Public Policy and the Cultural
+Industries’, Cultural Studies 1(1): 23–37.
+Garnham, N. (2005) ‘From Cultural to Creative Industries: An Analysis of the
+Implications of the “Creative Industries” Approach to Arts and Media Policy
+Making in the United Kingdom’, International Journal of Cultural Policy 11(1):
+15–30.
+Gill, R.C. (2002) ‘Cool, Creative and Egalitarian? Exploring Gender in
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 24
+
+24 Theory, Culture & Society 25(7–8)
+Project-based New Media Work in Europe’, Information, Communication & Society
+5(1): 70–89.
+Gill, R.C. (2007) Technobohemians or the New Cybertariat? New Media Work in
+Amsterdam a Decade after the Web, Network Notebooks. Amsterdam: Institute of
+Network Cultures.
+Gill, R.C. (in press, 2009) ‘Secrecy, Silence, Toxic Shame and the Hidden Injuries
+of the Neo-liberal University’, in R. Flood and R.C. Gill (eds) Secrecy and Silence
+in the Research Process: Feminist Reflections. London: Routledge.
+Gottschall, K. and D. Kroos (2007) ‘Self-employment in Comparative Perspectives:
+General Trends and the Case of New Media’, in C. Fagan, L. McDowell, D. Perrons,
+K. Ray and K. Ward (eds) Gender Divisions in the New Economy: Changing Patterns
+of Work, Care and Public Policy in Europe and North America. London: Edward
+Elgar.
+Gramsci, A. (1971) Selections from the Prison Notebooks of Antonio Gramsci, ed.
+and trans. Q. Hoare and G. Nowell-Smith. London: Lawrence and Wishart.
+Gregg, M. (2008) ‘Testing the Friendship: Feminism and the Limits of Online Social
+Networks’, Feminist Media Studies 8(2): 197–223.
+Hall, S. (1985) ‘Authoritarian Populism: A Reply to Jessop et al.’, New Left Review
+151: 115–22.
+Hall, S. (1988) ‘The Toad in the Garden: Thatcherism among the Theorists’, in
+C. Nelson and L. Grossberg (eds) Marxism and the Interpretation of Culture.
+Basingstoke: Macmillan.
+Hall, S. (1990) ‘Minimal Selves’, Identity Documents 6: 44–6.
+Hardt, M. (2005) ‘Into the Factory: Negri’s Lenin and the Subjective Caesura
+(1968–1973)’, pp. 7–37 in T.S. Murphy and A.-K. Mustapha (eds) Resistance in
+Practice: The Philosophy of Antonio Negri. London: Pluto Press.
+Hardt, M. and A. Negri (1994) Labor of Dionysus: A Critique of State-form.
+Minneapolis: University of Minnesota Press.
+Hardt, M. and A. Negri (2000) Empire. Cambridge, MA: Harvard University
+Press.
+Hardt, M. and A. Negri (2004) Multitude: War and Democracy in the Age of Empire.
+New York: Penguin Press.
+Harvey, D. (1988) The Condition of Postmodernity: An Enquiry into the Origins of
+Cultural Change. Oxford: Basil Blackwell.
+Hemmings, C. (2005) ‘Invoking Affect: Cultural Theory and the Ontological Turn’,
+Cultural Studies 19(5): 548–67.
+Hesmondhalgh, D. (2002) The Cultural Industries. London: SAGE.
+Hesmondhalgh, D. (2007) ‘Creative Labour as a Basis for a Critique of Creative
+Industries Policy’, pp. 59–68 in G. Lovink and N. Rossiter (eds) My Creativity
+Reader: A Critique of the Creative Industries. Amsterdam: Institute of Network
+Cultures.
+Hesmondhalgh, D. and A.C. Pratt (2005) ‘Cultural Industries and Cultural Policy’,
+International Journal of Cultural Policy 11(1): 1–14.
+Hochschild, A.R. (1983) The Managed Heart: Commercialization of Human
+Feeling. Berkeley: University of California Press.
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 25
+
+Gill & Pratt – In the Social Factory? 25
+Hyman, J., C. Baldry, D. Scholarios and D. Bunzel (2003) ‘Work–Life Imbalance
+in the New Service Sector Economy’, British Journal of Industrial Relations 41(2):
+215–39.
+Indergaard, M. (2004) Silicon Alley: The Rise and Fall of a New Media District.
+New York: Routledge.
+Jameson, F. (1991) Postmodernism, or, The Cultural Logic of Late Capitalism.
+London: Verso.
+Jarvis, H. and A.C. Pratt (2006) ‘Bringing It All Back Home: The Extensification
+and “Overflowing” of Work. The Case of San Francisco’s New Media Households’,
+Geoforum 37(3): 331–39.
+Jeffcutt, P. and A.C. Pratt (2002) ‘Managing Creativity in the Cultural Industries’,
+Creativity and Innovation Management 11(4): 225–33.
+Jones, C. (1996) ‘Careers in Project Networks: The Case of the Film Industry’, in
+M.B. Arthur and D.M. Rousseau (eds) The Boundaryless Career. New York: Oxford
+University Press.
+Kennedy, H. (in press) ‘Going the Extra Mile: Emotional and Commercial Imperatives in New Media Work’, Convergence: The International Journal of Research into
+New Media.
+Kotamraju, N. (2002) ‘Keeping Up: Web Design Skill and the Reinvented Worker’,
+Information, Communication & Society 5(1): 1–26.
+Laclau, E. (1979) Politics and Ideology in Marxist Theory: Capitalism – Fascism –
+Populism. London: Verso.
+Laclau, E. and C. Mouffe (1985) Hegemony and Socialist Strategy: Towards a
+Radical Democratic Politics. London: Verso.
+Lash, S. and J. Urry (1993) Economies of Signs and Space. London: SAGE.
+Lazzarato, M. (1996) ‘Immaterial Labour’, pp. 133–47 in M. Hardt and P. Virno
+(eds) Radical Thought in Italy: A Potential Politics. Minneapolis: University of
+Minnesota Press.
+Lazzarato, M. (2007) ‘The Misfortunes of the “Artistic Critique” and of Cultural
+Employment’, URL (consulted September 2008): http://roundtable.kein.org/http:/
+%252Feipcp.net/transversal/0207/lazzarato/en
+Leadbeater, C. and K. Oakley (1999) The New Independents – Britain’s New Cultural
+Entrepreneurs. London: Demos.
+Leung, L. (forthcoming) ‘The Slow Movement’.
+Lipietz, A. (1992) Towards a New Economic Order: Post-Fordism, Ecology and
+Democracy. Cambridge: Polity Press.
+Lovink, G. (2007) ‘Organic Intellectual Work: Interview with Andrew Ross’, 11 July,
+URL (consulted September 2008): http://networkcultures.org/wpmu/geert/interviewwith-andrew-ross
+Lovink, G. and N. Rossiter (2007) My Creativity Reader: A Critique of the Creative
+Industries. Amsterdam: Institute of Network Cultures.
+McDowell, L. (2004) ‘Work, Workfare, Work/Life Balance and an Ethic of Care’,
+Progress in Human Geography 28(2): 145–63.
+McRobbie, A. (1998) British Fashion Design: Rag Trade or Image Industry?
+London: Routledge.
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 26
+
+26 Theory, Culture & Society 25(7–8)
+McRobbie, A. (1999) In the Culture Society: Art, Fashion, and Popular Music.
+London: Routledge.
+McRobbie, A. (2002) ‘From Holloway to Hollywood: Happiness at Work in the New
+Cultural Economy’, pp. 97–114 in P. du Gay and M. Pryke (eds) Cultural Economy.
+London: SAGE.
+McRobbie, A. (2003) ‘Club to Company’, Cultural Studies 16(4): 516–31.
+McRobbie, A. (2006) ‘Creative London – Creative Berlin’, September, URL
+(consulted September 2008): http://www.ateliereuropa.com/2.3_essay.php
+McRobbie, A. (2007a) ‘Top Girls?’, Cultural Studies 21(4): 718–37.
+McRobbie, A. (2007b) ‘The Los Angelisation of London: Three Short-waves of
+Young People’s Micro-economies of Culture and Creativity in the UK’, transversal,
+URL (consulted September 2008): http://eipcp.net/transversal/0207/mcrobbie/en
+McRobbie, A. (forthcoming) ‘Women as Multitude? Notes on Feminism and
+Immaterial Labour’ (mimeograph available from author).
+Makeworlds Festival (2001) ‘Precarias: First Stutterings of Precarias a la Deriva’
+(Precarious Women Workers Adrift), URL (consulted October 2008): http://
+www.makeworlds.org/node/61
+Markusen, A. and G. Schrock (2006) ‘The Artistic Dividend: Urban Artistic
+Specialisation and Economic Development Implications’, Urban Studies 43(10):
+1661–86.
+Mattoni, A. and N. Doerr (2007) ‘Images within the Precarity Movement in Italy’,
+Feminist Review 87: 130–5.
+Mayerhofer, E. and M. Mokre (2007) ‘The Creative Industries in Austria: The
+Glories of the Past vs. the Uncertainties of the Present’, pp. 141–50 in G. Lovink
+and N. Rossiter (eds) My Creativity Reader: A Critique of the Creative Industries.
+Amsterdam: Institute of Network Cultures.
+Mezzadra, S. (2005) Derecha de Fuga: Migraciones, Ciudadania, y Global. Madrid:
+Proyecto Editorial Traficantes de Suenos.
+Miege, B. (1989) The Capitalization of Cultural Production. New York: International
+General.
+Milestone, K. (1997) ‘Love Factory: The Sites, Practices and Media Relationships
+of Northern Soul’, in S. Redhead, J. O’Connor and D. Wynne (eds) The Clubcultures
+Reader. Oxford: Blackwell.
+Miller, P. and N.S. Rose (2008) Governing the Present: Administering Economic,
+Social and Personal Life. Cambridge: Polity Press.
+Mitropoulous, A. (2005) ‘Precari-us’, Mute: Culture and Politics after the Net 1(29):
+88–96.
+Morini, C. (2007) ‘The Feminisation of Labour in Cognitive Capitalism’, Feminist
+Review 87: 40–59.
+Murphy, T.S. and A.-K. Mustapha (2005a) ‘Introduction: The Real Movement and
+the Present State of Things’, pp. 1–6 in T.S. Murphy and A.-K. Mustapha (eds)
+Resistance in Practice: The Philosophy of Antonio Negri. London: Pluto Press.
+Murphy, T.S. and A.-K. Mustapha (2005b) Resistance in Practice: The Philosophy
+of Antonio Negri. London: Pluto Press.
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 27
+
+Gill & Pratt – In the Social Factory? 27
+Neff, G., E. Wissinger and S. Zukin (2005) ‘Entrepreneurial Labour among Cultural
+Producers: “Cool” Jobs in “Hot” Industries’, Social Semiotics 15(3): 307–34.
+Negri, A. (1973) ‘Partiti operaio contro il lavora’, in S. Bologna, P. Carpignaro and
+A. Negri (eds) Crisi e organizzazione operaia. Milan: Feltrinelli.
+Negri, A. (1979) ‘Capitalist Domination and Working-class Sabotage’, pp. 92–137
+in Working-class Autonomy and the Crisis. London: Red Notes.
+Negri, A. (1989) The Politics of Subversion: A Manifesto for the Twenty-first Century.
+Cambridge: Polity Press.
+Negri, A. (2003) ‘Kairos, Alma Venus, Multitudo: Nine Lessons to Myself’,
+pp. 137–298 in A. Negri (ed.) Time for Revolution. New York: Continuum.
+Neilson, B. and N. Rossiter (2005) ‘From Precarity to Precariousness and Back
+Again: Labour, Life and Unstable Networks’, Fibreculture 5.
+O’Connor, J., M. Banks, A. Lovatt and C. Raffo (2000) ‘Risk and Trust in the
+Cultural Industries’, Geoforum 31(4): 453–64.
+Oudenampsen, M. and G. Sullivan (2004) ‘Precarity and N/european Identity: An
+Interview with Alex Foti’, July, URL (consulted September 2008): http://
+www.wombles.org.uk/article200610240.php
+Papadopoulos, D., N. Stephenson and V. Tsianos (2008) Escape Routes: Control and
+Subversion in the 21st Century. London: Pluto Press.
+Peck, J. (2005) ‘Struggling with the Creative Class’, International Journal of Urban
+and Regional Research 29(4): 740–70.
+Perrons, D. (1999) ‘Flexible Working Patterns and Equal Opportunities in the
+European Union: Conflict or Compatibility?’, European Journal of Women’s Studies
+6: 391–418.
+Perrons, D. (2002) ‘The New Economy, Labour Market Inequalities and the
+Work–Life Balance’, pp. 129–48 in R. Martin and P. Morrison (eds) Geographies of
+Labour Market Inequality. London: Routledge.
+Perrons, D. (2003) ‘The New Economy and the Work–Life Balance. A Case Study
+of the New Media Sector in Brighton and Hove’, Gender, Work & Organization 10(1):
+65–93.
+Perrons, D. (2004a) ‘Equity and Representation in the New Economy’, in J. Kelly
+and P. Willman (eds) Union Organization and Activity. London: Routledge.
+Perrons, D. (2004b) ‘Understanding Social and Spatial Divisions in the New
+Economy: New Media Clusters and the Digital Divide’, Economic Geography 80(1):
+45–61.
+Perrons, D. (2007) ‘Living and Working Patterns in the New Knowledge Economy:
+New Opportunities and Old Social Divisions in the Case of New Media and Care
+Work’, in C. Fagan, L. McDowell, D. Perrons, K. Ray and K. Ward (eds) Gender
+Divisions in the New Economy: Changing Patterns of Work, Care and Public Policy
+in Europe and North America. London: Edward Elgar.
+Pink, D.H. (2001) Free Agent Nation: How America’s New Independent Workers Are
+Transforming the Way We Live. New York: Warner Books.
+Piore, M.J. and C.F. Sabel (1984) The Second Industrial Divide: Possibilities for
+Prosperity. New York: Basic Books.
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 28
+
+28 Theory, Culture & Society 25(7–8)
+Pratt, A.C. (2000) ‘New Media, the New Economy and New Spaces’, Geoforum
+31(4): 425–36.
+Pratt, A.C. (2002) ‘Hot Jobs in Cool Places: The Material Cultures of New Media
+Product Spaces: The Case of the South of Market, San Francisco’, Information,
+Communication & Society 5(1): 27–50.
+Pratt, A.C. (2005) ‘Cultural Industries and Public Policy: An Oxymoron?’, International Journal of Cultural Policy 11(1): 31–44.
+Pratt, A.C. (2006) ‘Advertising and Creativity, a Governance Approach: A Case
+Study of Creative Agencies in London’, Environment and Planning A 38(10):
+1883–99.
+Pratt, A.C. (2007) ‘The State of the Cultural Economy: The Rise of the Cultural
+Economy and the Challenges to Cultural Policy Making’, pp. 166–90 in A. Ribeiro
+(ed.) The Urgency of Theory. Manchester: Carcanet Press/Gulbenkian Foundation.
+Pratt, A.C. (2008) ‘Creative Cities: The Cultural Industries and the Creative Class’,
+Geografiska Annaler: Series B, Human Geography 90(2): 107–17.
+Pratt, A.C. and R.C. Gill (2000) New Media Centre User-networks. London: Arts
+Council of England.
+Pratt, A.C., R.C. Gill and V. Spelthann (2007) ‘Work and the City in the E-society:
+A Critical Investigation of the Socio-spatially Situated Character of Economic
+Production in the Digital Content Industries, UK’, Information, Communication &
+Society 10(6): 921–41.
+Quah, D. (1999) The Weightless Economy in Economic Development. Centre for
+Economic Performance Discussion Paper no. 417. London: London School of
+Economics and Political Science.
+Raunig, G. (2007) Art and Revolution: Transversal Activism in the Long Twentieth
+Century. Cambridge, MA: Semiotext(e).
+Reich, R.B. (2000) The Future of Success. New York: A. Knopf.
+Richards, N. and K. Milestone (2000) ‘What Difference Does It Make? Women’s
+Pop Cultural Production and Consumption in Manchester’, Sociological Research
+Online 5, URL (consulted September 2008): http://www.socresonline.org.uk/5/1/
+richards.html
+Rose, N.S. (1990) Governing the Soul: The Shaping of the Private Self. London:
+Routledge.
+Ross, A. (2003) No-collar: The Humane Workplace and Its Hidden Costs. New York:
+Basic Books.
+Sennett, R. (1998) The Corrosion of Character. New York: Norton.
+Sennett, R. (2006) The Culture of the New Capitalism. New Haven, CT: Yale
+University Press.
+Tari, M. and I. Vanni (2006) ‘On the Life and Seeds of San Precario: Patron Saint
+of Precarious Workers and Lives’, Fibreculture Journal 5, URL (consulted October
+2008): http://journal.fibreculture.org/issue5/vanni_tari
+Taylor, S. and K. Littleton (2008a) ‘Art Work or Money: Conflicts in the Construction of a Creative Identity’, Sociological Review 56: 275–92.
+Taylor, S. and K. Littleton (2008b) Creative Careers and Non-traditional Trajectories.
+London: National Arts Learning Network.
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 29
+
+Gill & Pratt – In the Social Factory? 29
+Terranova, T. (2000) ‘Free Labor: Producing Culture for the Digital Economy’,
+Social Text 18(2): 33–58.
+Terranova, T. (2004) Network Culture: Politics for the Information Age. London:
+Pluto Press.
+Tronti, M. (1966) Operai e capitale (Workers and capital). Turin: Einaudi.
+Tyler, I. (2008a) ‘“Chav Mum, Chav Scum”: Class Disgust in Contemporary Britain’,
+Feminist Media Studies 8(1): 17–34.
+Tyler, I. (2008b) ‘Methodological Fatigue: The Politics of the “Affective Turn”’,
+Feminist Media Studies 8(1): 85–90.
+Ursell, G. (2000) ‘Television Production: Issues of Exploitation, Commodification
+and Subjectivity in UK Television Markets’, Media, Culture & Society 22(6):
+805–25.
+Vaneigem, R. (1972) The Revolution of Everyday Life. London: Left Bank Distribution.
+Virno, P. (1996) ‘Virtuosity and Revolution: The Political Theory of Exodus’,
+pp. 189–209 in P. Virno and M. Hardt (eds) Radical Thought in Italy: A Potential
+Politics. Minneapolis: University of Minnesota Press.
+Virno, P. and M. Hardt (1996) Radical Thought in Italy: A Potential Politics.
+Minneapolis: University of Minnesota Press.
+Virno, P., I. Bertoletti, J. Cascaito and A. Casson (2004) A Grammar of the Multitude: For an Analysis of Contemporary Forms of Life. Los Angeles, CA: Semiotext(e).
+Vishmidt, M. (2005) ‘Precarious Straits’, Mute: The Precarious Issue 29: 93–5.
+von Osten, M. (2007) ‘Unpredictable Outcomes: A Reflection after Some Years of
+Debates on Creativity and Creative Industries’, pp. 49–58 in G. Lovink and
+N. Rossiter (eds) My Creativity Reader: A Critique of the Creative Industries.
+Amsterdam: Institute of Network Cultures.
+Walker, R.A. (1985) ‘Is There a Service Economy? The Changing Capitalist Division
+of Labor’, Science & Society 49(1): 42–83.
+Walkerdine, V., H. Lucey and J. Melody (2001) Growing Up Girl: Psychosocial
+Explorations of Gender and Class. Basingstoke: Palgrave.
+Webster, J. (2004) Working and Living in the European Knowledge Society: The
+Policy Implications of Developments in Working Life and Their Effects on Social
+Relations. Dublin: Employment Research Centre, Department of Sociology, Trinity
+College.
+Weeks, K. (2005) ‘The Refusal of Work as Demand and Perspective’, pp. 109–35
+in T.S. Murphy and A.-K. Mustapha (eds) Resistance in Practice: The Philosophy of
+Antonio Negri. London: Pluto Press.
+Williams, R. (1976) Keywords: A Vocabulary of Culture and Society. London:
+Fontana.
+
+Rosalind Gill has worked at Goldsmiths College and the London School of
+Economics, and is currently Professor of Subjectivity and Cultural Theory
+in the Faculty of Social Sciences, Open University. She is author of
+numerous books and articles on gender, media and new technologies and
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+001-030 097794 Gill (D)
+
+3/12/08
+
+14:07
+
+Page 30
+
+30 Theory, Culture & Society 25(7–8)
+
+has recently been doing research on cultural labour. Since the early 1980s
+she has been involved in anarchist, feminist and libertarian-socialist
+activism in a wide range of anti-capitalist struggles. She lives in London.
+Andy Pratt is Reader in Urban Cultural Economy at the London School of
+Economics. He has written extensively about the concepts, theories and
+practices of the cultural industries and cultural economy. His empirical
+work has been carried out in North America, several European countries,
+West Africa, Japan and Australia. He has published across several disciplinary areas in the academic field. He has also made direct interventions
+to policy debates at local, national and international levels in both governmental and non-governmental spheres.
+
+Downloaded from tcs.sagepub.com at Lancaster University Library on October 1, 2014
+
+
