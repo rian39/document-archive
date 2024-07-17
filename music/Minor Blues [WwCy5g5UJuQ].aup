@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Minor Blues [WwCy5g5UJuQ]_data" version="1.3.0" audacityversion="2.4.2" sel0="0.0000000000" sel1="610.8473469388" selLow="407.8431396484" selHigh="407.8431396484" vpos="416" h="0.0000000000" zoom="0.9861644806" rate="48000.0" snapto="on" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Minor Blues [WwCy5g5UJuQ]_data" version="1.3.0" audacityversion="2.4.2" sel0="123.4820000000" sel1="123.4820000000" selLow="407.8431396484" selHigh="407.8431396484" vpos="0" h="0.0000000000" zoom="2.1797464275" rate="48000.0" snapto="on" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="Minor Blues [WwCy5g5UJuQ]" isSelected="0" height="153" minimized="0" channel="2" linked="0" mute="1" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
@@ -460,7 +460,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" isSelected="0" height="108" minimized="1" numlabels="12">
+	<labeltrack name="Label Track" isSelected="1" height="108" minimized="1" numlabels="13">
 		<label t="53.2023793643" t1="53.2023793643" title=" "/>
 		<label t="73.0498991271" t1="73.0498991271" title="start"/>
 		<label t="77.4036507643" t1="77.4036507643" title="phrase1 "/>
@@ -470,6 +470,7 @@
 		<label t="103.6169607551" t1="103.6169607551" title="lead and hold  "/>
 		<label t="109.1068785950" t1="109.1068785950" title="fly to c"/>
 		<label t="113.8843643487" t1="113.8843643487" title="descent back to i "/>
+		<label t="123.4820000000" t1="123.4820000000" selLow="407.8431396484" selHigh="407.8431396484" title=""/>
 		<label t="124.5289378701" t1="124.5289378701" title="down to the 3rd "/>
 		<label t="134.4610793055" t1="134.4610793055" title="going to dflat"/>
 		<label t="199.3971685634" t1="199.3971685634" title="end of single time"/>
@@ -1066,7 +1067,7 @@
 		<label t="264.7350000000" t1="264.7350000000" title="b3"/>
 		<label t="288.8350000000" t1="288.8350000000" title="c1"/>
 	</labeltrack>
-	<wavetrack name="a2-3" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="1" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="a2-3" isSelected="1" height="150" minimized="0" channel="2" linked="0" mute="1" solo="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="123.48200000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="587820">
 				<waveblock start="0">
@@ -1082,27 +1083,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" isSelected="0" height="73" minimized="0" numlabels="18">
-		<label t="124.9920000000" t1="124.9920000000" title="B"/>
-		<label t="124.9990000000" t1="124.9990000000" title="B"/>
-		<label t="125.0970000000" t1="125.0970000000" title="B"/>
-		<label t="125.8880000000" t1="125.8880000000" title="B"/>
-		<label t="127.5880000000" t1="127.5880000000" title="B"/>
-		<label t="127.7260000000" t1="127.7260000000" title="B"/>
-		<label t="128.4000000000" t1="128.4000000000" title="B"/>
-		<label t="129.2440000000" t1="129.2440000000" title="B"/>
-		<label t="129.4840000000" t1="129.4840000000" title="B"/>
-		<label t="129.4990000000" t1="129.4990000000" title="B"/>
-		<label t="129.5140000000" t1="129.5140000000" title="B"/>
-		<label t="129.5300000000" t1="129.5300000000" title="B"/>
-		<label t="129.5450000000" t1="129.5450000000" title="B"/>
-		<label t="129.5600000000" t1="129.5600000000" title="B"/>
-		<label t="129.8210000000" t1="129.8210000000" title="B"/>
-		<label t="131.7970000000" t1="131.7970000000" title="B"/>
-		<label t="132.5710000000" t1="132.5710000000" title="B"/>
-		<label t="132.5860000000" t1="132.5860000000" title="B"/>
-	</labeltrack>
-	<wavetrack name="autumn_jjj" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="autumn_jjj" isSelected="0" height="150" minimized="0" channel="0" linked="1" mute="1" solo="0" rate="44100" gain="1.0" pan="1.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="26938368">
 				<waveblock start="0">
@@ -1418,7 +1399,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="autumn_jjj" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="autumn_jjj" isSelected="0" height="150" minimized="0" channel="1" linked="0" mute="1" solo="0" rate="44100" gain="1.0" pan="1.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="26938368">
 				<waveblock start="0">
